@@ -1,0 +1,514 @@
+body {
+    background: url("../images/background.jpg");
+    background-size: cover;
+    margin: auto; 
+}
+
+.navmenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navmenu li {
+    float: left;
+    border-right:1px solid #bbb;
+
+}
+
+.navmenu li:last-child {
+    border-right: none;
+}
+
+.navmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navmenu li a:hover {
+    background-color: #111;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 3px;
+    left: 90%;
+    height: 40px;
+    width: 120px;   
+
+}
+
+.intro{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+.welcome {
+    color: white;
+    font-size: 500%;
+}
+
+.go-button{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid white;
+    left: 33%;
+    color: white;
+    font-size: 240%;
+    text-decoration: none;
+}
+
+.go-button:hover{
+    background: lightblue;
+}
+
+.active-nav{
+    background-color: black;
+}
+
+
+.btn-group .buttongroup {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+   
+}
+
+.btn-group .buttongroup:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .buttongroup:hover {
+    background-color: #3e8e41;
+}
+.wrapper{
+    text-align: center
+}
+
+.form-style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+.form-style-1 input[list],
+textarea, 
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 input[list]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+
+.address-field{
+    width: 80px;
+    text-align: center;
+}
+
+.form_back {
+    position: relative;
+    left: 25%;
+    background-color: white;
+    width: 50%;
+}
+
+.radios {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 0;
+    left: 0;
+    width: 50%;
+}
+
+.slidecontainer {
+    width: 80%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 90%; /* Full-width */
+    height: 15px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background: black; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background: black; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+/* Box colors */
+.bg-1 {
+    background: #ECEFF1;
+    color: #37474f;
+}
+.bg-2 {
+    background: #7986cb;
+    color: #ECEFF1;
+}
+.bg-3 {
+    background: #37474f;
+    color: #fff;
+}
+
+/* Common button styles */
+.buttonan {
+    font-size: 20px;
+    font-weight: bolder;
+    float: left;
+    min-width: 150px;
+    max-width: 250px;
+    display: block;
+    margin: 1em;
+    padding: 1em 2em;
+    border: none;
+    background: none;
+    color: inherit;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+.buttonan:focus {
+    outline: none;
+}
+.buttonan > span {
+    vertical-align: middle;
+}
+
+/* Text color adjustments (we could stick to the "inherit" but that does not work well in Safari) */
+.bg-1 .button {
+    color: #37474f;
+    border-color: #37474f;
+}
+.bg-2 .button {
+    color: #ECEFF1;
+    border-color: #ECEFF1;
+}
+.bg-3 .button {
+    color: #fff;
+    border-color: #fff;
+}
+
+/* Sizes */
+.button--size-s {
+    font-size: 14px;
+}
+.button--size-m {
+    font-size: 16px;
+}
+.button--size-l {
+    font-size: 18px;
+}
+
+/* Typography and Roundedness */
+.buttonan--text-upper {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.buttonan--text-thin {
+    font-weight: 300;
+}
+.buttonan--text-medium {
+    font-weight: 500;
+}
+.buttonan--text-thick {
+    font-weight: 600;
+}
+.buttonan--round-s {
+    border-radius: 5px;
+}
+.buttonan--round-m {
+    border-radius: 15px;
+}
+.buttonan--round-l {
+    border-radius: 40px;
+}
+
+/* Borders */
+.buttonan--border-thin {
+    border: 1px solid;
+}
+.buttonan--border-medium {
+    border: 2px solid;
+}
+.buttonan--border-thick {
+    border: 3px solid;
+}
+
+/* Individual button styles */
+
+
+/* Antiman */
+.button--antiman {
+    background: none;
+    border: none;
+    height: 60px;
+}
+.button--antiman.button--inverted,
+.button--antiman.button--inverted-alt {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button--antiman > span {
+    padding-left: 0.35em;
+}
+.button--antiman::before,
+.button--antiman::after {
+    content: '';
+    z-index: -1;
+    border-radius: inherit;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button--antiman::before {
+    border: 2px solid #37474f;
+    opacity: 0;
+    -webkit-transform: scale3d(1.2, 1.2, 1);
+    transform: scale3d(1.2, 1.2, 1);
+}
+.button--antiman.button--border-thin::before {
+    border-width: 1px;
+}
+.button--antiman.button--border-medium::before {
+    border-width: 2px;
+}
+.button--antiman.button--border-thick::before {
+    border-width: 3px;
+}
+.button--antiman.button--inverted::before {
+    border-color: #7986cb;
+}
+.button--antiman.button--inverted-alt::before {
+    border-color: #3f51b5;
+}
+.button--antiman::after {
+    background: #fff;
+}
+.button--antiman.button--inverted::after {
+    background: #7986cb;
+}
+.button--antiman.button--inverted-alt::after {
+    background: #3f51b5;
+}
+.button--antiman.button--inverted:hover {
+    color: #7986cb;
+}
+.button--antiman.button--inverted-alt:hover {
+    color: #3f51b5;
+}
+.button--antiman:hover::before {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+.button--antiman:hover::after {
+    opacity: 0;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+}
+
+.buttons-wrapper{
+    position: absolute;
+    left: 27%;
+    top: 40%;
+}
+
+.buttons-wrapper a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.info {
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 20px;
+    width: 90%;
+    height: 90%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.impro {
+    font-family:Verdana;
+    color: white;
+}
+
+.signin{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background: #B2987A;
+    height: 50%;
+    width: 20%;
+    text-align: center;
+}
+
+.signin .input{
+    position: relative;
+    margin-top: 5px;
+}
+
+.say {
+    margin-bottom: 5px;
+}
+
+.aboutus{
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    background-color: #221E1D;
+    left: 30%;
+    top: 20%;
+}
+
+.inneraboutus{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 15%;
+    border-radius: 10px;
+    background: #ECEAE0;
+}
+
+.learn{
+    position: absolute;
+    left: 32%;
+    top: 3%;
+    color: white;
+}
+
+.names {
+    text-align: center;
+    position: absolute;
+    border: 1px solid;
+    width: 40%;
+    top: 20%;
+}
+
+.parts{
+    list-style: none;
+    border-top: double;
+
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>eHotels</title>
+  <link rel="stylesheet" type="text/css" href="css/ehotels.css">
+  <link rel="stylesheet" type="text/css" href="css/buttons.css" />
+</head>
+<body>
+
+<ul class="navmenu">
+  <li><a href=".">Home</a></li>
+  <li><a href="managerdb.html">Manager Mode</a></li>
+  <li class="active-nav"><a href="customerdb.html">Customer Mode</a></li>
+  <li><a href="aboutdb.html">About</a></li>
+  <li><img class="logo" src="images/logo.png"></li>
+</ul>
+
+<div class="form_back">
+    <form action="index.html" method="GET">
+
+    <ul class="form-style-1">
+        <h1 class="form-intro">Please fill your info and booking preferences</h1>
+        <li><label>IRS Number<span class="required">*</span></label><input type="text" name="irs_number" placeholder="IRS Number"/>&nbsp;</li>
+        <li><label>Full Name <span class="required">*</span></label><input type="text" name="first_name" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="last_name" class="field-divided" placeholder="Last" /></li>
+        <li>
+            <label>City</label>
+            <input type="text" name="city" class="field-long" placeholder="City" />
+        </li>
+        <li>
+            <label><span>Address</span></label><input type="text" class="address-field" name="street" placeholder="Street"/> <input type="text" class="address-field" name="number" placeholder="Number"/> <input type="text" class="address-field" name="postal_code" placeholder="Postal Code"/>
+        </li>
+        <li>
+            <label>Registration Date </label>
+            <input type="date" name="reg_date" class="field-long" placeholder="Registration Date" />
+        </li>
+        <br>
+        <h1 class="book-form">Booking preferences</h1>
+        <li>
+            <label><span>Region of Interest</span></label>
+                <input list="cities" class="field-long">
+                <datalist id="cities">
+                    <option value="Nauplio">
+                    <option value="Peiraias">
+                    <option value="Naxos">
+                    <option value="Amorgos">
+                    <option value="Rethimno">
+                    <option value="Skiathos">
+                    <option value="Athens">
+                    <option value="Thessaloniki">
+                    <option value="Leukada">
+                    <option value="Rodos">
+                    <option value="Xalkida">
+                    <option value="Alepoxori">
+                    <option value="Volos">
+                    <option value="Nea Makri">
+                    <option value="Marathonas">
+                    <option value="Karditsa">
+                    <option value="Santorini">
+                    <option value="Iraklio">
+                    <option value="Samothraki">
+                    <option value="Samothaki">
+                    <option value="Hania">
+                </datalist> 
+        </li>
+        <li>
+            <label><span>Category </span></label>
+                <ul class="radios">
+                    1
+                    <input type="radio" name="stars" value="1">
+                    2
+                    <input type="radio" name="stars" value="2">
+                    3
+                    <input type="radio" name="stars" value="3">
+                    4
+                    <input type="radio" name="stars" value="4">
+                    5
+                    <input type="radio" name="stars" value="5">
+                </ul>
+        </li>
+        <li>
+            <label><span>Price per day</span></label>
+            <div class="slidecontainer">
+              <label><span>0</span></label><input type="range" min="0" max="50" value="28" class="slider" id="price"><label><span>50</span></label>
+            </div>
+        </li>
+        <li>
+            <label><span>Capacity</span></label>
+            <input type="number" name="quantity" min="1" max="5">
+        </li>
+        <li>
+            <label><span>Hotel</span></label>
+            <select name="hotel" size="1">
+                <option value="12000">12000</option>
+                <option value="13000">13000</option>
+                <option value="16000">16000</option>
+                <option value="17000">17000</option>
+                <option value="19000">19000</option>
+            </select>
+        </li>
+        <li>
+            <label>Book from</label>
+            <input type="date" name="from_date" class="field-long" placeholder="From" />
+        </li>
+        <li>
+            <label>To</label>
+            <input type="date" name="rto_date" class="field-long" placeholder="To" />
+        </li>
+        <li>
+            <input type="submit" value="Submit" />
+        </li>
+    </ul>
+    </form>
+</div>
+
+</body>
+</html>
