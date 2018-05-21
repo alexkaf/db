@@ -24,7 +24,7 @@
     <a href="manageemps.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Employees</span></button></a>
     <a href="managecustomers.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Customers</span></button></a>
     <a href="managerooms.html"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Rooms</span></button></a>
-    <a href="bookform.html"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Hotels</span></button></a>
+    <a href="managehotels.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Hotels</span></button></a>
   </div>
 </div>
 
