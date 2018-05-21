@@ -9,10 +9,10 @@
 
 <ul class="navmenu">
   <li><a href=".">Home</a></li>
-  <li><a href="managerdb.html">Manager Mode</a></li>
-  <li class="active-nav"><a href="customerdb.html">Customer Mode</a></li>
+  <li class="active-nav"><a href="managerdb.html">Manager Mode</a></li>
+  <li><a href="customerdb.html">Customer Mode</a></li>
   <li><a href="aboutdb.html">About</a></li>
-  <li><a href="manageemps.jsp">Back</a></li>
+  <li><a href="managerooms.jsp">Back</a></li>
   <li><img class="logo" src="images/logo.png"></li>
 </ul>
 

@@ -9,14 +9,14 @@
 <link rel="stylesheet" type="text/css" href="css/ehotels.css">
 </head>
 <body class="rents">
-    <ul class="navmenu">
-      <li><a href=".">Home</a></li>
-      <li><a href="managerdb.html" class="active-nav">Manager Mode</a></li>
-      <li><a href="customerdb.html">Customer Mode</a></li>
-      <li><a href="aboutdb.html">About</a></li>
-      <li><a href="manageemps.jsp">Back</a></li>
-      <li><img class="logo" src="images/logo.png"></li>
-    </ul>
+  <ul class="navmenu">
+    <li><a href=".">Home</a></li>
+    <li class="active-nav"><a href="managerdb.html">Manager Mode</a></li>
+    <li><a href="customerdb.html">Customer Mode</a></li>
+    <li><a href="aboutdb.html">About</a></li>
+    <li><a href="managerooms.jsp">Back</a></li>
+    <li><img class="logo" src="images/logo.png"></li>
+  </ul>
 
   <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver" url = "jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" user = "ehotels"  password = "abcd"/>
 
