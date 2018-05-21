@@ -1,7 +1,9 @@
 body {
     background: url("../images/background.jpg");
-    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
     margin: auto; 
+    height: 100%;
 }
 
 .navmenu{
@@ -499,16 +501,152 @@ select{
     color: white;
 }
 
+.tell {
+    border-bottom: double;
+    padding-bottom: 20px;
+}
+
 .names {
     text-align: center;
     position: absolute;
     border: 1px solid;
-    width: 40%;
+    width: 60%;
     top: 20%;
+    border: double;
 }
 
 .parts{
     list-style: none;
     border-top: double;
 
+}
+
+.customer-hotels{
+
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 40%;
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+.customer-hotels th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.manager {
+    left: 12%;
+}
+
+.customer-rents{
+
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 60%;
+    background-color: white;
+    position: absolute;
+    left: 21%;
+    top: 10%;
+}
+
+.customer-rents th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.rents {
+    background: url("../images/background.jpg");
+    height: 100%;
+    background-repeat: repeat;
+    margin: auto; 
+    height: 100%;
+}
+
+.names-about {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    border: double;
+    padding-top: 10px;
+}
+
+.name-about{
+    border-bottom: 1px solid;
+}
+
+.piroforos {
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+    width: 30%;
+}
+
+.customer-employees{
+
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 60%;
+    background-color: #DCDCDC;
+    position: absolute;
+    left: 21%;
+    top: 10%;
+}
+
+.customer-employees th, td {
+    padding: 8px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 100%;
+    font-weight: normal;
+}
+.customer-employees th{
+    font-weight: bold;
+}
+
+.choice-emps {
+    width: 40px;
+    background: white;
+    border: 4px solid lightblue;
+}
+
+.choice-emps:hover{
+    background: blue;
+    border: 4px solid white;
+}
+
+.customer-employees{
+    position: absolute;
+    background: white;
+    width: 50%;
+    left: 25%;
+    top: 10%;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.customer-employees tr:hover{
+    background: lightblue;
+}
+
+.submit-emp{
+
+    background: blue;
+    border: 2px solid white;
+    width: 40px;
+    height: 20px;
+}
+
+.submit-emp:hover{
+    background: white;
+    border: 2px solid lightblue;
 }
