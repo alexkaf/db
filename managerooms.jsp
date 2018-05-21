@@ -21,51 +21,53 @@
   <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver" url = "jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" user = "ehotels"  password = "abcd"/>
 
   <sql:query dataSource = "${snapshot}" var = "result">
-    SELECT * 
-    FROM Employees
+    SELECT *
+    FROM Hotel_Room
   </sql:query>
 
 
 <table class="customer-employees">
   <tr>
-    <th>First Name</th>
-    <th>Last Name</th>
-    <th>IRS Number</th>
-    <th>SSN</th>
+    <th>Room_ID</th>
+    <th>Hotel_ID</th>
+    <th>Repairs_Need</th>
+    <th>Price</th>
     <th>Update</th>
     <th>Delete</th>
-    <th>Address</th>
+    <th>More Info</th>
   </tr>
   <tr>
-      <c:forEach var="hotel" items="${result.rows}">
+      <c:forEach var="room" items="${result.rows}">
         <tr class="rower">
-          <td><c:out value="${hotel.First_Name}"/></td>
-          <td><c:out value="${hotel.Last_Name}"/></td>
-          <td><c:out value="${hotel.IRS_Number}"/></td>
-          <td><c:out value="${hotel.Social_Security_Number}"/></td>
-          <form method="GET" action="updateemployee.jsp">
-            <input type="hidden" name="last_name" value="${hotel.Last_Name}">
-            <input type="hidden" name="first_name" value="${hotel.First_Name}">
-            <input type="hidden" name="irs" value="${hotel.IRS_Number}">
-            <input type="hidden" name="ssn" value="${hotel.Social_Security_Number}">
-            <input type="hidden" name="city" value="${hotel.City}">
-            <input type="hidden" name="street" value="${hotel.street}">
-            <input type="hidden" name="number" value="${hotel.Number}">
-            <input type="hidden" name="postal_code" value="${hotel.Postal_Code}">
+          <td><c:out value="${room.Room_ID}"/></td>
+          <td><c:out value="${room.Hotel_ID}"/></td>
+          <td><c:out value="${room.Repairs_Need}"/></td>
+          <td><c:out value="${room.Price}"/></td>
+          <form method="GET" action="updateroom.jsp">
+            <input type="hidden" name="Hotel_ID" value="${room.Hotel_ID}">
+            <input type="hidden" name="Room_ID" value="${room.Room_ID}">
+            <input type="hidden" name="Repairs_Need" value="${room.Repairs_Need}">
+            <input type="hidden" name="Expandable" value="${room.Expandable}">
+            <input type="hidden" name="View" value="${room.View}">
+            <input type="hidden" name="Capacity" value="${room.Capacity}">
+            <input type="hidden" name="Amenities" value="${room.Amenities}">
+            <input type="hidden" name="Price" value="${room.Price}">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
-          <form method="GET" action="deleteemployee.jsp">
-            <input type="hidden" name="irs" value="${hotel.IRS_Number}">
+          <form method="GET" action="deleteroom.jsp">
+            <input type="hidden" name="Room_ID" value="${room.Room_ID}">
+            <input type="hidden" name="Hotel_ID" value="${room.Hotel_ID}">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
-          <form method="GET" action="contactemp.jsp">
-            <input type="hidden" name="irs" value="${hotel.IRS_Number}">
+          <form method="GET" action="contactroom.jsp">
+            <input type="hidden" name="Room_ID" value="${room.Room_ID}">
+            <input type="hidden" name="Hotel_ID" value="${room.Hotel_ID}">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
         </tr>
       </c:forEach>
   </tr>
-</table>  
+</table>
 
 </body>
 </html>
