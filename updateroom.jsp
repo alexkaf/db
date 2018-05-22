@@ -17,31 +17,31 @@
 </ul>
 
 <div class="form_back">
-    <form action="index.html" method="GET">
+    <form action="doupdaterooms.jsp" method="GET">
 
     <ul class="form-style-1">
         <h1 class="form-intro">Room New Information</h1>
-        <li><label>Room ID<span class="required">*</span></label><input type="text" name="Room_ID" placeholder="${param.Room_ID}"/>&nbsp;</li>
-        <li><label>Hotel ID<span class="required">*</span></label><input type="text" name="Hotel_ID" placeholder="${param.Hotel_ID}"/>&nbsp;</li>
-        <li><label>Price <span class="required">*</span></label><input type="text" name="Price"  placeholder="${param.Price}" />&nbsp;</li>
+        <li><label>Room ID<span class="required">*</span></label><input type="text" name="Room_ID" value="${param.Room_ID}" placeholder="${param.Room_ID}"/>&nbsp;</li>
+        <li><label>Hotel ID<span class="required">*</span></label><input type="text" name="Hotel_ID" value="${param.Hotel_ID}" placeholder="${param.Hotel_ID}"/>&nbsp;</li>
+        <li><label>Price <span class="required">*</span></label><input type="text" name="Price" value="${param.Price}" placeholder="${param.Price}" />&nbsp;</li>
         <li>
             <label>Repairs Need</label>
-            <input type="text" name="Repairs_Need"  placeholder="${param.Repairs_Need}" />
+            <input type="text" name="Repairs_Need"  value="${param.Repairs_Need}" placeholder="${param.Repairs_Need}" />
         </li>
         <li>
             <label>Expandable</label>
-            <input type="text" name="Expandable" class="field-long" placeholder="${param.Expandable}" />
+            <input type="text" name="Expandable" class="field-long" value="${param.Expandable}" placeholder="${param.Expandable}" />
         </li>
         <li>
             <label>Capacity</label>
-            <input type="text" name="Capacity"  placeholder="${param.Capacity}" />
+            <input type="text" name="Capacity" value="${param.Capacity}" placeholder="${param.Capacity}" />
         </li>
         <li>
             <label>View</label>
-            <input type="text" name="View"  placeholder="${param.View}" />
+            <input type="text" name="View" value="${param.View}" placeholder="${param.View}" />
         </li>
         <li>
-            <label><span>Amenities</span></label><input type="text" class="field-long" name="Amenities" placeholder="${param.Amenities}"/>
+            <label><span>Amenities</span></label><input type="text" class="field-long" name="Amenities" value="${param.Amenities}" placeholder="${param.Amenities}"/>
         </li>
         <li>
             <input type="submit" value="Submit" />
