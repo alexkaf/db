@@ -758,7 +758,7 @@ VALUES ('10071','none','extra beds','sea','5','fridge,tv,air condition','45','16
 INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10072','broken chair','extra beds','sea','1','fridge,tv,air condition','20','163290');
 INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10075','broken chair','extra beds','none','2','fridge,tv,air condition','25','163290');
+VALUES ('11075','broken chair','extra beds','none','2','fridge,tv,air condition','25','163290');
 INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10073','broken sink','no','none','3','fridge,tv,air condition','35','163290');
 INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
