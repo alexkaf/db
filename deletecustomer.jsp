@@ -51,12 +51,12 @@
           <td><c:out value="${hotel.Last_Name}"/></td>
           <td><c:out value="${hotel.IRS_Number}"/></td>
           <td><c:out value="${hotel.Social_Security_Number}"/></td>
-          <th><c:out value="${hotel.First_Registration}"/></th>
-          <form method="GET" action="updateemployee.jsp">
+          <td><c:out value="${hotel.First_Registration}"/></td>
+          <form method="GET" action="updatecustomer.jsp">
             <input type="hidden" name="irs" value="${hotel.IRS_Number}">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
-          <form method="GET" action="deleteemployee.jsp">
+          <form method="GET" action="deletecustomer.jsp">
             <input type="hidden" name="irs" value="${hotel.IRS_Number}">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
@@ -66,7 +66,7 @@
           </form>
         </tr>
       </c:forEach>
-  </tr>
+    </tr>
 </table>  
 
 </body>
