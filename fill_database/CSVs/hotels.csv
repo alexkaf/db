@@ -1,0 +1,26 @@
+Hotel_ID,Email,Phone_Number,Stars,Number_Of_Rooms,Street,Number,Postal_Code,City
+131296,ehotel1_athens@hotmail.com,2109870801,5,5,Ermou,13,17563,Athens
+130796,ehotel1_athens2@hotmail.com,2109765401,3,5,Riga Feraiou,78,13657,Athens
+130296,ehotel1_rethimno@hotmail.com,2113456728,4,5,Palaiologou,37,16789,Rethimno
+130896,ehotel1_thessaloniki@hotmail.com,2334678239,4,5,Megalou Alexandrou,62,13456,Thessaloniki
+130455,ehotel1_skiathos@hotmail.com,2267890653,5,5,Papadiamanti,28,14578,Skiathos
+170796,ehotel2_volos@hotmail.com,2378956347,5,5,Volou,67,17846,Volos
+170989,ehotel2_volos2@hotmail.com,2379876540,4,5,Athinas,48,17453,Volos
+175467,ehotel2_karditsa@hotmail.com,2567845678,3,5,Kronou,23,15634,Karditsa
+175463,ehotel2_marathonas@hotmail.com,2789056378,4,5,Kodrou,36,15648,Marathonas
+174890,ehotel2_neamakri@hotmail.com,2678763890,5,5,Naiadon,98,14678,Nea Makri
+168867,ehotel3_alepoxori@hotmail.com,2678935267,5,5,Agiou Alexandou,45,12356,Alepoxori
+167834,ehotel3_xalkida@hotmail.com,2658936478,4,5,Agias Eirinis,63,15678,Xalkida
+164356,ehotel3_rodos@hotmail.com,2907635678,4,5,Kadmou,15,12689,Rodos
+163589,ehotel3_leukada@hotmail.com,2806735678,3,5,Afroditis,23,17654,Leukada
+163290,ehotel3_leukada2@hotmail.com,2290876389,4,5,Parthenonos,12,16428,Leukada
+189067,ehotel4_samothraki@hotmail.com,2786357893,3,5,Mamali,45,17648,Samothaki
+187635,ehotel4_samothraki2@hotmail.com,2678936789,4,6,Klisovis,34,17846,Samothraki
+185438,ehotel4_santorini@hotmail.com,2198763789,5,5,Venizelou,23,13765,Santorini
+189076,ehotel4_hania@hotmail.com,2189376489,5,5,Aristomenous,47,17354,Hania
+187634,ehotel4_iraklio@hotmail.com,2156789378,4,5,Zisimopoulou,95,14376,Iraklio
+127836,ehotel5_amorgps@hotmail.com,2789037679,4,5,Eratous,23,17862,Amorgos
+126739,ehotel5_peiraias@hotmail.com,2489087389,3,5,Kleopatras,45,17826,Peiraias
+127093,ehotel5_naxos@hotmail.com,2783678903,4,5,Amalias,43,16782,Naxos
+127389,ehotel5_naxos2@hotmail.com,2187654890,5,5,Aiolou,76,15678,Naxos
+123890,ehotel5_nauplio@hotmail.com,2890738490,4,5,Fleming,35,12345,Nauplio
