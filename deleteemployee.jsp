@@ -51,7 +51,14 @@
           <td><c:out value="${hotel.IRS_Number}"/></td>
           <td><c:out value="${hotel.Social_Security_Number}"/></td>
           <form method="GET" action="updateemployee.jsp">
+            <input type="hidden" name="last_name" value="${hotel.Last_Name}">
+            <input type="hidden" name="first_name" value="${hotel.First_Name}">
             <input type="hidden" name="irs" value="${hotel.IRS_Number}">
+            <input type="hidden" name="ssn" value="${hotel.Social_Security_Number}">
+            <input type="hidden" name="city" value="${hotel.City}">
+            <input type="hidden" name="street" value="${hotel.street}">
+            <input type="hidden" name="number" value="${hotel.Number}">
+            <input type="hidden" name="postal_code" value="${hotel.Postal_Code}">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
           <form method="GET" action="deleteemployee.jsp">
