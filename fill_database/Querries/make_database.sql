@@ -10,7 +10,7 @@ CREATE TABLE Customers(
     Street VARCHAR(25),
     Number TINYINT(3),
     Postal_Code MEDIUMINT(5),
-    City VARCHAR(20),
+    City VARCHAR(30),
     First_Registration DATE,
     Social_Security_Number BIGINT(10) NOT NULL,
     PRIMARY KEY (IRS_Number));
@@ -24,7 +24,7 @@ CREATE TABLE Employees(
     Street VARCHAR(25),
     Number TINYINT(3),
     Postal_Code MEDIUMINT(5),
-    City VARCHAR(20),
+    City VARCHAR(30),
     PRIMARY KEY (IRS_Number));
 
 DROP TABLE IF EXISTS Hotel_Group;
@@ -36,7 +36,7 @@ CREATE TABLE Hotel_Group(
     Number_Of_Hotels TINYINT(3) NOT NULL,
     Street VARCHAR(25),
     Number TINYINT(3),
-    City VARCHAR(20),
+    City VARCHAR(30),
     Postal_Code MEDIUMINT(5),
     PRIMARY KEY (Hotel_Group_ID));
 
@@ -50,7 +50,7 @@ CREATE TABLE Hotels(
     Street VARCHAR(25),
     Number TINYINT(3),
     Postal_Code MEDIUMINT(5),
-    City VARCHAR(20),
+    City VARCHAR(30),
     PRIMARY KEY (Hotel_ID));
 
 DROP TABLE IF EXISTS Has_Hotels;
@@ -66,7 +66,7 @@ DROP TABLE IF EXISTS Hotel_Room;
 CREATE TABLE Hotel_Room(
     Room_ID MEDIUMINT(5) NOT NULL,
     Repairs_Need VARCHAR(20),
-    Expandaple VARCHAR(30),
+    Expandable VARCHAR(30),
     View VARCHAR(15),
     Capacity TINYINT(2),
     Amenities BLOB,
@@ -139,7 +139,7 @@ CREATE TABLE Customer_Wants_To(
     IRS_Number BIGINT(10) NOT NULL,
     First_Name VARCHAR(20) NOT NULL,
     Last_Name VARCHAR(25) NOT NULL,
-    City VARCHAR(20),
+    City VARCHAR(30),
     Street VARCHAR(25),
     Number TINYINT(3),
     Postal_Code MEDIUMINT(5),
@@ -162,3 +162,17 @@ CREATE TABLE Book(
     ON DELETE CASCADE,
     FOREIGN KEY (IRS_Number) REFERENCES Customer_Wants_To(IRS_Number)
     ON DELETE CASCADE);
+
+    CREATE VIEW Room_Today AS
+    SELECT  Hotels.City,COUNT(Hotel_Room.Room_ID) AS Rooms_Number
+    FROM ((Hotel_Room
+    INNER JOIN Hotels ON Hotels.Hotel_ID=Hotel_Room.Hotel_ID)
+    INNER JOIN Reserves ON Reserves.Hotel_ID=Hotel_Room.Hotel_ID AND Reserves.Room_ID=Hotel_Room.Room_ID )
+    WHERE (SELECT CURDATE()) NOT BETWEEN Reserves.Start_Date AND Reserves.Finish_Date
+    GROUP BY Hotels.City
+    ORDER BY COUNT(Hotel_Room.Room_ID) DESC;
+
+
+    CREATE VIEW Capacity AS
+    SELECT Room_ID,Hotel_ID,Capacity
+    FROM Hotel_Room;

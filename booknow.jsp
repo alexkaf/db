@@ -38,7 +38,7 @@
           <td><c:out value="${room.City}"/></td>
           <td><c:out value="${room.Rooms_Number}"/></td>
           <form method="GET" action="bookform.html">
-            <input type="hidden" name="city" value="${room.City}">
+            <input type="hidden" name="booknow_city" value="${room.City}">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
         </tr>

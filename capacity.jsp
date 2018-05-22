@@ -21,8 +21,8 @@
   <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver" url = "jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" user = "ehotels"  password = "abcd"/>
 
   <sql:query dataSource = "${snapshot}" var = "result">
-    SELECT Room_ID,Hotel_ID,Capacity
-    FROM Hotel_Room
+    SELECT *
+    FROM Capacity
   </sql:query>
 
 
