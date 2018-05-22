@@ -436,6 +436,12 @@ select{
     top: 40%;
 }
 
+.malakia-manou{
+    position: absolute;
+    left: 23%;
+    top: 40%;
+}
+
 .buttons-wrapper a{
     text-decoration: none;
     color: inherit;
