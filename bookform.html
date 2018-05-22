@@ -21,6 +21,10 @@
     <ul class="form-style-1">
         <h1 class="form-intro">Please fill your info and booking preferences</h1>
         <li><label>IRS Number<span class="required">*</span></label><input type="text" name="irs_number" placeholder="IRS Number" required>&nbsp;</li>
+        <li>
+            <label>Social Security Number<span class="required">*</span></label>
+            <input type="text" name="ssn" class="field-long" placeholder="Social Security Number" required />
+        </li>
         <li><label>Full Name <span class="required">*</span></label><input type="text" name="first_name" class="field-divided" placeholder="First" required>&nbsp;<input type="text" name="last_name" class="field-divided" placeholder="Last" required></li>
         <li>
             <label>City</label>
@@ -29,11 +33,6 @@
         <li>
             <label><span>Address</span></label><input type="text" class="address-field" name="street" placeholder="Street"/> <input type="text" class="address-field" name="number" placeholder="Number"/> <input type="text" class="address-field" name="postal_code" placeholder="Postal Code"/>
         </li>
-        <li>
-            <label>Registration Date </label>
-            <input type="date" name="reg_date" class="field-long" placeholder="Registration Date" />
-        </li>
-        <br>
         <h1 class="book-form">Booking preferences</h1>
         <li>
             <label><span>Region of Interest</span></label>
@@ -95,6 +94,7 @@
                 <option value="16000">16000</option>
                 <option value="17000">17000</option>
                 <option value="19000">19000</option>
+                <option value="0">All</option>
             </select>
         </li>
         <li>
