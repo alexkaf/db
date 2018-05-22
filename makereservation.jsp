@@ -112,8 +112,8 @@
 
   String new_customer = insert_vals + " " + values;
   //out.println("<h1>" + new_customer +"</h1>");
-  //PreparedStatement prpstmt = conn.prepareStatement(new_customer);
-  //int i = prpstmt.executeUpdate(new_customer);
+  PreparedStatement prpstmt = conn.prepareStatement(new_customer);
+  int i = prpstmt.executeUpdate(new_customer);
   // Now check for the correct room
   String where = "";
   int counter = 0;
@@ -156,7 +156,7 @@
   String query = "SELECT * FROM Hotels as H, Has_Hotels as HH, Reserves as R, Hotel_Room as HR WHERE H.Hotel_ID = R.Hotel_ID AND HR.Hotel_ID = R.Hotel_ID AND HH.Hotel_ID = H.Hotel_ID AND HR.Room_ID = R.Room_ID";
   if(!where.equals("")){
     query = query + " AND " + where;
-    out.println("<h1>"+ query +"</h1>");
+    //out.println("<h1>"+ query +"</h1>");
   }
 %>
 
