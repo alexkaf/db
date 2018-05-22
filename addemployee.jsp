@@ -21,15 +21,15 @@
 
     <ul class="form-style-1">
         <h1 class="form-intro">New Employee</h1>
-        <li><label>IRS Number<span class="required">*</span></label><input type="text" name="irs_number" placeholder="${param.irs}" required/>&nbsp;</li>
-        <li><label>Social Security Number<span class="required">*</span></label><input type="text" name="ssn" placeholder="${param.ssn}" required/>&nbsp;</li>
-        <li><label>Full Name <span class="required">*</span></label><input type="text" name="first_name" class="field-divided" placeholder="${param.first_name}" required />&nbsp;<input type="text" name="last_name" class="field-divided" placeholder="${param.last_name}" required /></li>
+        <li><label>IRS Number<span class="required">*</span></label><input type="text" name="irs" placeholder="IRS Number" required/>&nbsp;</li>
+        <li><label>Social Security Number<span class="required">*</span></label><input type="text" name="ssn" placeholder="Social Security Number" required/>&nbsp;</li>
+        <li><label>Full Name <span class="required">*</span></label><input type="text" name="first_name" class="field-divided" placeholder="First Name" required />&nbsp;<input type="text" name="last_name" class="field-divided" placeholder="Last Name" required /></li>
         <li>
             <label>City</label>
-            <input type="text" name="${param.city}" class="field-long" placeholder="${param.city}" />
+            <input type="text" name="city" class="field-long" placeholder="City" />
         </li>
         <li>
-            <label><span>Address</span></label><input type="text" class="address-field" name="street" placeholder="${param.street}"/> <input type="text" class="address-field" name="number" placeholder="${param.number}"/> <input type="text" class="address-field" name="postal_code" placeholder="${param.postal_code}"/>
+            <label><span>Address</span></label><input type="text" class="address-field" name="street" placeholder="Street"/> <input type="text" class="address-field" name="number" placeholder="Number"/> <input type="text" class="address-field" name="postal_code" placeholder="Postal Code"/>
         </li>
         <li>
             <input type="submit" value="Submit" />
