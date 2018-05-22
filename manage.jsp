@@ -41,6 +41,7 @@
     if(! password.equals(input)){
     response.sendRedirect("index.html");
     }
+    session.setAttribute("username",request.getParameter("username"));
   }
 %>
 
