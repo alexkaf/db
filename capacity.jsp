@@ -21,26 +21,23 @@
   <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver" url = "jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" user = "ehotels"  password = "abcd"/>
 
   <sql:query dataSource = "${snapshot}" var = "result">
-    SELECT *
-    FROM Room_Today
+    SELECT Room_ID,Hotel_ID,Capacity
+    FROM Hotel_Room
   </sql:query>
 
 
 <table class="customer-employees">
   <tr>
-    <th>City</th>
-    <th>Rooms Number</th>
-    <th>Book</th>
+    <th>Rooms ID</th>
+    <th>Hotel ID</th>
+    <th>Room Capacity</th>
   </tr>
   <tr>
       <c:forEach var="room" items="${result.rows}">
         <tr class="rower">
-          <td><c:out value="${room.City}"/></td>
-          <td><c:out value="${room.Rooms_Number}"/></td>
-          <form method="GET" action="bookform.html">
-            <input type="hidden" name="city" value="${room.City}">
-            <td class="but"><input type="submit" class="submit-emp" value=""></td>
-          </form>
+          <td><c:out value="${room.Room_ID}"/></td>
+          <td><c:out value="${room.Hotel_ID}"/></td>
+          <td><c:out value="${room.Capacity}"/></td>
         </tr>
       </c:forEach>
   </tr>
