@@ -22,7 +22,7 @@
   <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver" url = "jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" user = "ehotels"  password = "abcd"/>
 
   <sql:query dataSource = "${snapshot}" var = "result">
-    SELECT * 
+    SELECT *
     FROM Hotels
   </sql:query>
 
@@ -50,12 +50,15 @@
           </form>
           <form method="GET" action="updatehotel.jsp">
             <input type="hidden" name="hotel_id" value="${hotel.Hotel_ID}">
+            <input type="hidden" name="stars" value="${hotel.Stars}">
             <input type="hidden" name="city" value="${hotel.City}">
             <input type="hidden" name="street" value="${hotel.Street}">
-            <input type="hidden" name="ssn" value="${hotel.Social_Security_Number}">
-            <input type="hidden" name="city" value="${hotel.City}">
-            <input type="hidden" name="street" value="${hotel.street}">
+            <input type="hidden" name="postal_code" value="${hotel.Postal_code}">
             <input type="hidden" name="number" value="${hotel.Number}">
+            <input type="hidden" name="number-of-rooms" value="${hotel.Number_Of_rooms}">
+            <input type="hidden" name="phone_number" value="${hotel.Phone_Number}">
+            <input type="hidden" name="email" value="${hotel.Email}">
+
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
           <form method="GET" action="deletehotel.jsp">
@@ -65,7 +68,7 @@
         </tr>
       </c:forEach>
   </tr>
-</table>  
+</table>
 
 </body>
 </html>

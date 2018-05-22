@@ -21,29 +21,30 @@
 
     <ul class="form-style-1">
         <h1 class="form-intro">Hotel New Information</h1>
-        <li><label>Hotel ID<span class="required">*</span></label><input type="text" name="hotel_id" placeholder="${param.hotel_id}" required>&nbsp;</li>
+        <li><label>Hotel ID<span class="required">*</span></label><input type="text" name="hotel_id" value="${param.hotel_id}" placeholder="${param.hotel_id}" required>&nbsp;</li>
         <li>
             <label>City</label>
-            <input type="text" name="city" class="field-long" placeholder="${param.city}" />
+            <input type="text" name="city" class="field-long" value="${param.city}" placeholder="${param.city}" />
         </li>
         <li>
-            <label><span>Address</span></label><input type="text" class="address-field" name="street" placeholder="Street"/> <input type="text" class="address-field" name="number" placeholder="Number"/> <input type="text" class="address-field" name="postal_code" placeholder="Postal Code"/>
+            <label><span>Address</span></label> <input type="text" class="address-field" name="street" value="${param.street}" placeholder="${param.street}"/> <input type="text" class="address-field" name="number" value="${param.number}" placeholder="${param.number}"/>
+             <input type="text" class="address-field" name="postal_code" value="${param.postal_code}" placeholder="${param.postal_code}"/>
         </li>
         <li>
             <label>Stars</label>
-            <input type="text" name="stars" class="field-divided" placeholder="Stars" />
+            <input type="text" name="stars" class="field-divided" value="${param.stars}" placeholder="${param.stars}" />
         </li>
         <li>
             <label>Number Of Rooms<span class="required">*</span></label>
-            <input type="text" name="number-of-rooms" class="field-divided" placeholder="Rooms" required>
+            <input type="text" name="number-of-rooms" class="field-divided" value="${param.number-of-rooms}" placeholder="${param.number-of-rooms}" required>
         </li>
         <li>
             <label>Phone Number</label>
-            <input type="text" name="phone_number" class="field-long" placeholder="Phone Number" />
+            <input type="text" name="phone_number" class="field-long" value="${param.phone_number}" placeholder="${param.phone_number}" />
         </li>
         <li>
             <label>Email</label>
-            <input type="text" name="email" class="field-long" placeholder="Email" />
+            <input type="text" name="email" class="field-long" value="${param.email}" placeholder="${param.email}" />
         </li>
         <li>
 
