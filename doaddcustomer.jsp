@@ -168,7 +168,7 @@
           <td><c:out value="${hotel.Last_Name}"/></td>
           <td><c:out value="${hotel.IRS_Number}"/></td>
           <td><c:out value="${hotel.Social_Security_Number}"/></td>
-          <td><c:out value="${hotel.First_Registration}"/></td>
+          <td><c:out value="${hotel.First_Registration}"/></td>g
           <form method="GET" action="updatecustomer.jsp">
             <input type="hidden" name="last_name" value="${hotel.Last_Name}">
             <input type="hidden" name="first_name" value="${hotel.First_Name}">
