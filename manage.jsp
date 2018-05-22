@@ -22,9 +22,9 @@
   <div class="box bg-1">
     <a href="managerrents.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Rents</span></button></a>
     <a href="manageemps.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Employees</span></button></a>
-    <a href="managecustomers.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Customers</span></button></a>
+    <a href="managecustomers.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Customers</span></button></a
     <a href="managerooms.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Rooms</span></button></a>
-    <a href="bookform.html"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Hotels</span></button></a>
+    <a href="managehotels.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Hotels</span></button></a>
   </div>
 </div>
 
