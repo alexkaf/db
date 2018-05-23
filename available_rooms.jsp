@@ -76,10 +76,10 @@ if(!hotel.equals("") && !hotel.equals("0")){
 }
 
 if(counter != 0){
-  where = where + " AND R.Start_Date>="+"\""+ to_date+"\"" + " AND R.Finish_Date<="+"\""+from_date+"\"";
+  where = where + " AND R.Start_Date>="+"\""+ to_date+"\"" + " OR R.Finish_Date<="+"\""+from_date+"\"";
 }else{
   counter = counter + 1;
-  where = where + " R.Start_Date>="+"\""+ to_date+"\"" + " AND R.Finish_Date<="+"\""+from_date+"\"";
+  where = where + " AND R.Start_Date>="+"\""+ to_date+"\"" + " OR R.Finish_Date<="+"\""+from_date+"\"";
 }
 
 
