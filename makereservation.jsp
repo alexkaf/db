@@ -12,8 +12,8 @@
 <body>
 <ul class="navmenu">
   <li><a href=".">Home</a></li>
-  <li><a href="managerdb.html" class="active-nav">Manager Mode</a></li>
-  <li><a href="customerdb.html">Customer Mode</a></li>
+  <li><a href="managerdb.html" >Manager Mode</a></li>
+  <li><a href="customerdb.html" class="active-nav">Customer Mode</a></li>
   <li><a href="aboutdb.html">About</a></li>
   <li><a href=".">Back</a></li>
   <li><img class="logo" src="images/logo.png"></li>
@@ -43,7 +43,7 @@
   String capacity = request.getParameter("quantity");
   String hotel = request.getParameter("hotel");
   String from_date = request.getParameter("from_date");
-  String to_date = request.getParameter("to_date"); 
+  String to_date = request.getParameter("to_date");
 
   // IRS Number
   if(irs.length() != 10){
@@ -55,7 +55,7 @@
   if(last_name.length() >25){
     response.sendRedirect("error.html");
   }
-  insert_vals = insert_vals + "Last_Name,"; 
+  insert_vals = insert_vals + "Last_Name,";
   values = values + "'" + last_name + "',";
   // First Name
   if(first_name.length() > 20){
@@ -177,7 +177,7 @@
         </tr>
       </c:forEach>
   </tr>
-</table>  
+</table>
 
 </body>
 </html>

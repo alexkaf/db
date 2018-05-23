@@ -41,14 +41,16 @@
               <td><c:out value="${hotel.First_Name}"/></td>
               <td><c:out value="${hotel.Last_Name}"/></td>
               <td><c:out value="${hotel.IRS_Number}"/></td>
-              <form method="GET" action="booknowform.jsp">
-                <input type="hidden" name="room_id" value="${hotel.IRS_Number}">
+              <form method="GET" action="bookreferences.jsp">
+                <input type="hidden" name="IRS_Number" value="${hotel.IRS_Number}">
+                <input type="hidden" name="First_Name" value="${hotel.First_Name}">
+                <input type="hidden" name="Last_Name" value="${hotel.Last_Name}">
                 <td class="but"><input type="submit" class="submit-emp" value=""></td>
               </form>
             </tr>
           </c:forEach>
       </tr>
-    </table>  
+    </table>
 
     </body>
 </html>
