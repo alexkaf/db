@@ -25,7 +25,7 @@
   rs.next();
   int count = rs.getInt("Count(*)");
   if(count > 0){
-    %><li><a href=".">New Request</a></li><%
+    %><li><a href="watchrequests.jsp">New Request</a></li><%
   }
   %>
   <li><img class="logo" src="images/logo.png"></li>
