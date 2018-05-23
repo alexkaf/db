@@ -15,6 +15,19 @@
   <li><a href="customerdb.html">Customer Mode</a></li>
   <li><a href="aboutdb.html">About</a></li>
   <li><a href=".">Back</a></li>
+<%
+  Class.forName("com.mysql.jdbc.Driver");
+  String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+  Connection conn = DriverManager.getConnection(url,"ehotels", "abcd");
+  Statement stmt = conn.createStatement();
+  String sql = "Select Count(*) FROM Customer_Wants_To";
+  ResultSet rs = stmt.executeQuery(sql);
+  rs.next();
+  int count = rs.getInt("Count(*)");
+  if(count > 0){
+    %><li><a href=".">New Request</a></li><%
+  }
+  %>
   <li><img class="logo" src="images/logo.png"></li>
 </ul>
 
@@ -29,12 +42,8 @@
 </div>
 
 <%
-  Class.forName("com.mysql.jdbc.Driver");
-  String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-  Connection conn = DriverManager.getConnection(url,"ehotels", "abcd");
-  Statement stmt = conn.createStatement();
-  String sql = "Select Password From Logins Where User_Name=\"" + request.getParameter("username") + "\"";
-  ResultSet rs = stmt.executeQuery(sql);
+  sql = "Select Password From Logins Where User_Name=\"" + request.getParameter("username") + "\"";
+  rs = stmt.executeQuery(sql);
   if (rs != null && rs.next()){
     String input = request.getParameter("pswd");
     String password = rs.getString("Password");
