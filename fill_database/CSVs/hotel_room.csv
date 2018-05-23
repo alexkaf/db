@@ -1,126 +1,126 @@
-Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID
-10001,none,extra beds,sea,1,"fridge,tv,air condition",35,131296
-10002,broken door,extra beds,none,2,"fridge,tv,air condition",30,131296
-10003,no wifi,no,none,3,"fridge,tv,air condition",25,131296
-10004,none,extra beds,sea,4,"fridge,tv,air condition",40,131296
-10005,none,no,sea,5,"fridge,tv,air condition",20,131296
-10006,broken chair,no,none,1,"fridge,tv,air condition",20,130796
-10007,none,extra beds,none,2,"fridge,tv,air condition",25,130796
-10008,broken window,extra beds,sea,3,"fridge,tv,air condition",30,130796
-10009,none,extra beds,none,4,"fridge,tv,air condition",40,130796
-10010,no wifi,no,none,5,"fridge,tv,air condition",45,130796
-10011,none,no,sea,1,"fridge,tv,air condition",19,130296
-10012,broken sink,extra room,sea,2,"fridge,tv,air condition",25,130296
-10013,none,extra beds,sea,3,"fridge,tv,air condition",35,130296
-10014,none,extra beds,none,4,"fridge,tv,air condition",40,130296
-10015,broken tv,no,sea,5,"fridge,tv,air condition",40,130296
-10016,no wifi,no,sea,1,"fridge,tv,air condition",20,130896
-10017,none,no,none,2,"fridge,tv,air condition",25,130896
-10018,broken chair,extra beds,sea,3,"fridge,tv,air condition",30,130896
-10019,no wifi,no,sea,4,"fridge,tv,air condition",35,130896
-10020,none,no,sea,5,"fridge,tv,air condition",40,130896
-10021,broken sink,extra beds,none,1,"fridge,tv,air condition",15,130455
-10022,broken window,extra beds,sea,2,"fridge,tv,air condition",20,130455
-10023,none,extra beds,none,3,"fridge,tv,air condition",25,130455
-10024,broken chair,no,none,4,"fridge,tv,air condition",30,130455
-10025,no wifi,no,none,5,"fridge,tv,air condition",35,130455
-10026,none,extra beds,sea,1,"fridge,tv,air condition",18,170796
-10027,none,no,none,2,"fridge,tv,air condition",25,170796
-10028,broken window,no,none,3,"fridge,tv,air condition",30,170796
-10029,broken chair,no,none,4,"fridge,tv,air condition",35,170796
-10030,no wifi,extra beds,sea,5,"fridge,tv,air condition",45,170796
-10031,none,no,sea,1,"fridge,tv,air condition",20,170989
-10032,none,extra beds,sea,2,"fridge,air condition",25,170989
-10033,broken tv,extra beds,none,3,"fridge,tv,air condition",30,170989
-10034,none,no,none,4,"fridge,tv,air condition",35,170989
-10035,none,extra room,sea,5,"fridge,tv,air condition",40,170989
-10036,no wifi,extra beds,sea,1,"fridge,tv,air condition",15,175467
-10037,broken chair,extra beds,none,2,"fridge,tv,air condition",20,175467
-10038,none,no,sea,3,"fridge,tv,air condition",25,175467
-10039,broken chair,extra beds,sea,4,"fridge,tv,air condition",30,175467
-10040,none,no,sea,5,"fridge,tv,air condition",35,175467
-10041,broken chair,extra beds,none,1,"fridge,tv,air condition",15,175463
-10042,no wifi,extra beds,none,2,"fridge,tv,air condition",20,175463
-10043,none,extra beds,sea,3,"fridge,tv,air condition",25,175463
-10044,none,no,none,4,"fridge,tv,air condition",30,175463
-10045,no wifi,no,none,5,"fridge,tv,air condition",40,175463
-10046,broken window,extra beds,sea,1,"fridge,tv,air condition",15,174890
-10047,broken tv,extra beds,sea,2,"fridge,tv,air condition",20,174890
-10048,broken chair,extra beds,none,3,"fridge,tv,air condition",30,174890
-10049,no wifi,extra beds,none,4,"fridge,tv,air condition",35,174890
-10050,none,no,none,5,"fridge,tv,air condition",40,174890
-10051,no wifi,extra room,sea,1,"fridge,tv,air condition",15,168867
-10052,broken chair,no,sea,2,"fridge,tv,air condition",20,168867
-10053,none,extra beds,none,3,"fridge,tv,air condition",30,168867
-10054,broken sink,extra beds,none,4,"fridge,tv,air condition",35,168867
-10055,none,no,sea,5,"fridge,tv,air condition",40,168867
-10056,none,no,sea,1,"fridge,tv,air condition",18,167834
-10057,broken chair,extra beds,none,2,"fridge,tv,air condition",25,167834
-10058,none,extra beds,none,3,"fridge,tv,air condition",30,167834
-10059,no wifi,no,sea,4,"fridge,tv,air condition",35,167834
-10060,broken chair,extra beds,sea,5,"fridge,tv,air condition",40,167834
-10061,no wifi,no,sea,1,"fridge,tv,air condition",45,164356
-10062,broken chair,no,sea,2,"fridge,tv,air condition",50,164356
-10063,none,no,sea,3,"fridge,tv,air condition",55,164356
-10064,none,extra beds,none,4,"fridge,tv,air condition",60,164356
-10065,broken chair,no,sea,5,"fridge,tv,air condition",65,164356
-10066,none,no,sea,5,"fridge,tv,air condition",35,163589
-10067,none,extra beds,sea,1,"fridge,tv,air condition",15,163589
-10068,broken window,extra beds,none,2,"fridge,tv,air condition",25,163589
-10069,none,extra beds,none,3,"fridge,tv,air condition",30,163589
-10070,broken chair,no,none,4,"fridge,tv,air condition",35,163589
-10071,none,extra beds,sea,5,"fridge,tv,air condition",45,163290
-10072,broken chair,extra beds,sea,1,"fridge,tv,air condition",20,163290
-10075,broken chair,extra beds,none,2,"fridge,tv,air condition",25,163290
-10073,broken sink,no,none,3,"fridge,tv,air condition",35,163290
-10074,none,no,none,4,"fridge,tv,air condition",40,163290
-10075,broken tv,extra beds,sea,5,"fridge,tv,air condition",45,189067
-10076,broken chair,extra beds,sea,1,"fridge,tv,air condition",15,189067
-10077,broken sink,no,none,2,"fridge,tv,air condition",20,189067
-10078,none,no,none,3,"fridge,tv,air condition",25,189067
-10079,broken chair,extra room,sea,4,"fridge,tv,air condition",35,189067
-10080,none,extra beds,sea,5,"fridge,tv,air condition",40,187635
-10081,broken chair,no,none,1,"fridge,tv,air condition",15,187635
-10082,none,no,none,2,"fridge,tv,air condition",25,187635
-10083,broken chair,extra beds,sea,3,"fridge,tv,air condition",30,187635
-10084,broken window,extra beds,sea,4,"fridge,tv,air condition",45,187635
-10085,broken chair,no,none,5,"fridge,tv,air condition",45,185438
-10086,none,no,sea,1,"fridge,tv,air condition",20,185438
-10087,broken sink,extra beds,sea,2,"fridge,tv,air condition",25,185438
-10088,none,extra beds,none,3,"fridge,tv,air condition",35,185438
-10089,none,no,none,4,"fridge,tv,air condition",45,185438
-10090,broken window,extra beds,sea,5,"fridge,tv,air condition",50,189076
-10091,broken pipe,extra beds,sea,1,"fridge,tv,air condition",15,189076
-10092,none,no,sea,2,"fridge,tv,air condition",25,189076
-10093,none,extra beds,none,3,"fridge,tv,air condition",35,189076
-10095,broken sink,extra beds,sea,4,"fridge,tv,air condition",45,189076
-10096,none,no,sea,5,"fridge,tv,air condition",50,187634
-10097,broken sink,extra beds,none,1,"fridge,tv,air condition",25,187634
-10098,broken window,extra beds,none,2,"fridge,tv,air condition",35,187634
-10099,none,no,sea,3,"fridge,tv,air condition",45,187634
-10100,broken window,no,sea,4,"fridge,tv,air condition",55,187634
-10101,none,no,sea,5,"fridge,tv,air condition",65,127836
-10102,none,no,sea,1,"fridge,tv,air condition",15,127836
-10103,broken chair,extra beds,none,2,"fridge,tv,air condition",25,127836
-10104,none,no,sea,3,"fridge,tv,air condition",35,127836
-10105,none,extra beds,sea,4,"fridge,tv,air condition",45,127836
-10106,broken tv,extra beds,none,5,"fridge,tv,air condition",65,126739
-10107,none,no,none,1,"fridge,tv,air condition",15,126739
-10108,none,extra room,sea,2,"fridge,tv,air condition",25,126739
-10109,broken window,extra beds,sea,3,"fridge,tv,air condition",35,126739
-10110,none,extra room,none,4,"fridge,tv,air condition",45,126739
-10111,none,no,sea,5,"fridge,tv,air condition",55,127093
-10112,none,no,sea,1,"fridge,tv,air condition",15,127093
-10113,none,extra beds,sea,2,"fridge,tv,air condition",25,127093
-10114,broken chair,extra beds,sea,3,"fridge,tv,air condition",35,127093
-10115,broken window,extra room,none,4,"fridge,tv,air condition",45,127093
-10116,broken sink,extra beds,none,5,"fridge,tv,air condition",55,127389
-10117,none,no,sea,1,"fridge,tv,air condition",15,127389
-10118,none,no,sea,2,"fridge,tv,air condition",25,127389
-10119,broken chair,extra beds,none,3,"fridge,tv,air condition",35,127389
-10120,none,no,sea,4,"fridge,tv,air condition",45,127389
-10121,broken chair,no,sea,5,"fridge,tv,air condition",55,123890
-10122,none,extra beds,none,1,"fridge,tv,air condition",15,123890
-10123,broken pipe,extra beds,sea,2,"fridge,tv,air condition",25,123890
-10124,broken window,no,sea,3,"fridge,tv,air condition",35,123890
-10125,none,no,sea,4,"fridge,tv,air condition",45,123890
+Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID
+none,extra beds,sea,1,"fridge,tv,air condition",35,131296
+broken door,extra beds,none,2,"fridge,tv,air condition",30,131296
+no wifi,no,none,3,"fridge,tv,air condition",25,131296
+none,extra beds,sea,4,"fridge,tv,air condition",40,131296
+none,no,sea,5,"fridge,tv,air condition",20,131296
+broken chair,no,none,1,"fridge,tv,air condition",20,130796
+none,extra beds,none,2,"fridge,tv,air condition",25,130796
+broken window,extra beds,sea,3,"fridge,tv,air condition",30,130796
+none,extra beds,none,4,"fridge,tv,air condition",40,130796
+no wifi,no,none,5,"fridge,tv,air condition",45,130796
+none,no,sea,1,"fridge,tv,air condition",19,130296
+broken sink,extra room,sea,2,"fridge,tv,air condition",25,130296
+none,extra beds,sea,3,"fridge,tv,air condition",35,130296
+none,extra beds,none,4,"fridge,tv,air condition",40,130296
+broken tv,no,sea,5,"fridge,tv,air condition",40,130296
+no wifi,no,sea,1,"fridge,tv,air condition",20,130896
+none,no,none,2,"fridge,tv,air condition",25,130896
+broken chair,extra beds,sea,3,"fridge,tv,air condition",30,130896
+no wifi,no,sea,4,"fridge,tv,air condition",35,130896
+none,no,sea,5,"fridge,tv,air condition",40,130896
+broken sink,extra beds,none,1,"fridge,tv,air condition",15,130455
+broken window,extra beds,sea,2,"fridge,tv,air condition",20,130455
+none,extra beds,none,3,"fridge,tv,air condition",25,130455
+broken chair,no,none,4,"fridge,tv,air condition",30,130455
+no wifi,no,none,5,"fridge,tv,air condition",35,130455
+none,extra beds,sea,1,"fridge,tv,air condition",18,170796
+none,no,none,2,"fridge,tv,air condition",25,170796
+broken window,no,none,3,"fridge,tv,air condition",30,170796
+broken chair,no,none,4,"fridge,tv,air condition",35,170796
+no wifi,extra beds,sea,5,"fridge,tv,air condition",45,170796
+none,no,sea,1,"fridge,tv,air condition",20,170989
+none,extra beds,sea,2,"fridge,air condition",25,170989
+broken tv,extra beds,none,3,"fridge,tv,air condition",30,170989
+none,no,none,4,"fridge,tv,air condition",35,170989
+none,extra room,sea,5,"fridge,tv,air condition",40,170989
+no wifi,extra beds,sea,1,"fridge,tv,air condition",15,175467
+broken chair,extra beds,none,2,"fridge,tv,air condition",20,175467
+none,no,sea,3,"fridge,tv,air condition",25,175467
+broken chair,extra beds,sea,4,"fridge,tv,air condition",30,175467
+none,no,sea,5,"fridge,tv,air condition",35,175467
+broken chair,extra beds,none,1,"fridge,tv,air condition",15,175463
+no wifi,extra beds,none,2,"fridge,tv,air condition",20,175463
+none,extra beds,sea,3,"fridge,tv,air condition",25,175463
+none,no,none,4,"fridge,tv,air condition",30,175463
+no wifi,no,none,5,"fridge,tv,air condition",40,175463
+broken window,extra beds,sea,1,"fridge,tv,air condition",15,174890
+broken tv,extra beds,sea,2,"fridge,tv,air condition",20,174890
+broken chair,extra beds,none,3,"fridge,tv,air condition",30,174890
+no wifi,extra beds,none,4,"fridge,tv,air condition",35,174890
+none,no,none,5,"fridge,tv,air condition",40,174890
+no wifi,extra room,sea,1,"fridge,tv,air condition",15,168867
+broken chair,no,sea,2,"fridge,tv,air condition",20,168867
+none,extra beds,none,3,"fridge,tv,air condition",30,168867
+broken sink,extra beds,none,4,"fridge,tv,air condition",35,168867
+none,no,sea,5,"fridge,tv,air condition",40,168867
+none,no,sea,1,"fridge,tv,air condition",18,167834
+broken chair,extra beds,none,2,"fridge,tv,air condition",25,167834
+none,extra beds,none,3,"fridge,tv,air condition",30,167834
+no wifi,no,sea,4,"fridge,tv,air condition",35,167834
+broken chair,extra beds,sea,5,"fridge,tv,air condition",40,167834
+no wifi,no,sea,1,"fridge,tv,air condition",45,164356
+broken chair,no,sea,2,"fridge,tv,air condition",50,164356
+none,no,sea,3,"fridge,tv,air condition",55,164356
+none,extra beds,none,4,"fridge,tv,air condition",60,164356
+broken chair,no,sea,5,"fridge,tv,air condition",65,164356
+none,no,sea,5,"fridge,tv,air condition",35,163589
+none,extra beds,sea,1,"fridge,tv,air condition",15,163589
+broken window,extra beds,none,2,"fridge,tv,air condition",25,163589
+none,extra beds,none,3,"fridge,tv,air condition",30,163589
+broken chair,no,none,4,"fridge,tv,air condition",35,163589
+none,extra beds,sea,5,"fridge,tv,air condition",45,163290
+broken chair,extra beds,sea,1,"fridge,tv,air condition",20,163290
+broken chair,extra beds,none,2,"fridge,tv,air condition",25,163290
+broken sink,no,none,3,"fridge,tv,air condition",35,163290
+none,no,none,4,"fridge,tv,air condition",40,163290
+broken tv,extra beds,sea,5,"fridge,tv,air condition",45,189067
+broken chair,extra beds,sea,1,"fridge,tv,air condition",15,189067
+broken sink,no,none,2,"fridge,tv,air condition",20,189067
+none,no,none,3,"fridge,tv,air condition",25,189067
+broken chair,extra room,sea,4,"fridge,tv,air condition",35,189067
+none,extra beds,sea,5,"fridge,tv,air condition",40,187635
+broken chair,no,none,1,"fridge,tv,air condition",15,187635
+none,no,none,2,"fridge,tv,air condition",25,187635
+broken chair,extra beds,sea,3,"fridge,tv,air condition",30,187635
+broken window,extra beds,sea,4,"fridge,tv,air condition",45,187635
+broken chair,no,none,5,"fridge,tv,air condition",45,185438
+none,no,sea,1,"fridge,tv,air condition",20,185438
+broken sink,extra beds,sea,2,"fridge,tv,air condition",25,185438
+none,extra beds,none,3,"fridge,tv,air condition",35,185438
+none,no,none,4,"fridge,tv,air condition",45,185438
+broken window,extra beds,sea,5,"fridge,tv,air condition",50,189076
+broken pipe,extra beds,sea,1,"fridge,tv,air condition",15,189076
+none,no,sea,2,"fridge,tv,air condition",25,189076
+none,extra beds,none,3,"fridge,tv,air condition",35,189076
+broken sink,extra beds,sea,4,"fridge,tv,air condition",45,189076
+none,no,sea,5,"fridge,tv,air condition",50,187634
+broken sink,extra beds,none,1,"fridge,tv,air condition",25,187634
+broken window,extra beds,none,2,"fridge,tv,air condition",35,187634
+none,no,sea,3,"fridge,tv,air condition",45,187634
+broken window,no,sea,4,"fridge,tv,air condition",55,187634
+none,no,sea,5,"fridge,tv,air condition",65,127836
+none,no,sea,1,"fridge,tv,air condition",15,127836
+broken chair,extra beds,none,2,"fridge,tv,air condition",25,127836
+none,no,sea,3,"fridge,tv,air condition",35,127836
+none,extra beds,sea,4,"fridge,tv,air condition",45,127836
+broken tv,extra beds,none,5,"fridge,tv,air condition",65,126739
+none,no,none,1,"fridge,tv,air condition",15,126739
+none,extra room,sea,2,"fridge,tv,air condition",25,126739
+broken window,extra beds,sea,3,"fridge,tv,air condition",35,126739
+none,extra room,none,4,"fridge,tv,air condition",45,126739
+none,no,sea,5,"fridge,tv,air condition",55,127093
+none,no,sea,1,"fridge,tv,air condition",15,127093
+none,extra beds,sea,2,"fridge,tv,air condition",25,127093
+broken chair,extra beds,sea,3,"fridge,tv,air condition",35,127093
+broken window,extra room,none,4,"fridge,tv,air condition",45,127093
+broken sink,extra beds,none,5,"fridge,tv,air condition",55,127389
+none,no,sea,1,"fridge,tv,air condition",15,127389
+none,no,sea,2,"fridge,tv,air condition",25,127389
+broken chair,extra beds,none,3,"fridge,tv,air condition",35,127389
+none,no,sea,4,"fridge,tv,air condition",45,127389
+broken chair,no,sea,5,"fridge,tv,air condition",55,123890
+none,extra beds,none,1,"fridge,tv,air condition",15,123890
+broken pipe,extra beds,sea,2,"fridge,tv,air condition",25,123890
+broken window,no,sea,3,"fridge,tv,air condition",35,123890
+none,no,sea,4,"fridge,tv,air condition",45,123890

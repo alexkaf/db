@@ -64,7 +64,7 @@ CREATE TABLE Has_Hotels (
 
 DROP TABLE IF EXISTS Hotel_Room;
 CREATE TABLE Hotel_Room(
-    Room_ID MEDIUMINT(5) NOT NULL,
+    Room_ID MEDIUMINT(5) NOT NULL AUTO_INCREMENT,
     Repairs_Need VARCHAR(20),
     Expandable VARCHAR(30),
     View VARCHAR(15),

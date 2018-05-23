@@ -613,256 +613,256 @@ VALUES ('127389','ehotel5_naxos2@hotmail.com','2187654890','5','5','Aiolou','76'
 INSERT INTO Hotels (Hotel_ID,Email,Phone_Number,Stars,Number_Of_Rooms,Street,Number,Postal_Code,City)
 VALUES ('123890','ehotel5_nauplio@hotmail.com','2890738490','4','5','Fleming','35','12345','Nauplio');
 USE ehotels;
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10001','none','extra beds','sea','1','fridge,tv,air condition','35','131296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10002','broken door','extra beds','none','2','fridge,tv,air condition','30','131296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10003','no wifi','no','none','3','fridge,tv,air condition','25','131296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10004','none','extra beds','sea','4','fridge,tv,air condition','40','131296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10005','none','no','sea','5','fridge,tv,air condition','20','131296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10006','broken chair','no','none','1','fridge,tv,air condition','20','130796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10007','none','extra beds','none','2','fridge,tv,air condition','25','130796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10008','broken window','extra beds','sea','3','fridge,tv,air condition','30','130796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10009','none','extra beds','none','4','fridge,tv,air condition','40','130796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10010','no wifi','no','none','5','fridge,tv,air condition','45','130796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10011','none','no','sea','1','fridge,tv,air condition','19','130296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10012','broken sink','extra room','sea','2','fridge,tv,air condition','25','130296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10013','none','extra beds','sea','3','fridge,tv,air condition','35','130296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10014','none','extra beds','none','4','fridge,tv,air condition','40','130296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10015','broken tv','no','sea','5','fridge,tv,air condition','40','130296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10016','no wifi','no','sea','1','fridge,tv,air condition','20','130896');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10017','none','no','none','2','fridge,tv,air condition','25','130896');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10018','broken chair','extra beds','sea','3','fridge,tv,air condition','30','130896');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10019','no wifi','no','sea','4','fridge,tv,air condition','35','130896');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10020','none','no','sea','5','fridge,tv,air condition','40','130896');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10021','broken sink','extra beds','none','1','fridge,tv,air condition','15','130455');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10022','broken window','extra beds','sea','2','fridge,tv,air condition','20','130455');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10023','none','extra beds','none','3','fridge,tv,air condition','25','130455');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10024','broken chair','no','none','4','fridge,tv,air condition','30','130455');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10025','no wifi','no','none','5','fridge,tv,air condition','35','130455');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10026','none','extra beds','sea','1','fridge,tv,air condition','18','170796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10027','none','no','none','2','fridge,tv,air condition','25','170796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10028','broken window','no','none','3','fridge,tv,air condition','30','170796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10029','broken chair','no','none','4','fridge,tv,air condition','35','170796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10030','no wifi','extra beds','sea','5','fridge,tv,air condition','45','170796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10031','none','no','sea','1','fridge,tv,air condition','20','170989');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10032','none','extra beds','sea','2','fridge,air condition','25','170989');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10033','broken tv','extra beds','none','3','fridge,tv,air condition','30','170989');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10034','none','no','none','4','fridge,tv,air condition','35','170989');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10035','none','extra room','sea','5','fridge,tv,air condition','40','170989');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10036','no wifi','extra beds','sea','1','fridge,tv,air condition','15','175467');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10037','broken chair','extra beds','none','2','fridge,tv,air condition','20','175467');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10038','none','no','sea','3','fridge,tv,air condition','25','175467');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10039','broken chair','extra beds','sea','4','fridge,tv,air condition','30','175467');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10040','none','no','sea','5','fridge,tv,air condition','35','175467');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10041','broken chair','extra beds','none','1','fridge,tv,air condition','15','175463');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10042','no wifi','extra beds','none','2','fridge,tv,air condition','20','175463');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10043','none','extra beds','sea','3','fridge,tv,air condition','25','175463');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10044','none','no','none','4','fridge,tv,air condition','30','175463');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10045','no wifi','no','none','5','fridge,tv,air condition','40','175463');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10046','broken window','extra beds','sea','1','fridge,tv,air condition','15','174890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10047','broken tv','extra beds','sea','2','fridge,tv,air condition','20','174890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10048','broken chair','extra beds','none','3','fridge,tv,air condition','30','174890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10049','no wifi','extra beds','none','4','fridge,tv,air condition','35','174890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10050','none','no','none','5','fridge,tv,air condition','40','174890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10051','no wifi','extra room','sea','1','fridge,tv,air condition','15','168867');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10052','broken chair','no','sea','2','fridge,tv,air condition','20','168867');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10053','none','extra beds','none','3','fridge,tv,air condition','30','168867');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10054','broken sink','extra beds','none','4','fridge,tv,air condition','35','168867');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10055','none','no','sea','5','fridge,tv,air condition','40','168867');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10056','none','no','sea','1','fridge,tv,air condition','18','167834');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10057','broken chair','extra beds','none','2','fridge,tv,air condition','25','167834');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10058','none','extra beds','none','3','fridge,tv,air condition','30','167834');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10059','no wifi','no','sea','4','fridge,tv,air condition','35','167834');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10060','broken chair','extra beds','sea','5','fridge,tv,air condition','40','167834');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10061','no wifi','no','sea','1','fridge,tv,air condition','45','164356');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10062','broken chair','no','sea','2','fridge,tv,air condition','50','164356');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10063','none','no','sea','3','fridge,tv,air condition','55','164356');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10064','none','extra beds','none','4','fridge,tv,air condition','60','164356');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10065','broken chair','no','sea','5','fridge,tv,air condition','65','164356');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10066','none','no','sea','5','fridge,tv,air condition','35','163589');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10067','none','extra beds','sea','1','fridge,tv,air condition','15','163589');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10068','broken window','extra beds','none','2','fridge,tv,air condition','25','163589');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10069','none','extra beds','none','3','fridge,tv,air condition','30','163589');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10070','broken chair','no','none','4','fridge,tv,air condition','35','163589');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10071','none','extra beds','sea','5','fridge,tv,air condition','45','163290');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10072','broken chair','extra beds','sea','1','fridge,tv,air condition','20','163290');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('11075','broken chair','extra beds','none','2','fridge,tv,air condition','25','163290');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10073','broken sink','no','none','3','fridge,tv,air condition','35','163290');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10074','none','no','none','4','fridge,tv,air condition','40','163290');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10075','broken tv','extra beds','sea','5','fridge,tv,air condition','45','189067');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10076','broken chair','extra beds','sea','1','fridge,tv,air condition','15','189067');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10077','broken sink','no','none','2','fridge,tv,air condition','20','189067');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10078','none','no','none','3','fridge,tv,air condition','25','189067');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10079','broken chair','extra room','sea','4','fridge,tv,air condition','35','189067');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10080','none','extra beds','sea','5','fridge,tv,air condition','40','187635');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10081','broken chair','no','none','1','fridge,tv,air condition','15','187635');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10082','none','no','none','2','fridge,tv,air condition','25','187635');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10083','broken chair','extra beds','sea','3','fridge,tv,air condition','30','187635');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10084','broken window','extra beds','sea','4','fridge,tv,air condition','45','187635');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10085','broken chair','no','none','5','fridge,tv,air condition','45','185438');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10086','none','no','sea','1','fridge,tv,air condition','20','185438');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10087','broken sink','extra beds','sea','2','fridge,tv,air condition','25','185438');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10088','none','extra beds','none','3','fridge,tv,air condition','35','185438');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10089','none','no','none','4','fridge,tv,air condition','45','185438');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10090','broken window','extra beds','sea','5','fridge,tv,air condition','50','189076');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10091','broken pipe','extra beds','sea','1','fridge,tv,air condition','15','189076');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10092','none','no','sea','2','fridge,tv,air condition','25','189076');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10093','none','extra beds','none','3','fridge,tv,air condition','35','189076');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10095','broken sink','extra beds','sea','4','fridge,tv,air condition','45','189076');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10096','none','no','sea','5','fridge,tv,air condition','50','187634');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10097','broken sink','extra beds','none','1','fridge,tv,air condition','25','187634');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10098','broken window','extra beds','none','2','fridge,tv,air condition','35','187634');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10099','none','no','sea','3','fridge,tv,air condition','45','187634');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10100','broken window','no','sea','4','fridge,tv,air condition','55','187634');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10101','none','no','sea','5','fridge,tv,air condition','65','127836');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10102','none','no','sea','1','fridge,tv,air condition','15','127836');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10103','broken chair','extra beds','none','2','fridge,tv,air condition','25','127836');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10104','none','no','sea','3','fridge,tv,air condition','35','127836');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10105','none','extra beds','sea','4','fridge,tv,air condition','45','127836');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10106','broken tv','extra beds','none','5','fridge,tv,air condition','65','126739');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10107','none','no','none','1','fridge,tv,air condition','15','126739');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10108','none','extra room','sea','2','fridge,tv,air condition','25','126739');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10109','broken window','extra beds','sea','3','fridge,tv,air condition','35','126739');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10110','none','extra room','none','4','fridge,tv,air condition','45','126739');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10111','none','no','sea','5','fridge,tv,air condition','55','127093');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10112','none','no','sea','1','fridge,tv,air condition','15','127093');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10113','none','extra beds','sea','2','fridge,tv,air condition','25','127093');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10114','broken chair','extra beds','sea','3','fridge,tv,air condition','35','127093');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10115','broken window','extra room','none','4','fridge,tv,air condition','45','127093');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10116','broken sink','extra beds','none','5','fridge,tv,air condition','55','127389');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10117','none','no','sea','1','fridge,tv,air condition','15','127389');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10118','none','no','sea','2','fridge,tv,air condition','25','127389');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10119','broken chair','extra beds','none','3','fridge,tv,air condition','35','127389');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10120','none','no','sea','4','fridge,tv,air condition','45','127389');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10121','broken chair','no','sea','5','fridge,tv,air condition','55','123890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10122','none','extra beds','none','1','fridge,tv,air condition','15','123890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10123','broken pipe','extra beds','sea','2','fridge,tv,air condition','25','123890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10124','broken window','no','sea','3','fridge,tv,air condition','35','123890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10125','none','no','sea','4','fridge,tv,air condition','45','123890');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','sea','1','fridge,tv,air condition','35','131296');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken door','extra beds','none','2','fridge,tv,air condition','30','131296');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','no','none','3','fridge,tv,air condition','25','131296');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','sea','4','fridge,tv,air condition','40','131296');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','5','fridge,tv,air condition','20','131296');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','no','none','1','fridge,tv,air condition','20','130796');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','none','2','fridge,tv,air condition','25','130796');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','extra beds','sea','3','fridge,tv,air condition','30','130796');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','none','4','fridge,tv,air condition','40','130796');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','no','none','5','fridge,tv,air condition','45','130796');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','1','fridge,tv,air condition','19','130296');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken sink','extra room','sea','2','fridge,tv,air condition','25','130296');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','sea','3','fridge,tv,air condition','35','130296');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','none','4','fridge,tv,air condition','40','130296');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken tv','no','sea','5','fridge,tv,air condition','40','130296');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','no','sea','1','fridge,tv,air condition','20','130896');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','none','2','fridge,tv,air condition','25','130896');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','sea','3','fridge,tv,air condition','30','130896');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','no','sea','4','fridge,tv,air condition','35','130896');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','5','fridge,tv,air condition','40','130896');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken sink','extra beds','none','1','fridge,tv,air condition','15','130455');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','extra beds','sea','2','fridge,tv,air condition','20','130455');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','none','3','fridge,tv,air condition','25','130455');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','no','none','4','fridge,tv,air condition','30','130455');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','no','none','5','fridge,tv,air condition','35','130455');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','sea','1','fridge,tv,air condition','18','170796');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','none','2','fridge,tv,air condition','25','170796');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','no','none','3','fridge,tv,air condition','30','170796');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','no','none','4','fridge,tv,air condition','35','170796');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','extra beds','sea','5','fridge,tv,air condition','45','170796');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','1','fridge,tv,air condition','20','170989');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','sea','2','fridge,air condition','25','170989');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken tv','extra beds','none','3','fridge,tv,air condition','30','170989');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','none','4','fridge,tv,air condition','35','170989');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra room','sea','5','fridge,tv,air condition','40','170989');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','extra beds','sea','1','fridge,tv,air condition','15','175467');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','none','2','fridge,tv,air condition','20','175467');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','3','fridge,tv,air condition','25','175467');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','sea','4','fridge,tv,air condition','30','175467');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','5','fridge,tv,air condition','35','175467');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','none','1','fridge,tv,air condition','15','175463');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','extra beds','none','2','fridge,tv,air condition','20','175463');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','sea','3','fridge,tv,air condition','25','175463');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','none','4','fridge,tv,air condition','30','175463');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','no','none','5','fridge,tv,air condition','40','175463');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','extra beds','sea','1','fridge,tv,air condition','15','174890');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken tv','extra beds','sea','2','fridge,tv,air condition','20','174890');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','none','3','fridge,tv,air condition','30','174890');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','extra beds','none','4','fridge,tv,air condition','35','174890');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','none','5','fridge,tv,air condition','40','174890');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','extra room','sea','1','fridge,tv,air condition','15','168867');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','no','sea','2','fridge,tv,air condition','20','168867');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','none','3','fridge,tv,air condition','30','168867');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken sink','extra beds','none','4','fridge,tv,air condition','35','168867');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','5','fridge,tv,air condition','40','168867');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','1','fridge,tv,air condition','18','167834');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','none','2','fridge,tv,air condition','25','167834');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','none','3','fridge,tv,air condition','30','167834');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','no','sea','4','fridge,tv,air condition','35','167834');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','sea','5','fridge,tv,air condition','40','167834');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('no wifi','no','sea','1','fridge,tv,air condition','45','164356');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','no','sea','2','fridge,tv,air condition','50','164356');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','3','fridge,tv,air condition','55','164356');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','none','4','fridge,tv,air condition','60','164356');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','no','sea','5','fridge,tv,air condition','65','164356');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','5','fridge,tv,air condition','35','163589');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','sea','1','fridge,tv,air condition','15','163589');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','extra beds','none','2','fridge,tv,air condition','25','163589');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','none','3','fridge,tv,air condition','30','163589');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','no','none','4','fridge,tv,air condition','35','163589');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','sea','5','fridge,tv,air condition','45','163290');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','sea','1','fridge,tv,air condition','20','163290');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','none','2','fridge,tv,air condition','25','163290');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken sink','no','none','3','fridge,tv,air condition','35','163290');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','none','4','fridge,tv,air condition','40','163290');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken tv','extra beds','sea','5','fridge,tv,air condition','45','189067');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','sea','1','fridge,tv,air condition','15','189067');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken sink','no','none','2','fridge,tv,air condition','20','189067');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','none','3','fridge,tv,air condition','25','189067');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra room','sea','4','fridge,tv,air condition','35','189067');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','sea','5','fridge,tv,air condition','40','187635');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','no','none','1','fridge,tv,air condition','15','187635');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','none','2','fridge,tv,air condition','25','187635');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','sea','3','fridge,tv,air condition','30','187635');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','extra beds','sea','4','fridge,tv,air condition','45','187635');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','no','none','5','fridge,tv,air condition','45','185438');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','1','fridge,tv,air condition','20','185438');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken sink','extra beds','sea','2','fridge,tv,air condition','25','185438');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','none','3','fridge,tv,air condition','35','185438');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','none','4','fridge,tv,air condition','45','185438');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','extra beds','sea','5','fridge,tv,air condition','50','189076');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken pipe','extra beds','sea','1','fridge,tv,air condition','15','189076');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','2','fridge,tv,air condition','25','189076');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','none','3','fridge,tv,air condition','35','189076');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken sink','extra beds','sea','4','fridge,tv,air condition','45','189076');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','5','fridge,tv,air condition','50','187634');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken sink','extra beds','none','1','fridge,tv,air condition','25','187634');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','extra beds','none','2','fridge,tv,air condition','35','187634');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','3','fridge,tv,air condition','45','187634');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','no','sea','4','fridge,tv,air condition','55','187634');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','5','fridge,tv,air condition','65','127836');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','1','fridge,tv,air condition','15','127836');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','none','2','fridge,tv,air condition','25','127836');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','3','fridge,tv,air condition','35','127836');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','sea','4','fridge,tv,air condition','45','127836');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken tv','extra beds','none','5','fridge,tv,air condition','65','126739');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','none','1','fridge,tv,air condition','15','126739');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra room','sea','2','fridge,tv,air condition','25','126739');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','extra beds','sea','3','fridge,tv,air condition','35','126739');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra room','none','4','fridge,tv,air condition','45','126739');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','5','fridge,tv,air condition','55','127093');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','1','fridge,tv,air condition','15','127093');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','sea','2','fridge,tv,air condition','25','127093');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','sea','3','fridge,tv,air condition','35','127093');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','extra room','none','4','fridge,tv,air condition','45','127093');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken sink','extra beds','none','5','fridge,tv,air condition','55','127389');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','1','fridge,tv,air condition','15','127389');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','2','fridge,tv,air condition','25','127389');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','extra beds','none','3','fridge,tv,air condition','35','127389');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','4','fridge,tv,air condition','45','127389');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken chair','no','sea','5','fridge,tv,air condition','55','123890');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','extra beds','none','1','fridge,tv,air condition','15','123890');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken pipe','extra beds','sea','2','fridge,tv,air condition','25','123890');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('broken window','no','sea','3','fridge,tv,air condition','35','123890');
+INSERT INTO Hotel_Room (Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('none','no','sea','4','fridge,tv,air condition','45','123890');
 USE ehotels;
 INSERT INTO Has_Hotels (Hotel_group_ID,Hotel_ID)
 VALUES ('13000','131296');
