@@ -134,35 +134,6 @@ CREATE TABLE Logins(
     Password MEDIUMINT(6) NOT NULL,
     PRIMARY KEY (User_Name));
 
-DROP TABLE IF EXISTS Rents_Buffer;
-CREATE TABLE Customer_Wants_To(
-    IRS_Number BIGINT(10) NOT NULL,
-    First_Name VARCHAR(20) NOT NULL,
-    Last_Name VARCHAR(25) NOT NULL,
-    City VARCHAR(30),
-    Street VARCHAR(25),
-    Number TINYINT(3),
-    Postal_Code MEDIUMINT(5),
-    Social_Security_Number BIGINT(10) NOT NULL,
-    First_Registration DATE,
-    PRIMARY KEY (IRS_Number));
-
-DROP TABLE IF EXISTS A_Room;
-CREATE TABLE A_Room(
-    Book_ID MEDIUMINT(5) NOT NULL AUTO_INCREMENT,
-    Hotel_ID MEDIUMINT(6) NOT NULL,
-    Room_ID MEDIUMINT(5) NOT NULL,
-    PRIMARY KEY(Book_ID));
-
-DROP TABLE IF EXISTS Book;
-CREATE TABLE Book(
-    Book_ID MEDIUMINT(5) NOT NULL,
-    IRS_Number BIGINT(10) NOT NULL,
-    FOREIGN KEY (Book_ID) REFERENCES A_Room(Book_ID)
-    ON DELETE CASCADE,
-    FOREIGN KEY (IRS_Number) REFERENCES Customer_Wants_To(IRS_Number)
-    ON DELETE CASCADE);
-
 CREATE VIEW Room_Today AS
 SELECT  Hotels.City,COUNT(Hotel_Room.Room_ID) AS Rooms_Number
 FROM ((Hotel_Room
