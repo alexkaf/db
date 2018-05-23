@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>eHotels</title>
+  <link rel="stylesheet" type="text/css" href="css/ehotels.css">
+  <link rel="stylesheet" type="text/css" href="css/buttons.css" />
+</head>
+<body>
+
+<ul class="navmenu">
+  <li><a href=".">Home</a></li>
+  <li><a href="managerdb.html">Manager Mode</a></li>
+  <li><a href="customerdb.html" class="active-nav">Customer Mode</a></li>
+  <li><a href="aboutdb.html">About</a></li>
+  <li><a href="customerdb.html">Back</a></li>
+  <li><img class="logo" src="images/logo.png"></li>
+</ul>
+
+<div class="form_back">
+    <form action="nowmakereservation.jsp" method="GET">
+    <ul class="form-style-1">
+        <h1 class="form-intro">Customer Details</h1>
+        <li><label>Full Name <span class="required">*</span></label><input type="text" name="first_name" class="field-divided" placeholder="First" required>&nbsp;<input type="text" name="last_name" class="field-divided" placeholder="Last" required></li>
+        <li>
+            <input type="hidden" name="booknow_city" value="${param.booknow_city}">
+            <input type="submit" value="Submit" />
+        </li>
+    </ul>
+    </form>
+</div>
+
+</body>
+</html>
