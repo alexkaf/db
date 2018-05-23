@@ -29,8 +29,12 @@
 </div>
 
 <%
-  sql = "Select Password From Logins Where User_Name=\"" + request.getParameter("username") + "\"";
-  rs = stmt.executeQuery(sql);
+  Class.forName("com.mysql.jdbc.Driver");
+  String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+  String sql = "Select Password From Logins Where User_Name=\"" + request.getParameter("username") + "\"";
+  Connection conn = DriverManager.getConnection(url,"ehotels", "abcd");
+  Statement stmt = conn.createStatement();
+  ResultSet rs = stmt.executeQuery(sql);
   if (rs != null && rs.next()){
     String input = request.getParameter("pswd");
     String password = rs.getString("Password");
