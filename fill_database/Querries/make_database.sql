@@ -163,6 +163,15 @@ CREATE TABLE Book(
     FOREIGN KEY (IRS_Number) REFERENCES Customer_Wants_To(IRS_Number)
     ON DELETE CASCADE);
 
+DROP TABLE IF EXISTS For_Info;
+CREATE TABLE For_Info(
+    Book_ID MEDIUMINT(5) NOT NULL,
+    Room_ID MEDIUMINT(5) NOT NULL,
+    Hotel_ID MEDIUMINT(6) NOT NULL,
+    Start_Date DATE NOT NULL,
+    Finish_Date DATE NOT NULL,
+    FOREIGN KEY (Book_ID) REFERENCES Book(Book_ID));
+
 CREATE VIEW Room_Today AS
 SELECT  Hotels.City,COUNT(Hotel_Room.Room_ID) AS Rooms_Number
 FROM ((Hotel_Room
