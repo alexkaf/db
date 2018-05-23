@@ -64,7 +64,7 @@ CREATE TABLE Has_Hotels (
 
 DROP TABLE IF EXISTS Hotel_Room;
 CREATE TABLE Hotel_Room(
-    Room_ID MEDIUMINT(5) NOT NULL,
+    Room_ID MEDIUMINT(5) NOT NULL AUTO_INCREMENT,
     Repairs_Need VARCHAR(20),
     Expandable VARCHAR(30),
     View VARCHAR(15),
@@ -106,12 +106,14 @@ CREATE TABLE Payment_Transaction (
 
 DROP TABLE IF EXISTS Reserves;
 CREATE TABLE Reserves(
-    Room_ID MEDIUMINT(5) NOT NULL,
+    Room_ID MEDIUMINT(5) NOT NULL AUTO_INCREMENT,
     IRS_Number BIGINT(10) NOT NULL,
     Start_Date DATE NOT NULL,
     Paid VARCHAR(3),
     Finish_Date DATE NOT NULL,
     Hotel_ID MEDIUMINT(6) NOT NULL,
+    FOREIGN KEY (Room_ID) REFERENCES Hotel_Room(Room_ID)
+    ON DELETE CASCADE,
     FOREIGN KEY (IRS_Number) REFERENCES Customers(IRS_Number)
     ON DELETE CASCADE);
 
