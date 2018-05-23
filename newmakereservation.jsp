@@ -22,7 +22,7 @@
 <%
   Class.forName("com.mysql.jdbc.Driver");
   String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-  String check_customer = "SELECT count(IRS_Number) FROM Customers WHERE ";
+  String check_customer = "SELECT count(IRS_Number)FROM Customers WHERE ";
   String values = "";
   Connection conn = DriverManager.getConnection(url,"ehotels", "abcd");
   /***********************FOR REGISTRATION**************************/
@@ -48,15 +48,15 @@
     response.sendRedirect("error.html");
   }
   values = values + "First_Name=\"" + first_name + "\"";
-
-
   String query = check_customer + values;
   ResultSet rs = stmt.executeQuery(query);
   rs.next();
+
   if(rs.getInt("count(IRS_Number)") == 0){
     response.sendRedirect("customerreg.jsp");
-  }else if(rs.getInt("count(IRS_Number)") > 1){
-    response.sendRedirect("showirss.jsp");
+  }
+  else if(rs.getInt("count(IRS_Number)") > 1){
+    response.sendRedirect("showirrs.jsp?first_name="+first_name + "&last_name=" + last_name);
   }
   String where = "";
   int counter = 0;
@@ -125,7 +125,7 @@
           <td><c:out value="${hotel.View}"/></td>
           <td><c:out value="${hotel.Price}"/></td>
           <td><c:out value="${hotel.Amenities}"/></td>
-          <form method="GET" action="booknowform.jsp">
+          <form method="GET" action="confirmbook.jsp">
             <input type="hidden" name="room_id" value="${hotel.Room_ID}">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
