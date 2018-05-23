@@ -15,6 +15,7 @@
   <li><a href="managerdb.html" class="active-nav">Manager Mode</a></li>
   <li><a href="customerdb.html">Customer Mode</a></li>
   <li><a href="aboutdb.html">About</a></li>
+  <li><a href="customerreg.jsp">New Registration</a></li>
   <li><a href=".">Back</a></li>
   <li><img class="logo" src="images/logo.png"></li>
 </ul>
