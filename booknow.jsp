@@ -37,7 +37,7 @@
         <tr class="rower">
           <td><c:out value="${room.City}"/></td>
           <td><c:out value="${room.Rooms_Number}"/></td>
-          <form method="GET" action="booknowform.jsp">
+          <form method="GET" action="nowbookform.jsp">
             <input type="hidden" name="booknow_city" value="${room.City}">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
