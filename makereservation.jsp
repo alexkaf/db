@@ -169,11 +169,16 @@
   <table class="customer-rents">
   <tr>
     <th>Room_ID</th>
+    <th>Book</th>
   </tr>
   <tr>
       <c:forEach var="hotel" items="${result.rows}">
         <tr>
           <td><c:out value="${hotel.Room_ID}"/></td>
+          <form method="GET" action="bookroom.jsp">
+            <input type="hidden" name="Room_ID" value="${room.Room_ID}">
+            <td class="but"><input type="submit" class="submit-emp" value=""></td>
+          </form>
         </tr>
       </c:forEach>
   </tr>
