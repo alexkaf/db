@@ -178,42 +178,9 @@
 
           PreparedStatement prpstmt = conn.prepareStatement(query);
           int i = prpstmt.executeUpdate(query);
+          response.sendRedirect("newbookform.html");
           %>
 
-          <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver" url = "jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" user = "ehotels"  password = "abcd"/>
-
-          <sql:query dataSource = "${snapshot}" var = "result">
-            SELECT *
-            FROM Customers
-          </sql:query>
-
-
-        <table class="customer-employees">
-          <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>IRS Number</th>
-            <th>SSN</th>
-            <th>Registration Date</th>
-            <th>Address</th>
-          </tr>
-          <tr>
-              <c:forEach var="hotel" items="${result.rows}">
-                <tr class="rower">
-                  <td><c:out value="${hotel.First_Name}"/></td>
-                  <td><c:out value="${hotel.Last_Name}"/></td>
-                  <td><c:out value="${hotel.IRS_Number}"/></td>
-                  <td><c:out value="${hotel.Social_Security_Number}"/></td>
-                  <td><c:out value="${hotel.First_Registration}"/></td>
-
-                  <form method="GET" action="contactcustomer.jsp">
-                    <input type="hidden" name="irs" value="${hotel.IRS_Number}">
-                    <td class="but"><input type="submit" class="submit-emp" value=""></td>
-                  </form>
-                </tr>
-              </c:forEach>
-          </tr>
-        </table>
 
 
 
