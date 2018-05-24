@@ -86,18 +86,17 @@
         </li>
         <li>
             <label>Book from <span class="required">*</span> </label>
-            <input type="date" name="from_date" class="field-long" value="${param.from_date}" placeholder="From" />
+            <input type="date" name="from_date" class="field-long" value="${param.from_date}" placeholder="From" required>&nbsp;
         </li>
         <li>
             <label>To <span class="required">*</span> </label>
-            <input type="date" name="to_date" class="field-long" placeholder="To" />
+            <input type="date" name="to_date" class="field-long" placeholder="To" required>&nbsp;
         </li>
         <li>
           <input type="hidden" name="IRS_Number" value="${param.IRS_Number}">
           <input type="hidden" name="First_Name" value="${param.First_Name}">
           <input type="hidden" name="Last_Name" value="${param.Last_Name}">
-            <input type="hidden" name="from_date" value="${param.from_date}">
-              <input type="hidden" name="to_date" value="${param.to_date}">
+            
             <input type="submit" value="Submit" />
         </li>
     </ul>

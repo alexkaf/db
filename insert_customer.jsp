@@ -172,7 +172,7 @@
 
           PreparedStatement prpstmt = conn.prepareStatement(query);
           int i = prpstmt.executeUpdate(query);
-          response.sendRedirect("addroom.jsp");
+          response.sendRedirect("newbookform.html");
       }
 
 
