@@ -86,7 +86,7 @@
         </li>
         <li>
             <label>Book from <span class="required">*</span> </label>
-            <input type="date" name="from_date" class="field-long" placeholder="From" />
+            <input type="date" name="from_date" class="field-long" value="${param.from_date}" placeholder="From" />
         </li>
         <li>
             <label>To <span class="required">*</span> </label>

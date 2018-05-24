@@ -28,6 +28,19 @@
     AND Last_Name='<%= request.getParameter("last_name")%>';
   </sql:query>
 
+<%
+Class.forName("com.mysql.jdbc.Driver");
+String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+Connection conn = DriverManager.getConnection(url,"ehotels", "abcd");
+Statement stmt = conn.createStatement();
+
+String query = "SELECT CURDATE()";
+ResultSet rs = stmt.executeQuery(query);
+rs.next();
+String date = rs.getString("CURDATE()");
+
+%>
+
       <table class="customer-rents">
       <tr>
         <th>First Name</th>
@@ -41,7 +54,8 @@
               <td><c:out value="${hotel.First_Name}"/></td>
               <td><c:out value="${hotel.Last_Name}"/></td>
               <td><c:out value="${hotel.IRS_Number}"/></td>
-              <form method="GET" action="nowavailable_rooms.jsp">
+              <form method="GET" action="bookreferences.jsp">
+                <input type="hidden" name="from_date" value=<% out.println(date);%>    >
                 <input type="hidden" name="IRS_Number" value="${hotel.IRS_Number}">
                 <input type="hidden" name="First_Name" value="${hotel.First_Name}">
                 <input type="hidden" name="Last_Name" value="${hotel.Last_Name}">

@@ -169,7 +169,7 @@
 
     PreparedStatement prpstmt = conn.prepareStatement(query);
     int i = prpstmt.executeUpdate(query);
-    response.sendRedirect("newbookform.html?booknow_city=" + request.getParameter("booknow_city"));
+    response.sendRedirect("nowbookform.jsp?booknow_city=" + request.getParameter("booknow_city"));
   }
   else if(irs1.length() > 10){
       response.sendRedirect("error.html");
