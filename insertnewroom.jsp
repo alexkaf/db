@@ -32,12 +32,18 @@
   Connection conn1 = DriverManager.getConnection(url1,"ehotels", "abcd");
   Statement stmt1 = conn1.createStatement();
   String Hotel_ID1 = request.getParameter("Hotel_ID");
-
   if(Hotel_ID1.length() <= 6){
+
     insert1 = insert1 +Hotel_ID1 ;
     ResultSet rs1 = stmt1.executeQuery(insert1);
 
     if(rs1.next()){
+      if(rs1.getString("COUNT(Hotel_ID)").equals("0")) {
+        response.sendRedirect("error.html");
+      }
+
+    else{
+
       Class.forName("com.mysql.jdbc.Driver");
       String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
       String insert = "INSERT INTO Hotel_Room";
@@ -120,19 +126,13 @@
         String query3 = "INSERT INTO Has_Room (Hotel_ID,Room_ID) VALUES ("+Hotel_ID+","+max_Room_ID+")" ;
         PreparedStatement prpstmt3 = conn.prepareStatement(query3);
         int i3 = prpstmt3.executeUpdate(query3);
-
-
-
-        //response.sendRedirect("newbookform.html");
+        response.sendRedirect("managerdb.html");
+      }
     }
-    else{
-        response.sendRedirect("error.html");
-    }
-
-  }
-  else{
+}
+else {
     response.sendRedirect("error.html");
-  }
+}
 
 %>
 
