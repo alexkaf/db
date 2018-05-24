@@ -41,7 +41,6 @@
     if(rs1.next()){
       if(rs1.getString("IRS_Number").equals(irs1)){
         response.sendRedirect("error.html");
-
       }
     }
       else{
