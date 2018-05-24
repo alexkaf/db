@@ -99,7 +99,7 @@ CREATE TABLE Rents (
 DROP TABLE IF EXISTS Payment_Transaction;
 CREATE TABLE Payment_Transaction (
     Payment_ID MEDIUMINT(5) NOT NULL,
-    Payment_Amount FLOAT(5,2) NOT NULL,
+    Payment_Amount FLOAT(10,2) NOT NULL,
     Payment_Method VARCHAR(20) NOT NULL,
     FOREIGN KEY (Payment_ID) REFERENCES Rents(Payment_ID)
     ON DELETE CASCADE);
