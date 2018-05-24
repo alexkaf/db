@@ -38,9 +38,21 @@ String to_date = request.getParameter("to_date");
 
 String where = "";
 int counter = 0;
+
+counter = counter + 1;
+where = where + " (R.Start_Date>="+"\""+ to_date+"\"" + " OR R.Finish_Date<="+"\""+from_date+"\")";
+
+
 if(!cities.equals("")){
-  where = where + "City =\"" + cities + "\"";
-  counter = counter + 1;
+  if(counter!=0){
+    where = where + " AND City =\"" + cities + "\"";
+    counter = counter + 1;
+  }
+  else{
+    where = where + "City =\"" + cities + "\"";
+    counter = counter + 1;
+  }
+
 }
 if(stars != null){
   if(counter != 0){
@@ -75,19 +87,17 @@ if(!hotel.equals("") && !hotel.equals("0")){
   }
 }
 
-if(counter != 0){
-  where = where + " AND R.Start_Date>="+"\""+ to_date+"\"" + " OR R.Finish_Date<="+"\""+from_date+"\"";
-}else{
-  counter = counter + 1;
-  where = where + " AND R.Start_Date>="+"\""+ to_date+"\"" + " OR R.Finish_Date<="+"\""+from_date+"\"";
-}
+
+
+
+
 
 
 
 String query = "SELECT * FROM Hotels as H, Has_Hotels as HH, Reserves as R, Hotel_Room as HR WHERE H.Hotel_ID = R.Hotel_ID AND HR.Hotel_ID = R.Hotel_ID AND HH.Hotel_ID = H.Hotel_ID AND HR.Room_ID = R.Room_ID";
 if(!where.equals("")){
   query = query + " AND " + where;
-  out.println("<h1>"+ query +"</h1>");
+
 }
 
 %>
@@ -105,7 +115,8 @@ if(!where.equals("")){
   <th>City</th>
   <th>Price</th>
   <th>More Info</th>
-  <th>BOOK IT!</th>
+  <th>BOOK AND PAY!</th>
+  <th>BOOK AND PAY LATER!</th>
 </tr>
 <tr>
     <c:forEach var="hotel" items="${result.rows}">
@@ -116,11 +127,30 @@ if(!where.equals("")){
         <td><c:out value="${hotel.Price}"/></td>
 
     <form method="GET" action="contactroom.jsp">
+
       <input type="hidden" name="Room_ID" value="${hotel.Room_ID}">
       <input type="hidden" name="Hotel_ID" value="${hotel.Hotel_ID}">
       <td class="but"><input type="submit" class="submit-emp" value=""></td>
     </form>
     <form method="GET" action="aprove.jsp">
+      <input type="hidden" name="Paid" value="yes">
+      <input type="hidden" name="IRS_Number" value="${param.IRS_Number}">
+      <input type="hidden" name="First_Name" value="${param.First_Name}">
+      <input type="hidden" name="Last_Name" value="${param.Last_Name}">
+      <input type="hidden" name="from_date" value="${param.from_date}">
+      <input type="hidden" name="to_date" value="${param.to_date}">
+      <input type="hidden" name="Room_ID" value="${hotel.Room_ID}">
+      <input type="hidden" name="Hotel_ID" value="${hotel.Hotel_ID}">
+      <td class="but"><input type="submit" class="submit-emp" value=""></td>
+    </form>
+
+    <form method="GET" action="aprove.jsp">
+      <input type="hidden" name="Paid" value="no">
+      <input type="hidden" name="IRS_Number" value="${param.IRS_Number}">
+      <input type="hidden" name="First_Name" value="${param.First_Name}">
+      <input type="hidden" name="Last_Name" value="${param.Last_Name}">
+      <input type="hidden" name="from_date" value="${param.from_date}">
+      <input type="hidden" name="to_date" value="${param.to_date}">
       <input type="hidden" name="Room_ID" value="${hotel.Room_ID}">
       <input type="hidden" name="Hotel_ID" value="${hotel.Hotel_ID}">
       <td class="but"><input type="submit" class="submit-emp" value=""></td>

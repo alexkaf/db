@@ -93,9 +93,11 @@
             <input type="date" name="to_date" class="field-long" placeholder="To" />
         </li>
         <li>
-          <input type="hidden" name="IRS_Number" value="${hotel.IRS_Number}">
-          <input type="hidden" name="First_Name" value="${hotel.First_Name}">
-          <input type="hidden" name="Last_Name" value="${hotel.Last_Name}">
+          <input type="hidden" name="IRS_Number" value="${param.IRS_Number}">
+          <input type="hidden" name="First_Name" value="${param.First_Name}">
+          <input type="hidden" name="Last_Name" value="${param.Last_Name}">
+            <input type="hidden" name="from_date" value="${param.from_date}">
+              <input type="hidden" name="to_date" value="${param.to_date}">
             <input type="submit" value="Submit" />
         </li>
     </ul>
