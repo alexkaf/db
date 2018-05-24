@@ -173,6 +173,8 @@
           int i = prpstmt.executeUpdate(query);
           response.sendRedirect("nowbookform.jsp?booknow_city=" + request.getParameter("booknow_city"));
       }
+
+
   }
   else {
       response.sendRedirect("error.html");

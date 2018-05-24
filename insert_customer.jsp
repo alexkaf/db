@@ -43,6 +43,7 @@
         response.sendRedirect("error.html");
 
       }
+    }
       else{
         Class.forName("com.mysql.jdbc.Driver");
         String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
@@ -171,9 +172,9 @@
 
           PreparedStatement prpstmt = conn.prepareStatement(query);
           int i = prpstmt.executeUpdate(query);
-          response.sendRedirect("newbookform.html");
+          response.sendRedirect("addroom.jsp");
       }
-    }
+
 
   }
   else {

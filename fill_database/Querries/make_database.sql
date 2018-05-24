@@ -72,7 +72,7 @@ CREATE TABLE Hotel_Room(
     Amenities BLOB,
     Price FLOAT(5,2) NOT NULL,
     Hotel_ID MEDIUMINT(6) NOT NULL,
-    PRIMARY KEY (Room_ID),
+    PRIMARY KEY (Room_ID,Hotel_ID),
     FOREIGN KEY (Hotel_ID) REFERENCES Hotels(Hotel_ID)
     ON DELETE CASCADE);
 
