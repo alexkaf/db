@@ -916,506 +916,506 @@ INSERT INTO Has_Hotels (Hotel_group_ID,Hotel_ID)
 VALUES ('12000','123890');
 USE ehotels;
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1324341904','1750890924','10001','08/05/18','13/05/18','3088');
+VALUES ('1324341904','1750890924','1','08/05/18','13/05/18','1');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8906789549','1587855266','10002','10/05/18','14/05/18','4699');
+VALUES ('8906789549','1587855266','2','10/05/18','14/05/18','2');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4324211134','1953990713','10003','04/06/18','08/06/18','3333');
+VALUES ('4324211134','1953990713','3','04/06/18','08/06/18','3');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9056793445','1474592513','10004','06/06/18','09/06/18','5788');
+VALUES ('9056793445','1474592513','4','06/06/18','09/06/18','4');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('6509405633','1646254310','10005','14/06/18','18/06/18','1904');
+VALUES ('6509405633','1646254310','5','14/06/18','18/06/18','5');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8954930543','1102543023','10006','26/06/18','28/06/18','6704');
+VALUES ('8954930543','1102543023','6','26/06/18','28/06/18','6');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4593353435','1671659129','10007','02/07/18','06/07/18','4284');
+VALUES ('4593353435','1671659129','7','02/07/18','06/07/18','7');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5353534534','1041389314','10008','24/07/18','26/07/18','4566');
+VALUES ('5353534534','1041389314','8','24/07/18','26/07/18','8');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9345345345','1679695968','10009','25/07/18','29/07/18','1532');
+VALUES ('9345345345','1679695968','9','25/07/18','29/07/18','9');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5345353245','1781174254','10010','30/07/18','31/07/18','1802');
+VALUES ('5345353245','1781174254','10','30/07/18','31/07/18','10');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5634653425','1488864030','10011','15/08/18','20/08/18','9712');
+VALUES ('5634653425','1488864030','11','15/08/18','20/08/18','11');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8543935222','1426266251','10012','04/09/18','10/09/18','2234');
+VALUES ('8543935222','1426266251','12','04/09/18','10/09/18','12');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5345453535','1668826498','10013','06/09/18','16/09/18','7299');
+VALUES ('5345453535','1668826498','13','06/09/18','16/09/18','13');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5345345345','1068671487','10014','13/09/18','23/09/18','6820');
+VALUES ('5345345345','1068671487','14','13/09/18','23/09/18','14');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2343241241','1996432928','10015','19/09/18','27/09/18','9267');
+VALUES ('2343241241','1996432928','15','19/09/18','27/09/18','15');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5543534532','1733976305','10016','25/09/18','30/09/18','2887');
+VALUES ('5543534532','1733976305','16','25/09/18','30/09/18','16');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4532424432','1164265015','10017','05/10/18','18/10/18','2207');
+VALUES ('4532424432','1164265015','17','05/10/18','18/10/18','17');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4234241454','1730747575','10018','11/10/18','14/10/18','2201');
+VALUES ('4234241454','1730747575','18','11/10/18','14/10/18','18');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8967492394','1919299912','10019','16/10/18','18/10/18','7051');
+VALUES ('8967492394','1919299912','19','16/10/18','18/10/18','19');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9019341343','1593009679','10020','01/11/18','18/11/18','6362');
+VALUES ('9019341343','1593009679','20','01/11/18','18/11/18','20');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5245035412','1953910624','10021','29/11/18','30/11/18','5876');
+VALUES ('5245035412','1953910624','21','29/11/18','30/11/18','21');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1459105403','1178081646','10022','06/12/18','16/12/18','4837');
+VALUES ('1459105403','1178081646','22','06/12/18','16/12/18','22');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4305438932','1110271866','10023','07/12/18','17/12/18','5701');
+VALUES ('4305438932','1110271866','23','07/12/18','17/12/18','23');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4043592541','2021684517','10024','14/12/18','19/12/18','8411');
+VALUES ('4043592541','2021684517','24','14/12/18','19/12/18','24');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7803245914','2073995489','10025','19/12/18','26/12/18','8731');
+VALUES ('7803245914','2073995489','25','19/12/18','26/12/18','25');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9094527845','1992667871','10026','31/05/18','09/06/18','1347');
+VALUES ('9094527845','1992667871','26','31/05/18','09/06/18','26');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8034572534','1074807521','10027','05/06/18','15/06/18','5236');
+VALUES ('8034572534','1074807521','27','05/06/18','15/06/18','27');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2012441134','1001142427','10028','28/06/18','29/06/18','7091');
+VALUES ('2012441134','1001142427','28','28/06/18','29/06/18','28');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5435345094','2095857460','10029','06/07/18','16/07/18','1869');
+VALUES ('5435345094','2095857460','29','06/07/18','16/07/18','29');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5680923412','1101477222','10030','10/07/18','18/07/18','2445');
+VALUES ('5680923412','1101477222','30','10/07/18','18/07/18','30');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1110043344','1049367104','10031','12/07/18','18/07/18','4126');
+VALUES ('1110043344','1049367104','31','12/07/18','18/07/18','31');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2200043224','1447587418','10032','16/07/18','19/07/18','3745');
+VALUES ('2200043224','1447587418','32','16/07/18','19/07/18','32');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5423500000','1162239467','10033','17/07/18','19/07/18','1486');
+VALUES ('5423500000','1162239467','33','17/07/18','19/07/18','33');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('6900000013','2086250509','10034','27/07/18','29/07/18','6863');
+VALUES ('6900000013','2086250509','34','27/07/18','29/07/18','34');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('6570000031','1575492804','10035','30/07/18','31/07/18','5667');
+VALUES ('6570000031','1575492804','35','30/07/18','31/07/18','35');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3424210011','1587383018','10036','15/08/18','19/08/18','5271');
+VALUES ('3424210011','1587383018','36','15/08/18','19/08/18','36');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4532412001','1688595397','10037','17/08/18','19/08/18','9913');
+VALUES ('4532412001','1688595397','37','17/08/18','19/08/18','37');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5434520001','2107960340','10038','24/08/18','28/08/18','1179');
+VALUES ('5434520001','2107960340','38','24/08/18','28/08/18','38');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5432543001','1340522738','10039','28/08/18','29/08/18','7943');
+VALUES ('5432543001','1340522738','39','28/08/18','29/08/18','39');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5234145199','1472870585','10040','13/09/18','19/09/18','4162');
+VALUES ('5234145199','1472870585','40','13/09/18','19/09/18','40');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4546778099','1449291387','10041','03/10/18','13/10/18','4416');
+VALUES ('4546778099','1449291387','41','03/10/18','13/10/18','41');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3340094311','1348888294','10042','12/10/18','18/10/18','7271');
+VALUES ('3340094311','1348888294','42','12/10/18','18/10/18','42');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4324510001','1706995096','10043','17/10/18','19/10/18','7774');
+VALUES ('4324510001','1706995096','43','17/10/18','19/10/18','43');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5452089054','1167921104','10044','26/10/18','29/10/18','8666');
+VALUES ('5452089054','1167921104','44','26/10/18','29/10/18','44');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5430004524','1962491402','10045','30/10/18','31/10/18','2076');
+VALUES ('5430004524','1962491402','45','30/10/18','31/10/18','45');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5445990090','1010090014','10046','15/11/18','19/11/18','1837');
+VALUES ('5445990090','1010090014','46','15/11/18','19/11/18','46');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5400099090','2000715258','10047','19/11/18','22/11/18','2286');
+VALUES ('5400099090','2000715258','47','19/11/18','22/11/18','47');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5788934591','1650778156','10048','26/11/18','29/11/18','4609');
+VALUES ('5788934591','1650778156','48','26/11/18','29/11/18','48');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5499009541','1021520201','10049','03/12/18','13/12/18','3295');
+VALUES ('5499009541','1021520201','49','03/12/18','13/12/18','49');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5490089094','1295177073','10050','18/12/18','19/12/18','5878');
+VALUES ('5490089094','1295177073','50','18/12/18','19/12/18','50');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5482924022','1217711039','10051','16/05/18','19/05/18','3714');
+VALUES ('5482924022','1217711039','51','16/05/18','19/05/18','51');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5490924302','1520563807','10052','21/05/18','27/05/18','2239');
+VALUES ('5490924302','1520563807','52','21/05/18','27/05/18','52');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8909894312','1177060000','10053','14/06/18','19/06/18','3255');
+VALUES ('8909894312','1177060000','53','14/06/18','19/06/18','53');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9076520422','1278556694','10054','02/07/18','12/07/18','3988');
+VALUES ('9076520422','1278556694','54','02/07/18','12/07/18','54');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8459202122','1478629312','10055','04/07/18','14/07/18','4349');
+VALUES ('8459202122','1478629312','55','04/07/18','14/07/18','55');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2034589230','1200604182','10056','31/07/18','09/08/18','2279');
+VALUES ('2034589230','1200604182','56','31/07/18','09/08/18','56');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5439345232','1245917498','10057','07/08/18','17/08/18','6690');
+VALUES ('5439345232','1245917498','57','07/08/18','17/08/18','57');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4532453215','1668372365','10058','31/08/18','04/09/18','5803');
+VALUES ('4532453215','1668372365','58','31/08/18','04/09/18','58');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4903451212','1158003293','10059','03/09/18','13/09/18','8378');
+VALUES ('4903451212','1158003293','59','03/09/18','13/09/18','59');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5321200945','1263889086','10060','10/09/18','16/09/18','4862');
+VALUES ('5321200945','1263889086','60','10/09/18','16/09/18','60');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5678901411','1289404710','10061','19/09/18','23/09/18','7648');
+VALUES ('5678901411','1289404710','61','19/09/18','23/09/18','61');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5439253458','1246544942','10062','21/09/18','25/09/18','4745');
+VALUES ('5439253458','1246544942','62','21/09/18','25/09/18','62');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5347814902','1159520070','10063','25/09/18','29/09/18','1666');
+VALUES ('5347814902','1159520070','63','25/09/18','29/09/18','63');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5423740744','2039391748','10064','26/09/18','29/09/18','8960');
+VALUES ('5423740744','2039391748','64','26/09/18','29/09/18','64');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7830221134','2145487797','10065','12/10/18','18/10/18','7979');
+VALUES ('7830221134','2145487797','65','12/10/18','18/10/18','65');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5435997133','2144732449','10066','18/10/18','21/10/18','4543');
+VALUES ('5435997133','2144732449','66','18/10/18','21/10/18','66');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5421809453','1655974818','10067','30/10/18','31/10/18','3054');
+VALUES ('5421809453','1655974818','67','30/10/18','31/10/18','67');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7658099111','1101038683','10068','31/10/18','14/11/18','8057');
+VALUES ('7658099111','1101038683','68','31/10/18','14/11/18','68');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5637920132','1401274868','10069','13/11/18','19/11/18','9634');
+VALUES ('5637920132','1401274868','69','13/11/18','19/11/18','69');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5437390132','1772592744','10070','14/11/18','19/11/18','9727');
+VALUES ('5437390132','1772592744','70','14/11/18','19/11/18','70');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4816461285','1013631295','10071','21/11/18','25/11/18','9715');
+VALUES ('4816461285','1013631295','71','21/11/18','25/11/18','71');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1232901234','1807779670','10072','23/11/18','28/11/18','4554');
+VALUES ('1232901234','1807779670','72','23/11/18','28/11/18','72');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8349100334','1657373129','10072','28/11/18','29/11/18','9694');
+VALUES ('8349100334','1657373129','73','28/11/18','29/11/18','73');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4385934251','1818525548','10073','14/12/18','18/12/18','8934');
+VALUES ('4385934251','1818525548','74','14/12/18','18/12/18','74');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1144553622','1718941352','10074','18/12/18','23/12/18','5348');
+VALUES ('1144553622','1718941352','75','18/12/18','23/12/18','75');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8899843022','2118029620','10075','31/05/18','03/06/18','6267');
+VALUES ('8899843022','2118029620','76','31/05/18','03/06/18','76');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2222689934','1707255553','10076','01/06/18','14/06/18','3120');
+VALUES ('2222689934','1707255553','77','01/06/18','14/06/18','77');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4327438221','1605057151','10077','13/06/18','19/06/18','8161');
+VALUES ('4327438221','1605057151','78','13/06/18','19/06/18','78');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4525334513','1847472046','10078','19/06/18','21/06/18','9753');
+VALUES ('4525334513','1847472046','79','19/06/18','21/06/18','79');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4234234124','1428671072','10079','21/06/18','29/06/18','4068');
+VALUES ('4234234124','1428671072','80','21/06/18','29/06/18','80');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4521342143','1459849528','10080','22/06/18','29/06/18','8929');
+VALUES ('4521342143','1459849528','81','22/06/18','29/06/18','81');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3421149113','1814320444','10081','26/06/18','27/06/18','2600');
+VALUES ('3421149113','1814320444','82','26/06/18','27/06/18','82');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4124890011','1372726643','10082','05/07/18','15/07/18','7923');
+VALUES ('4124890011','1372726643','83','05/07/18','15/07/18','83');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4332000211','1192242876','10083','06/07/18','16/07/18','7045');
+VALUES ('4332000211','1192242876','84','06/07/18','16/07/18','84');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3478890012','1122877265','10084','18/07/18','22/07/18','5790');
+VALUES ('3478890012','1122877265','85','18/07/18','22/07/18','85');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7899000032','1152971838','10085','19/07/18','26/07/18','7340');
+VALUES ('7899000032','1152971838','86','19/07/18','26/07/18','86');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4909002111','1373416961','10086','23/07/18','28/07/18','9388');
+VALUES ('4909002111','1373416961','87','23/07/18','28/07/18','87');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4300001134','1310868126','10087','30/07/18','31/07/18','9895');
+VALUES ('4300001134','1310868126','88','30/07/18','31/07/18','88');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5477900011','1985097509','10088','06/08/18','16/08/18','2763');
+VALUES ('5477900011','1985097509','89','06/08/18','16/08/18','89');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3422341113','1392147589','10089','15/08/18','19/08/18','3124');
+VALUES ('3422341113','1392147589','90','15/08/18','19/08/18','90');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4322221478','1252797418','10090','17/08/18','19/08/18','8785');
+VALUES ('4322221478','1252797418','91','17/08/18','19/08/18','91');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4324211001','1491425690','10091','04/09/18','24/09/18','8550');
+VALUES ('4324211001','1491425690','92','04/09/18','24/09/18','92');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3131300011','1005983458','10092','20/09/18','28/09/18','7873');
+VALUES ('3131300011','1005983458','93','20/09/18','28/09/18','93');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4322443111','1360759659','10093','25/09/18','29/09/18','2791');
+VALUES ('4322443111','1360759659','94','25/09/18','29/09/18','94');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8890045311','1201370884','10095','25/10/18','29/10/18','2866');
+VALUES ('8890045311','1201370884','95','25/10/18','29/10/18','95');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5747882934','1957555580','10096','26/10/18','29/10/18','7623');
+VALUES ('5747882934','1957555580','96','26/10/18','29/10/18','96');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4329010134','1244851622','10097','29/10/18','30/10/18','8958');
+VALUES ('4329010134','1244851622','97','29/10/18','30/10/18','97');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4313400013','1406306092','10098','13/11/18','17/11/18','2153');
+VALUES ('4313400013','1406306092','98','13/11/18','17/11/18','98');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4538890134','1791375793','10099','28/11/18','30/11/18','6739');
+VALUES ('4538890134','1791375793','99','28/11/18','30/11/18','99');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4329991343','1849926676','10100','30/11/18','05/12/18','7626');
+VALUES ('4329991343','1849926676','100','30/11/18','05/12/18','100');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1876733266','1129674939','10101','10/05/18','18/05/18','7892');
+VALUES ('1876733266','1129674939','101','10/05/18','18/05/18','101');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5843882414','1342397291','10102','21/05/18','28/05/18','3077');
+VALUES ('5843882414','1342397291','102','21/05/18','28/05/18','102');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2007365636','1872695333','10103','05/06/18','09/06/18','2643');
+VALUES ('2007365636','1872695333','103','05/06/18','09/06/18','103');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4975313885','1764021063','10104','14/06/18','18/06/18','3922');
+VALUES ('4975313885','1764021063','104','14/06/18','18/06/18','104');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2239031242','1352919919','10105','21/06/18','29/06/18','3277');
+VALUES ('2239031242','1352919919','105','21/06/18','29/06/18','105');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4872617592','1868928788','10106','26/06/18','29/06/18','8702');
+VALUES ('4872617592','1868928788','106','26/06/18','29/06/18','106');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4406883948','1741604366','10107','28/06/18','29/06/18','9831');
+VALUES ('4406883948','1741604366','107','28/06/18','29/06/18','107');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8891623374','1692262729','10108','06/07/18','16/07/18','9692');
+VALUES ('8891623374','1692262729','108','06/07/18','16/07/18','108');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4050430873','1899838541','10109','25/07/18','29/07/18','3303');
+VALUES ('4050430873','1899838541','109','25/07/18','29/07/18','109');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7101488746','1589452801','10110','08/08/18','18/08/18','2940');
+VALUES ('7101488746','1589452801','110','08/08/18','18/08/18','110');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1256186394','1656142054','10111','15/08/18','19/08/18','3525');
+VALUES ('1256186394','1656142054','111','15/08/18','19/08/18','111');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7694727702','1910840933','10112','16/08/18','19/08/18','5513');
+VALUES ('7694727702','1910840933','112','16/08/18','19/08/18','112');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4954905679','1484347803','10113','27/08/18','29/08/18','5650');
+VALUES ('4954905679','1484347803','113','27/08/18','29/08/18','113');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2187214103','1879861769','10114','06/09/18','16/09/18','3145');
+VALUES ('2187214103','1879861769','114','06/09/18','16/09/18','114');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9027342157','1596322089','10115','11/09/18','18/09/18','3756');
+VALUES ('9027342157','1596322089','115','11/09/18','18/09/18','115');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3843061490','1318742911','10116','14/09/18','19/09/18','2677');
+VALUES ('3843061490','1318742911','116','14/09/18','19/09/18','116');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1144630805','1563026609','10117','16/10/18','19/10/18','9950');
+VALUES ('1144630805','1563026609','117','16/10/18','19/10/18','117');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('6375903500','1818826481','10118','26/10/18','29/10/18','3354');
+VALUES ('6375903500','1818826481','118','26/10/18','29/10/18','118');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5139009028','1749673616','10119','02/11/18','08/11/18','1739');
+VALUES ('5139009028','1749673616','119','02/11/18','08/11/18','119');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5542681399','1187114725','10120','09/11/18','13/11/18','5018');
+VALUES ('5542681399','1187114725','120','09/11/18','13/11/18','120');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9106662131','1620311527','10121','03/12/18','13/12/18','5252');
+VALUES ('9106662131','1620311527','121','03/12/18','13/12/18','121');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7418959699','1370850284','10122','07/12/18','17/12/18','4980');
+VALUES ('7418959699','1370850284','122','07/12/18','17/12/18','122');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('783261758','2118087330','10123','20/12/18','30/12/18','3481');
+VALUES ('783261758','2118087330','123','20/12/18','30/12/18','123');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1514993639','2056330298','10124','21/12/18','26/12/18','4953');
+VALUES ('1514993639','2056330298','124','21/12/18','26/12/18','124');
 INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9882572819','1468110285','10125','28/12/18','30/12/18','7403');
+VALUES ('9882572819','1468110285','125','28/12/18','30/12/18','125');
 USE ehotels;
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3088','185','card');
+VALUES ('1','185','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4699','299','cash');
+VALUES ('2','299','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3333','158','card');
+VALUES ('3','158','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5788','107','card');
+VALUES ('4','107','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1904','380','cash');
+VALUES ('5','380','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6704','383','cash');
+VALUES ('6','383','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4284','222','cash');
+VALUES ('7','222','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4566','163','card');
+VALUES ('8','163','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1532','42','card');
+VALUES ('9','42','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1802','231','card');
+VALUES ('10','231','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9712','31','cash');
+VALUES ('11','31','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2234','215','card');
+VALUES ('12','215','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7299','196','card');
+VALUES ('13','196','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6820','135','cash');
+VALUES ('14','135','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9267','363','cash');
+VALUES ('15','363','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2887','137','cash');
+VALUES ('16','137','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2207','92','card');
+VALUES ('17','92','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2201','308','card');
+VALUES ('18','308','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7051','45','card');
+VALUES ('19','45','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6362','136','cash');
+VALUES ('20','136','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5876','265','card');
+VALUES ('21','265','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4837','391','card');
+VALUES ('22','391','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5701','316','cash');
+VALUES ('23','316','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8411','229','cash');
+VALUES ('24','229','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8731','290','cash');
+VALUES ('25','290','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1347','266','card');
+VALUES ('26','266','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5236','382','card');
+VALUES ('27','382','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7091','199','card');
+VALUES ('28','199','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1869','379','cash');
+VALUES ('29','379','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2445','397','card');
+VALUES ('30','397','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4126','50','card');
+VALUES ('31','50','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3745','188','cash');
+VALUES ('32','188','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1486','130','cash');
+VALUES ('33','130','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6863','41','cash');
+VALUES ('34','41','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5667','112','card');
+VALUES ('35','112','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5271','145','card');
+VALUES ('36','145','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9913','139','card');
+VALUES ('37','139','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1179','68','cash');
+VALUES ('38','68','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7943','108','card');
+VALUES ('39','108','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4162','54','card');
+VALUES ('40','54','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4416','187','cash');
+VALUES ('41','187','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7271','98','cash');
+VALUES ('42','98','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7774','73','cash');
+VALUES ('43','73','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8666','94','card');
+VALUES ('44','94','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2076','145','card');
+VALUES ('45','145','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1837','179','card');
+VALUES ('46','179','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2286','113','cash');
+VALUES ('47','113','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4609','86','card');
+VALUES ('48','86','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3295','191','card');
+VALUES ('49','191','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5878','99','cash');
+VALUES ('50','99','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3714','195','cash');
+VALUES ('51','195','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2239','60','cash');
+VALUES ('52','60','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3255','122','card');
+VALUES ('53','122','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3988','127','card');
+VALUES ('54','127','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4349','78','card');
+VALUES ('55','78','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2279','145','cash');
+VALUES ('56','145','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6690','130','card');
+VALUES ('57','130','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5803','110','card');
+VALUES ('58','110','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8378','147','cash');
+VALUES ('59','147','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4862','49','cash');
+VALUES ('60','49','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7648','36','cash');
+VALUES ('61','36','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4745','38','card');
+VALUES ('62','38','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1666','26','card');
+VALUES ('63','26','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8960','50','card');
+VALUES ('64','50','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7979','39','cash');
+VALUES ('65','39','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4543','34','card');
+VALUES ('66','34','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3054','47','card');
+VALUES ('67','47','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8057','28','cash');
+VALUES ('68','28','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9634','40','cash');
+VALUES ('69','40','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9727','30','cash');
+VALUES ('70','30','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9715','26','card');
+VALUES ('71','26','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4554','25','card');
+VALUES ('72','25','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9694','33','card');
+VALUES ('73','33','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8934','42','cash');
+VALUES ('74','42','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5348','44','card');
+VALUES ('75','44','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6267','49','card');
+VALUES ('76','49','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3120','34','cash');
+VALUES ('77','34','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8161','43','cash');
+VALUES ('78','43','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9753','32','cash');
+VALUES ('79','32','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4068','40','card');
+VALUES ('80','40','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8929','85','card');
+VALUES ('81','85','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2600','76','card');
+VALUES ('82','76','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7923','97','cash');
+VALUES ('83','97','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7045','73','card');
+VALUES ('84','73','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5790','68','card');
+VALUES ('85','68','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7340','51','cash');
+VALUES ('86','51','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9388','66','cash');
+VALUES ('87','66','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9895','63','cash');
+VALUES ('88','63','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2763','61','card');
+VALUES ('89','61','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3124','99','card');
+VALUES ('90','99','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8785','35','card');
+VALUES ('91','35','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8550','32','cash');
+VALUES ('92','32','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7873','97','card');
+VALUES ('93','97','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2791','84','card');
+VALUES ('94','84','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2866','78','cash');
+VALUES ('95','78','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7623','62','cash');
+VALUES ('96','62','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8958','30','cash');
+VALUES ('97','30','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2153','49','card');
+VALUES ('98','49','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6739','68','card');
+VALUES ('99','68','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7626','98','card');
+VALUES ('100','98','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7892','50','cash');
+VALUES ('101','50','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3077','94','card');
+VALUES ('102','94','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2643','62','card');
+VALUES ('103','62','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3922','65','cash');
+VALUES ('104','65','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3277','40','cash');
+VALUES ('105','40','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8702','91','cash');
+VALUES ('106','91','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9831','98','card');
+VALUES ('107','98','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9692','30','card');
+VALUES ('108','30','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3303','83','card');
+VALUES ('109','83','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2940','32','cash');
+VALUES ('110','32','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3525','146','card');
+VALUES ('111','146','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5513','255','card');
+VALUES ('112','255','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5650','92','cash');
+VALUES ('113','92','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3145','113','cash');
+VALUES ('114','113','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3756','206','cash');
+VALUES ('115','206','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2677','123','card');
+VALUES ('116','123','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9950','194','card');
+VALUES ('117','194','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3354','222','card');
+VALUES ('118','222','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1739','132','cash');
+VALUES ('119','132','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5018','103','card');
+VALUES ('120','103','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5252','86','card');
+VALUES ('121','86','card');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4980','59','cash');
+VALUES ('122','59','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3481','190','cash');
+VALUES ('123','190','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4953','264','cash');
+VALUES ('124','264','cash');
 INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7403','161','card');
+VALUES ('125','161','card');
 USE ehotels;
 INSERT INTO Reserves (IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
 VALUES ('1750890924','08/05/18','yes','13/05/18','131296');
