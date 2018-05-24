@@ -58,7 +58,7 @@
      DELETE FROM Hotels WHERE Hotel_ID = ?
      <sql:param value = "${hotel_id}" />
   </sql:update>
-
+<% response.sendRedirect("managehotels.jsp"); %>
 
 </body>
 </html>
