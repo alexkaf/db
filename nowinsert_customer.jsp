@@ -41,8 +41,8 @@
     if(rs1.next()){
       if(rs1.getString("IRS_Number").equals(irs1)){
         response.sendRedirect("error.html");
-
       }
+    }
       else{
         Class.forName("com.mysql.jdbc.Driver");
         String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
@@ -173,8 +173,6 @@
           int i = prpstmt.executeUpdate(query);
           response.sendRedirect("nowbookform.jsp?booknow_city=" + request.getParameter("booknow_city"));
       }
-    }
-
   }
   else {
       response.sendRedirect("error.html");
