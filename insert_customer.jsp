@@ -27,7 +27,7 @@
   Class.forName("com.mysql.jdbc.Driver");
   String url1 ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
   String insert1 = "SELECT IRS_Number FROM Customers WHERE IRS_Number=";
-
+  int flag1=0;
   int counter1 = 0;
   Connection conn1 = DriverManager.getConnection(url1,"ehotels", "abcd");
   Statement stmt1 = conn1.createStatement();
@@ -37,143 +37,149 @@
   if(irs1.length() <= 10){
     insert1 = insert1 + irs1 ;
     ResultSet rs1 = stmt1.executeQuery(insert1);
-    rs1.next();
+
     if(rs1.next()){
       if(rs1.getString("IRS_Number").equals(irs1)){
-        response.sendRedirect("error.jsp");
-      }
-    }
-    Class.forName("com.mysql.jdbc.Driver");
-    String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-    String insert = "INSERT IGNORE INTO Customers";
-    String attr = "";
-    String val = "";
-    int counter = 0;
-    int flag = 0;
-    Connection conn = DriverManager.getConnection(url,"ehotels", "abcd");
-    Statement stmt = conn.createStatement();
-    String irs = request.getParameter("irs_number");
-    String ssn = request.getParameter("ssn");
-    String first_name = request.getParameter("first_name");
-    String last_name = request.getParameter("last_name");
-    String city = request.getParameter("city");
-    String street = request.getParameter("street");
-    String number = request.getParameter("number");
-    String postal_code = request.getParameter("postal_code");
-    // IRS_Number
-    if(irs.length() <= 10){
-      if(counter == 0){
-        attr = attr + " (IRS_Number";
-        val = val + "(\'" + irs + "\'";
-        counter = counter + 1;
-      }else{
-        attr = attr + ",IRS_Number";
-        val = val + ",\'" + irs + "\'";
-      }
-    }else{
-      flag = 1;
-    }
-    if(ssn.length() <= 10){
-      if(counter == 0){
-        attr = attr + " (Social_Security_Number";
-        val = val + "(\'" + ssn + "\'";
-        counter = counter + 1;
-      }else{
-        attr = attr + ",Social_Security_Number";
-        val = val + ",\'" + ssn + "\'";
-      }
-    }else{
-      flag = 1;
-    }
-    if(first_name.length() <= 20){
-      if(counter == 0){
-        attr = attr + " (First_Name";
-        val = val + "(\'" + first_name + "\'";
-        counter = counter + 1;
-      }else{
-        attr = attr + ",First_Name";
-        val = val + ",\'" + first_name + "\'";
-      }
-    }else{
-      flag = 1;
-    }
-    if(last_name.length() <= 25){
-      if(counter == 0){
-        attr = attr + " (Last_Name";
-        val = val + "(\'" + last_name + "\'";
-      }else{
-        attr = attr + ",Last_Name";
-        val = val + ",\'" + last_name + "\'";
-      }
-    }else{
-      flag = 1;
-    }
-    if(street.length() <= 25 && street.length() != 0){
-      if(counter == 0){
-        attr = attr + " (Street";
-        val = val + "(\'" + street + "\'";
-        counter = counter + 1;
-      }else{
-        attr = attr + ",Street";
-        val = val + ",\'" + street + "\'";
-      }
-    }else{
-      flag = 1;
-    }
-    if(number.length() <= 3 && number.length() != 0){
-      if(counter == 0){
-        attr = attr + " (Number";
-        val = val + "(\'" + number + "\'";
-        counter = counter + 1;
-      }else{
-        attr = attr + ",Number";
-        val = val + ",\'" + number + "\'";
-      }
-    }else{
-      flag = 1;
-    }
-    if(postal_code.length() <= 5 && postal_code.length() != 0){
-      if(counter == 0){
-        attr = attr + " (Postal_Code";
-        val = val + "(\'" + postal_code + "\'";
-        counter = counter + 1;
-      }else{
-        attr = attr + ",Postal_Code";
-        val = val + ",\'" + postal_code + "\'";
-      }
-    }else{
-      flag = 1;
-    }
-    if(city.length() <= 25 && city.length() != 0){
-      if(counter == 0){
-        attr = attr + " (City";
-        val = val + "(\'" + city + "\'";
-        counter = counter + 1;
-      }else{
-        attr = attr + ",City";
-        val = val + ",\'" + city + "\'";
-      }
-    }else{
-      flag = 1;
-    }
+        response.sendRedirect("error.html");
 
-    attr = attr+",First_Registration";
-    val = val+",(SELECT CURDATE())";
+      }
+      else{
+        Class.forName("com.mysql.jdbc.Driver");
+        String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+        String insert = "INSERT IGNORE INTO Customers";
+        String attr = "";
+        String val = "";
+        int counter = 0;
+        int flag = 0;
+        Connection conn = DriverManager.getConnection(url,"ehotels", "abcd");
+        Statement stmt = conn.createStatement();
+        String irs = request.getParameter("irs_number");
+        String ssn = request.getParameter("ssn");
+        String first_name = request.getParameter("first_name");
+        String last_name = request.getParameter("last_name");
+        String city = request.getParameter("city");
+        String street = request.getParameter("street");
+        String number = request.getParameter("number");
+        String postal_code = request.getParameter("postal_code");
+        // IRS_Number
 
+        if(irs.length() <= 10){
+          if(counter == 0){
+            attr = attr + " (IRS_Number";
+            val = val + "(\'" + irs + "\'";
+            counter = counter + 1;
+          }else{
+            attr = attr + ",IRS_Number";
+            val = val + ",\'" + irs + "\'";
+          }
+          }else{
+            flag = 1;
+          }
+          if(ssn.length() <= 10){
+            if(counter == 0){
+              attr = attr + " (Social_Security_Number";
+              val = val + "(\'" + ssn + "\'";
+              counter = counter + 1;
+            }else{
+              attr = attr + ",Social_Security_Number";
+              val = val + ",\'" + ssn + "\'";
+            }
+          }else{
+            flag = 1;
+          }
+          if(first_name.length() <= 20){
+            if(counter == 0){
+              attr = attr + " (First_Name";
+              val = val + "(\'" + first_name + "\'";
+              counter = counter + 1;
+            }else{
+              attr = attr + ",First_Name";
+              val = val + ",\'" + first_name + "\'";
+            }
+          }else{
+            flag = 1;
+          }
+          if(last_name.length() <= 25){
+            if(counter == 0){
+              attr = attr + " (Last_Name";
+              val = val + "(\'" + last_name + "\'";
+            }else{
+              attr = attr + ",Last_Name";
+              val = val + ",\'" + last_name + "\'";
+            }
+          }else{
+            flag = 1;
+          }
+          if(street.length() <= 25 && street.length() != 0){
+            if(counter == 0){
+              attr = attr + " (Street";
+              val = val + "(\'" + street + "\'";
+              counter = counter + 1;
+            }else{
+              attr = attr + ",Street";
+              val = val + ",\'" + street + "\'";
+            }
+          }else{
+            flag = 1;
+          }
+          if(number.length() <= 3 && number.length() != 0){
+            if(counter == 0){
+              attr = attr + " (Number";
+              val = val + "(\'" + number + "\'";
+              counter = counter + 1;
+            }else{
+              attr = attr + ",Number";
+              val = val + ",\'" + number + "\'";
+            }
+          }else{
+            flag = 1;
+          }
+          if(postal_code.length() <= 5 && postal_code.length() != 0){
+            if(counter == 0){
+              attr = attr + " (Postal_Code";
+              val = val + "(\'" + postal_code + "\'";
+              counter = counter + 1;
+            }else{
+              attr = attr + ",Postal_Code";
+              val = val + ",\'" + postal_code + "\'";
+            }
+          }else{
+            flag = 1;
+          }
+          if(city.length() <= 25 && city.length() != 0){
+            if(counter == 0){
+              attr = attr + " (City";
+              val = val + "(\'" + city + "\'";
+              counter = counter + 1;
+            }else{
+              attr = attr + ",City";
+              val = val + ",\'" + city + "\'";
+            }
+          }else{
+            flag = 1;
+          }
 
-    String query = "";
-    if(!val.equals("")){
-      query = insert + attr + ")" + " VALUES " + val + ")";
-    }
+          attr = attr+",First_Registration";
+          val = val+",(SELECT CURDATE())";
 
 
-    PreparedStatement prpstmt = conn.prepareStatement(query);
-    int i = prpstmt.executeUpdate(query);
-    response.sendRedirect("newbookform.html");
+          String query = "";
+          if(!val.equals("")){
+            query = insert + attr + ")" + " VALUES " + val + ")";
+          }
+
+
+          PreparedStatement prpstmt = conn.prepareStatement(query);
+          int i = prpstmt.executeUpdate(query);
+          response.sendRedirect("newbookform.html");
+      }
+    }
+
   }
-  else if(irs1.length() > 10){
+  else {
       response.sendRedirect("error.html");
   }
+
 %>
 
 
