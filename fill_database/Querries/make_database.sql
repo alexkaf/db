@@ -106,7 +106,7 @@ CREATE TABLE Payment_Transaction (
 
 DROP TABLE IF EXISTS Reserves;
 CREATE TABLE Reserves(
-    Room_ID MEDIUMINT(5) NOT NULL AUTO_INCREMENT,
+    Room_ID MEDIUMINT(5) NOT NULL,
     IRS_Number BIGINT(10) NOT NULL,
     Start_Date DATE NOT NULL,
     Paid VARCHAR(3),

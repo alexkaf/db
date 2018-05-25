@@ -29,7 +29,7 @@ String to_date = request.getParameter("to_date");
 String Paid = request.getParameter("Paid");
 
 
-String query = " INSERT IGNORE INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID) VALUES ("+"\'"+Room_ID+"\'"+","+"\'"+IRS_Number+"\'"+","+"\'"+from_date+"\'"+","+"\'"+Paid+"\'"+
+String query = " INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID) VALUES ("+"\'"+Room_ID+"\'"+","+"\'"+IRS_Number+"\'"+","+"\'"+from_date+"\'"+","+"\'"+Paid+"\'"+
 ","+"\'"+to_date+"\'"+","+"\'"+Hotel_ID+"\'"+")";
 
 PreparedStatement prpstmt = conn.prepareStatement(query);

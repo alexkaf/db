@@ -54,7 +54,7 @@
             <input type="hidden" name="start" value="${hotel.Start_Date}">
             <input type="hidden" name="fin" value="${hotel.Finish_Date}">
             <input type="hidden" name="emp_IRS" value="${sessionScope.irs_emp}">
-            <input type="hidden" name="pay" value="Cash">
+            <input type="hidden" name="pay" value="cash">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
           <form method="GET" action="approverent.jsp">
@@ -63,7 +63,7 @@
             <input type="hidden" name="start" value="${hotel.Start_Date}">
             <input type="hidden" name="fin" value="${hotel.Finish_Date}">
             <input type="hidden" name="emp_IRS" value="${sessionScope.irs_emp}">
-            <input type="hidden" name="pay" values="Card">
+            <input type="hidden" name="pay" value="card">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
         </tr>
