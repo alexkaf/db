@@ -24,6 +24,7 @@
         <li><label>IRS Number<span class="required">*</span></label><input type="text" name="irs" value="" placeholder="IRS Number" required/>&nbsp;</li>
         <li><label>Social Security Number<span class="required">*</span></label><input type="text" name="ssn" value="" placeholder="Social Security Number" required/>&nbsp;</li>
         <li><label>Full Name <span class="required">*</span></label><input type="text" name="first_name" value="" class="field-divided" placeholder="First Name" required />&nbsp;<input type="text" name="last_name" value="" class="field-divided" placeholder="Last Name" required /></li>
+        <li><label>Works At Hotel<span class="required">*</span></label><input type="text" name="works_at" value="" placeholder="works_at" required/>&nbsp;</li>
         <li>
             <label>City</label>
             <input type="text" name="city" value="" class="field-long" placeholder="City" />
