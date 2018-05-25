@@ -22,7 +22,7 @@
   <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver" url = "jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" user = "ehotels"  password = "abcd"/>
 
   <sql:query dataSource = "${snapshot}" var = "result">
-    SELECT R.Room_ID,C.Last_Name,C.First_Name,C.IRS_Number,R.Start_Date,R.Finish_Date
+    SELECT R.Room_ID,C.Last_Name,C.First_Name,C.IRS_Number,R.Start_Date,R.Finish_Date,Reservation_ID
     FROM Reserves as R,Customers as C
     WHERE C.IRS_Number = R.IRS_Number
     ORDER BY Last_Name
@@ -55,6 +55,7 @@
             <input type="hidden" name="fin" value="${hotel.Finish_Date}">
             <input type="hidden" name="emp_IRS" value="${sessionScope.irs_emp}">
             <input type="hidden" name="pay" value="cash">
+            <input type="hidden" name="id" value="${hotel.Reservation_ID}">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
           <form method="GET" action="approverent.jsp">
@@ -64,6 +65,7 @@
             <input type="hidden" name="fin" value="${hotel.Finish_Date}">
             <input type="hidden" name="emp_IRS" value="${sessionScope.irs_emp}">
             <input type="hidden" name="pay" value="card">
+            <input type="hidden" name="id" value="${hotel.Reservation_ID}">
             <td class="but"><input type="submit" class="submit-emp" value=""></td>
           </form>
         </tr>

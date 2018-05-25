@@ -138,16 +138,26 @@ CREATE TABLE Logins(
     Password MEDIUMINT(6) NOT NULL,
     PRIMARY KEY (User_Name));
 
-CREATE VIEW Room_Today AS
-SELECT  Hotels.City,COUNT(Hotel_Room.Room_ID) AS Rooms_Number
-FROM ((Hotel_Room
-INNER JOIN Hotels ON Hotels.Hotel_ID=Hotel_Room.Hotel_ID)
-INNER JOIN Reserves ON Reserves.Hotel_ID=Hotel_Room.Hotel_ID AND Reserves.Room_ID=Hotel_Room.Room_ID )
-WHERE (SELECT CURDATE()) NOT BETWEEN Reserves.Start_Date AND Reserves.Finish_Date
-GROUP BY Hotels.City
-ORDER BY COUNT(Hotel_Room.Room_ID) DESC;
-
-
 CREATE VIEW Capacity AS
 SELECT Room_ID,Hotel_ID,Capacity
 FROM Hotel_Room;
+
+CREATE VIEW Room_Today AS
+SELECT H.City,COUNT(HR.Room_ID)
+FROM Hotel_Room as HR, Hotels as H
+WHERE HR.Room_ID NOT IN (
+    SELECT R.Room_ID
+    FROM Reserves as R
+    WHERE(
+        (SELECT CURDATE()) BETWEEN R.Start_Date AND R.Finish_Date
+    )
+    )
+    AND HR.Room_ID NOT IN (
+        SELECT R.Room_ID
+        FROM Rents as R
+        WHERE(
+            (SELECT CURDATE()) BETWEEN R.Start_Date AND R.Finish_Date
+            )
+    ) AND HR.Hotel_ID = H.Hotel_ID
+GROUP BY H.City
+ORDER BY COUNT(HR.Room_ID) DESC;
