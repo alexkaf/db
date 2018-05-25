@@ -613,256 +613,256 @@ VALUES ('127389','ehotel5_naxos2@hotmail.com','2187654890','5','5','Aiolou','76'
 INSERT INTO Hotels (Hotel_ID,Email,Phone_Number,Stars,Number_Of_Rooms,Street,Number,Postal_Code,City)
 VALUES ('123890','ehotel5_nauplio@hotmail.com','2890738490','4','5','Fleming','35','12345','Nauplio');
 USE ehotels;
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10001','none','extra beds','sea','1','fridge,tv,air condition','35','131296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10002','broken door','extra beds','none','2','fridge,tv,air condition','30','131296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10003','no wifi','no','none','3','fridge,tv,air condition','25','131296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10004','none','extra beds','sea','4','fridge,tv,air condition','40','131296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10005','none','no','sea','5','fridge,tv,air condition','20','131296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10006','broken chair','no','none','1','fridge,tv,air condition','20','130796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10007','none','extra beds','none','2','fridge,tv,air condition','25','130796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10008','broken window','extra beds','sea','3','fridge,tv,air condition','30','130796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10009','none','extra beds','none','4','fridge,tv,air condition','40','130796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10010','no wifi','no','none','5','fridge,tv,air condition','45','130796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10011','none','no','sea','1','fridge,tv,air condition','19','130296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10012','broken sink','extra room','sea','2','fridge,tv,air condition','25','130296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10013','none','extra beds','sea','3','fridge,tv,air condition','35','130296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10014','none','extra beds','none','4','fridge,tv,air condition','40','130296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10015','broken tv','no','sea','5','fridge,tv,air condition','40','130296');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10016','no wifi','no','sea','1','fridge,tv,air condition','20','130896');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10017','none','no','none','2','fridge,tv,air condition','25','130896');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10018','broken chair','extra beds','sea','3','fridge,tv,air condition','30','130896');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10019','no wifi','no','sea','4','fridge,tv,air condition','35','130896');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10020','none','no','sea','5','fridge,tv,air condition','40','130896');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10021','broken sink','extra beds','none','1','fridge,tv,air condition','15','130455');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10022','broken window','extra beds','sea','2','fridge,tv,air condition','20','130455');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10023','none','extra beds','none','3','fridge,tv,air condition','25','130455');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10024','broken chair','no','none','4','fridge,tv,air condition','30','130455');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10025','no wifi','no','none','5','fridge,tv,air condition','35','130455');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10026','none','extra beds','sea','1','fridge,tv,air condition','18','170796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10027','none','no','none','2','fridge,tv,air condition','25','170796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10028','broken window','no','none','3','fridge,tv,air condition','30','170796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10029','broken chair','no','none','4','fridge,tv,air condition','35','170796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10030','no wifi','extra beds','sea','5','fridge,tv,air condition','45','170796');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10031','none','no','sea','1','fridge,tv,air condition','20','170989');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10032','none','extra beds','sea','2','fridge,air condition','25','170989');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10033','broken tv','extra beds','none','3','fridge,tv,air condition','30','170989');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10034','none','no','none','4','fridge,tv,air condition','35','170989');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10035','none','extra room','sea','5','fridge,tv,air condition','40','170989');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10036','no wifi','extra beds','sea','1','fridge,tv,air condition','15','175467');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10037','broken chair','extra beds','none','2','fridge,tv,air condition','20','175467');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10038','none','no','sea','3','fridge,tv,air condition','25','175467');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10039','broken chair','extra beds','sea','4','fridge,tv,air condition','30','175467');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10040','none','no','sea','5','fridge,tv,air condition','35','175467');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10041','broken chair','extra beds','none','1','fridge,tv,air condition','15','175463');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10042','no wifi','extra beds','none','2','fridge,tv,air condition','20','175463');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10043','none','extra beds','sea','3','fridge,tv,air condition','25','175463');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10044','none','no','none','4','fridge,tv,air condition','30','175463');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10045','no wifi','no','none','5','fridge,tv,air condition','40','175463');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10046','broken window','extra beds','sea','1','fridge,tv,air condition','15','174890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10047','broken tv','extra beds','sea','2','fridge,tv,air condition','20','174890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10048','broken chair','extra beds','none','3','fridge,tv,air condition','30','174890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10049','no wifi','extra beds','none','4','fridge,tv,air condition','35','174890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10050','none','no','none','5','fridge,tv,air condition','40','174890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10051','no wifi','extra room','sea','1','fridge,tv,air condition','15','168867');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10052','broken chair','no','sea','2','fridge,tv,air condition','20','168867');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10053','none','extra beds','none','3','fridge,tv,air condition','30','168867');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10054','broken sink','extra beds','none','4','fridge,tv,air condition','35','168867');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10055','none','no','sea','5','fridge,tv,air condition','40','168867');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10056','none','no','sea','1','fridge,tv,air condition','18','167834');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10057','broken chair','extra beds','none','2','fridge,tv,air condition','25','167834');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10058','none','extra beds','none','3','fridge,tv,air condition','30','167834');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10059','no wifi','no','sea','4','fridge,tv,air condition','35','167834');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10060','broken chair','extra beds','sea','5','fridge,tv,air condition','40','167834');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10061','no wifi','no','sea','1','fridge,tv,air condition','45','164356');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10062','broken chair','no','sea','2','fridge,tv,air condition','50','164356');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10063','none','no','sea','3','fridge,tv,air condition','55','164356');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10064','none','extra beds','none','4','fridge,tv,air condition','60','164356');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10065','broken chair','no','sea','5','fridge,tv,air condition','65','164356');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10066','none','no','sea','5','fridge,tv,air condition','35','163589');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10067','none','extra beds','sea','1','fridge,tv,air condition','15','163589');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10068','broken window','extra beds','none','2','fridge,tv,air condition','25','163589');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10069','none','extra beds','none','3','fridge,tv,air condition','30','163589');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10070','broken chair','no','none','4','fridge,tv,air condition','35','163589');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10071','none','extra beds','sea','5','fridge,tv,air condition','45','163290');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10072','broken chair','extra beds','sea','1','fridge,tv,air condition','20','163290');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('11075','broken chair','extra beds','none','2','fridge,tv,air condition','25','163290');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10073','broken sink','no','none','3','fridge,tv,air condition','35','163290');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10074','none','no','none','4','fridge,tv,air condition','40','163290');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10075','broken tv','extra beds','sea','5','fridge,tv,air condition','45','189067');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10076','broken chair','extra beds','sea','1','fridge,tv,air condition','15','189067');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10077','broken sink','no','none','2','fridge,tv,air condition','20','189067');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10078','none','no','none','3','fridge,tv,air condition','25','189067');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10079','broken chair','extra room','sea','4','fridge,tv,air condition','35','189067');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10080','none','extra beds','sea','5','fridge,tv,air condition','40','187635');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10081','broken chair','no','none','1','fridge,tv,air condition','15','187635');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10082','none','no','none','2','fridge,tv,air condition','25','187635');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10083','broken chair','extra beds','sea','3','fridge,tv,air condition','30','187635');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10084','broken window','extra beds','sea','4','fridge,tv,air condition','45','187635');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10085','broken chair','no','none','5','fridge,tv,air condition','45','185438');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10086','none','no','sea','1','fridge,tv,air condition','20','185438');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10087','broken sink','extra beds','sea','2','fridge,tv,air condition','25','185438');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10088','none','extra beds','none','3','fridge,tv,air condition','35','185438');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10089','none','no','none','4','fridge,tv,air condition','45','185438');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10090','broken window','extra beds','sea','5','fridge,tv,air condition','50','189076');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10091','broken pipe','extra beds','sea','1','fridge,tv,air condition','15','189076');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10092','none','no','sea','2','fridge,tv,air condition','25','189076');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
 VALUES ('10093','none','extra beds','none','3','fridge,tv,air condition','35','189076');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10095','broken sink','extra beds','sea','4','fridge,tv,air condition','45','189076');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10096','none','no','sea','5','fridge,tv,air condition','50','187634');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10097','broken sink','extra beds','none','1','fridge,tv,air condition','25','187634');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10098','broken window','extra beds','none','2','fridge,tv,air condition','35','187634');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10099','none','no','sea','3','fridge,tv,air condition','45','187634');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10100','broken window','no','sea','4','fridge,tv,air condition','55','187634');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10101','none','no','sea','5','fridge,tv,air condition','65','127836');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10102','none','no','sea','1','fridge,tv,air condition','15','127836');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10103','broken chair','extra beds','none','2','fridge,tv,air condition','25','127836');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10104','none','no','sea','3','fridge,tv,air condition','35','127836');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10105','none','extra beds','sea','4','fridge,tv,air condition','45','127836');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10106','broken tv','extra beds','none','5','fridge,tv,air condition','65','126739');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10107','none','no','none','1','fridge,tv,air condition','15','126739');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10108','none','extra room','sea','2','fridge,tv,air condition','25','126739');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10109','broken window','extra beds','sea','3','fridge,tv,air condition','35','126739');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10110','none','extra room','none','4','fridge,tv,air condition','45','126739');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10111','none','no','sea','5','fridge,tv,air condition','55','127093');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10112','none','no','sea','1','fridge,tv,air condition','15','127093');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10113','none','extra beds','sea','2','fridge,tv,air condition','25','127093');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10114','broken chair','extra beds','sea','3','fridge,tv,air condition','35','127093');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10115','broken window','extra room','none','4','fridge,tv,air condition','45','127093');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10116','broken sink','extra beds','none','5','fridge,tv,air condition','55','127389');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10117','none','no','sea','1','fridge,tv,air condition','15','127389');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10118','none','no','sea','2','fridge,tv,air condition','25','127389');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10119','broken chair','extra beds','none','3','fridge,tv,air condition','35','127389');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10120','none','no','sea','4','fridge,tv,air condition','45','127389');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10121','broken chair','no','sea','5','fridge,tv,air condition','55','123890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10122','none','extra beds','none','1','fridge,tv,air condition','15','123890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10123','broken pipe','extra beds','sea','2','fridge,tv,air condition','25','123890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10124','broken window','no','sea','3','fridge,tv,air condition','35','123890');
-INSERT INTO Hotel_Room (Room_id,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
-VALUES ('10125','none','no','sea','4','fridge,tv,air condition','45','123890');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10094','broken sink','extra beds','sea','4','fridge,tv,air condition','45','189076');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10095','none','no','sea','5','fridge,tv,air condition','50','187634');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10096','broken sink','extra beds','none','1','fridge,tv,air condition','25','187634');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10097','broken window','extra beds','none','2','fridge,tv,air condition','35','187634');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10098','none','no','sea','3','fridge,tv,air condition','45','187634');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10099','broken window','no','sea','4','fridge,tv,air condition','55','187634');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10100','none','no','sea','5','fridge,tv,air condition','65','127836');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10101','none','no','sea','1','fridge,tv,air condition','15','127836');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10102','broken chair','extra beds','none','2','fridge,tv,air condition','25','127836');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10103','none','no','sea','3','fridge,tv,air condition','35','127836');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10104','none','extra beds','sea','4','fridge,tv,air condition','45','127836');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10105','broken tv','extra beds','none','5','fridge,tv,air condition','65','126739');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10106','none','no','none','1','fridge,tv,air condition','15','126739');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10107','none','extra room','sea','2','fridge,tv,air condition','25','126739');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10108','broken window','extra beds','sea','3','fridge,tv,air condition','35','126739');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10109','none','extra room','none','4','fridge,tv,air condition','45','126739');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10110','none','no','sea','5','fridge,tv,air condition','55','127093');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10111','none','no','sea','1','fridge,tv,air condition','15','127093');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10112','none','extra beds','sea','2','fridge,tv,air condition','25','127093');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10113','broken chair','extra beds','sea','3','fridge,tv,air condition','35','127093');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10114','broken window','extra room','none','4','fridge,tv,air condition','45','127093');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10115','broken sink','extra beds','none','5','fridge,tv,air condition','55','127389');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10116','none','no','sea','1','fridge,tv,air condition','15','127389');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10117','none','no','sea','2','fridge,tv,air condition','25','127389');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10118','broken chair','extra beds','none','3','fridge,tv,air condition','35','127389');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10119','none','no','sea','4','fridge,tv,air condition','45','127389');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10120','broken chair','no','sea','5','fridge,tv,air condition','55','123890');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10121','none','extra beds','none','1','fridge,tv,air condition','15','123890');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10122','broken pipe','extra beds','sea','2','fridge,tv,air condition','25','123890');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10123','broken window','no','sea','3','fridge,tv,air condition','35','123890');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10124','none','no','sea','4','fridge,tv,air condition','45','123890');
+INSERT INTO Hotel_Room (Room_ID,Repairs_need,Expandable,View,Capacity,Amenities,Price,Hotel_ID)
+VALUES ('10125','broken chair','extra beds','none','2','fridge,tv,air condition','25','163290');
 USE ehotels;
 INSERT INTO Has_Hotels (Hotel_group_ID,Hotel_ID)
 VALUES ('13000','131296');
@@ -915,710 +915,412 @@ VALUES ('12000','127389');
 INSERT INTO Has_Hotels (Hotel_group_ID,Hotel_ID)
 VALUES ('12000','123890');
 USE ehotels;
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1324341904','1750890924','10001','2018-05-27','2018-06-01','3088');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8906789549','1587855266','10002','2018-05-30','2018-06-11','4699');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4324211134','1953990713','10003','2018-05-24','2018-06-12','3333');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9056793445','1474592513','10004','2018-05-24','2018-06-14','5788');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('6509405633','1646254310','10005','2018-05-23','2018-06-07','1904');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8954930543','1102543023','10006','2018-05-25','2018-06-04','6704');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4593353435','1671659129','10007','2018-05-25','2018-06-06','4284');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5353534534','1041389314','10008','2018-05-20','2018-06-09','4566');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9345345345','1679695968','10009','2018-05-24','2018-06-12','1532');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5345353245','1781174254','10010','2018-05-30','2018-06-05','1802');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5634653425','1488864030','10011','2018-05-20','2018-06-11','9712');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8543935222','1426266251','10012','2018-05-22','2018-06-13','2234');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5345453535','1668826498','10013','2018-05-22','2018-06-07','7299');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5345345345','1068671487','10014','2018-05-26','2018-06-08','6820');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2343241241','1996432928','10015','2018-05-23','2018-06-04','9267');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5543534532','1733976305','10016','2018-05-20','2018-06-07','2887');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4532424432','1164265015','10017','2018-05-24','2018-06-02','2207');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4234241454','1730747575','10018','2018-05-27','2018-06-10','2201');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8967492394','1919299912','10019','2018-05-22','2018-06-01','7051');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9019341343','1593009679','10020','2018-05-25','2018-06-15','6362');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5245035412','1953910624','10021','2018-05-22','2018-06-03','5876');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1459105403','1178081646','10022','2018-05-27','2018-06-14','4837');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4305438932','1110271866','10023','2018-05-28','2018-06-08','5701');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4043592541','2021684517','10024','2018-05-21','2018-06-01','8411');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7803245914','2073995489','10025','2018-05-24','2018-06-08','8731');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9094527845','1992667871','10026','2018-05-27','2018-06-06','1347');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8034572534','1074807521','10027','2018-05-25','2018-06-07','5236');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2012441134','1001142427','10028','2018-05-20','2018-06-15','7091');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5435345094','2095857460','10029','2018-05-20','2018-06-03','1869');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5680923412','1101477222','10030','2018-05-23','2018-06-11','2445');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1110043344','1049367104','10031','2018-05-26','2018-06-01','4126');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2200043224','1447587418','10032','2018-05-23','2018-06-15','3745');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5423500000','1162239467','10033','2018-05-28','2018-06-07','1486');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('6900000013','2086250509','10034','2018-05-26','2018-06-05','6863');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('6570000031','1575492804','10035','2018-05-29','2018-06-11','5667');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3424210011','1587383018','10036','2018-05-26','2018-06-14','5271');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4532412001','1688595397','10037','2018-05-22','2018-06-15','9913');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5434520001','2107960340','10038','2018-05-29','2018-06-13','1179');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5432543001','1340522738','10039','2018-05-26','2018-06-06','7943');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5234145199','1472870585','10040','2018-05-29','2018-06-03','4162');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4546778099','1449291387','10041','2018-05-20','2018-06-11','4416');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3340094311','1348888294','10042','2018-05-25','2018-06-08','7271');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4324510001','1706995096','10043','2018-05-28','2018-06-08','7774');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5452089054','1167921104','10044','2018-05-21','2018-06-05','8666');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5430004524','1962491402','10045','2018-05-25','2018-06-08','2076');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5445990090','1010090014','10046','2018-05-26','2018-06-07','1837');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5400099090','2000715258','10047','2018-05-22','2018-06-12','2286');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5788934591','1650778156','10048','2018-05-21','2018-06-07','4609');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5499009541','1021520201','10049','2018-05-21','2018-06-06','3295');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5490089094','1295177073','10050','2018-05-21','2018-06-02','5878');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5482924022','1217711039','10051','2018-05-30','2018-06-10','3714');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5490924302','1520563807','10052','2018-05-25','2018-06-11','2239');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8909894312','1177060000','10053','2018-05-29','2018-06-11','3255');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9076520422','1278556694','10054','2018-05-27','2018-06-10','3988');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8459202122','1478629312','10055','2018-05-24','2018-06-11','4349');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2034589230','1200604182','10056','2018-05-24','2018-06-12','2279');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5439345232','1245917498','10057','2018-05-27','2018-06-11','6690');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4532453215','1668372365','10058','2018-05-30','2018-06-14','5803');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4903451212','1158003293','10059','2018-05-24','2018-06-11','8378');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5321200945','1263889086','10060','2018-05-23','2018-06-15','4862');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5678901411','1289404710','10061','2018-05-22','2018-06-11','7648');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5439253458','1246544942','10062','2018-05-20','2018-06-12','4745');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5347814902','1159520070','10063','2018-05-25','2018-06-15','1666');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5423740744','2039391748','10064','2018-05-24','2018-06-12','8960');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7830221134','2145487797','10065','2018-05-30','2018-06-05','7979');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5435997133','2144732449','10066','2018-05-23','2018-06-01','4543');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5421809453','1655974818','10067','2018-05-24','2018-06-01','3054');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7658099111','1101038683','10068','2018-05-24','2018-06-08','8057');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5637920132','1401274868','10069','2018-05-30','2018-06-07','9634');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5437390132','1772592744','10070','2018-05-22','2018-06-09','9727');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4816461285','1013631295','10071','2018-05-24','2018-06-12','9715');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1232901234','1807779670','10072','2018-05-22','2018-06-02','4554');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8349100334','1657373129','10072','2018-05-24','2018-06-14','9694');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4385934251','1818525548','10073','2018-05-26','2018-06-09','8934');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1144553622','1718941352','10074','2018-05-28','2018-06-02','5348');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8899843022','2118029620','10075','2018-05-24','2018-06-08','6267');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2222689934','1707255553','10076','2018-05-21','2018-06-06','3120');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4327438221','1605057151','10077','2018-05-29','2018-06-08','8161');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4525334513','1847472046','10078','2018-05-29','2018-06-03','9753');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4234234124','1428671072','10079','2018-05-26','2018-06-05','4068');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4521342143','1459849528','10080','2018-05-25','2018-06-02','8929');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3421149113','1814320444','10081','2018-05-25','2018-06-08','2600');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4124890011','1372726643','10082','2018-05-30','2018-06-10','7923');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4332000211','1192242876','10083','2018-05-22','2018-06-02','7045');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3478890012','1122877265','10084','2018-05-20','2018-06-02','5790');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7899000032','1152971838','10085','2018-05-20','2018-06-02','7340');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4909002111','1373416961','10086','2018-05-29','2018-06-03','9388');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4300001134','1310868126','10087','2018-05-28','2018-06-14','9895');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5477900011','1985097509','10088','2018-05-23','2018-06-01','2763');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3422341113','1392147589','10089','2018-05-25','2018-06-12','3124');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4322221478','1252797418','10090','2018-05-24','2018-06-03','8785');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4324211001','1491425690','10091','2018-05-30','2018-06-14','8550');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3131300011','1005983458','10092','2018-05-26','2018-06-06','7873');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4322443111','1360759659','10093','2018-05-29','2018-06-08','2791');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8890045311','1201370884','10095','2018-05-28','2018-06-03','2866');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5747882934','1957555580','10096','2018-05-25','2018-06-04','7623');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4329010134','1244851622','10097','2018-05-30','2018-06-06','8958');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4313400013','1406306092','10098','2018-05-25','2018-06-04','2153');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4538890134','1791375793','10099','2018-05-24','2018-06-12','6739');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4329991343','1849926676','10100','2018-05-25','2018-06-13','7626');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1876733266','1129674939','10101','2018-05-27','2018-06-07','7892');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5843882414','1342397291','10102','2018-05-25','2018-06-05','3077');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2007365636','1872695333','10103','2018-05-22','2018-06-02','2643');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4975313885','1764021063','10104','2018-05-23','2018-06-14','3922');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2239031242','1352919919','10105','2018-05-23','2018-06-13','3277');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4872617592','1868928788','10106','2018-05-26','2018-06-12','8702');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4406883948','1741604366','10107','2018-05-25','2018-06-05','9831');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('8891623374','1692262729','10108','2018-05-24','2018-06-07','9692');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4050430873','1899838541','10109','2018-05-26','2018-06-10','3303');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7101488746','1589452801','10110','2018-05-20','2018-06-15','2940');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1256186394','1656142054','10111','2018-05-30','2018-06-06','3525');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7694727702','1910840933','10112','2018-05-26','2018-06-04','5513');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('4954905679','1484347803','10113','2018-05-24','2018-06-08','5650');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('2187214103','1879861769','10114','2018-05-28','2018-06-01','3145');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9027342157','1596322089','10115','2018-05-22','2018-06-13','3756');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('3843061490','1318742911','10116','2018-05-22','2018-06-03','2677');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1144630805','1563026609','10117','2018-05-24','2018-06-06','9950');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('6375903500','1818826481','10118','2018-05-22','2018-06-11','3354');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5139009028','1749673616','10119','2018-05-24','2018-06-06','1739');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('5542681399','1187114725','10120','2018-05-24','2018-06-14','5018');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9106662131','1620311527','10121','2018-05-27','2018-06-13','5252');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('7418959699','1370850284','10122','2018-05-24','2018-06-01','4980');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('783261758','2118087330','10123','2018-05-23','2018-06-05','3481');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('1514993639','2056330298','10124','2018-05-22','2018-06-07','4953');
-INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_id)
-VALUES ('9882572819','1468110285','10125','2018-05-26','2018-06-11','7403');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('1324341904','1750890924','10001','2018-05-27','2018-06-01','1');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('8906789549','1587855266','10002','2018-05-30','2018-06-11','2');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4324211134','1953990713','10003','2018-05-24','2018-06-12','3');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('9056793445','1474592513','10004','2018-05-24','2018-06-14','4');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('6509405633','1646254310','10005','2018-05-23','2018-06-07','5');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('8954930543','1102543023','10006','2018-05-25','2018-06-04','6');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4593353435','1671659129','10007','2018-05-25','2018-06-06','7');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5353534534','1041389314','10008','2018-05-20','2018-06-09','8');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('9345345345','1679695968','10009','2018-05-24','2018-06-12','9');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5345353245','1781174254','10010','2018-05-30','2018-06-05','10');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5634653425','1488864030','10011','2018-05-20','2018-06-11','11');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('8543935222','1426266251','10012','2018-05-22','2018-06-13','12');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5345453535','1668826498','10013','2018-05-22','2018-06-07','13');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5345345345','1068671487','10014','2018-05-26','2018-06-08','14');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('2343241241','1996432928','10015','2018-05-23','2018-06-04','15');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5543534532','1733976305','10016','2018-05-20','2018-06-07','16');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4532424432','1164265015','10017','2018-05-24','2018-06-02','17');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4234241454','1730747575','10018','2018-05-27','2018-06-10','18');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('8967492394','1919299912','10019','2018-05-22','2018-06-01','19');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('9019341343','1593009679','10020','2018-05-25','2018-06-15','20');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5245035412','1953910624','10021','2018-05-22','2018-06-03','21');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('1459105403','1178081646','10022','2018-05-27','2018-06-14','22');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4305438932','1110271866','10023','2018-05-28','2018-06-08','23');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4043592541','2021684517','10024','2018-05-21','2018-06-01','24');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('7803245914','2073995489','10025','2018-05-24','2018-06-08','25');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('9094527845','1992667871','10026','2018-05-27','2018-06-06','26');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('8034572534','1074807521','10027','2018-05-25','2018-06-07','27');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('2012441134','1001142427','10028','2018-05-20','2018-06-15','28');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5435345094','2095857460','10029','2018-05-20','2018-06-03','29');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5680923412','1101477222','10030','2018-05-23','2018-06-11','30');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('1110043344','1049367104','10031','2018-05-26','2018-06-01','31');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('2200043224','1447587418','10032','2018-05-23','2018-06-15','32');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5423500000','1162239467','10033','2018-05-28','2018-06-07','33');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('6900000013','2086250509','10034','2018-05-26','2018-06-05','34');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('6570000031','1575492804','10035','2018-05-29','2018-06-11','35');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('3424210011','1587383018','10036','2018-05-26','2018-06-14','36');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4532412001','1688595397','10037','2018-05-22','2018-06-15','37');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5434520001','2107960340','10038','2018-05-29','2018-06-13','38');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5432543001','1340522738','10039','2018-05-26','2018-06-06','39');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5234145199','1472870585','10040','2018-05-29','2018-06-03','40');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4546778099','1449291387','10041','2018-05-20','2018-06-11','41');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('3340094311','1348888294','10042','2018-05-25','2018-06-08','42');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4324510001','1706995096','10043','2018-05-28','2018-06-08','43');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5452089054','1167921104','10044','2018-05-21','2018-06-05','44');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5430004524','1962491402','10045','2018-05-25','2018-06-08','45');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5445990090','1010090014','10046','2018-05-26','2018-06-07','46');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5400099090','2000715258','10047','2018-05-22','2018-06-12','47');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5788934591','1650778156','10048','2018-05-21','2018-06-07','48');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5499009541','1021520201','10049','2018-05-21','2018-06-06','49');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5490089094','1295177073','10050','2018-05-21','2018-06-02','50');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5482924022','1217711039','10051','2018-05-30','2018-06-10','51');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5490924302','1520563807','10052','2018-05-25','2018-06-11','52');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('8909894312','1177060000','10053','2018-05-29','2018-06-11','53');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('9076520422','1278556694','10054','2018-05-27','2018-06-10','54');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('8459202122','1478629312','10055','2018-05-24','2018-06-11','55');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('2034589230','1200604182','10056','2018-05-24','2018-06-12','56');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5439345232','1245917498','10057','2018-05-27','2018-06-11','57');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4532453215','1668372365','10058','2018-05-30','2018-06-14','58');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4903451212','1158003293','10059','2018-05-24','2018-06-11','59');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5321200945','1263889086','10060','2018-05-23','2018-06-15','60');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5678901411','1289404710','10061','2018-05-22','2018-06-11','61');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5439253458','1246544942','10062','2018-05-20','2018-06-12','62');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5347814902','1159520070','10063','2018-05-25','2018-06-15','63');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5423740744','2039391748','10064','2018-05-24','2018-06-12','64');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('7830221134','2145487797','10065','2018-05-30','2018-06-05','65');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5435997133','2144732449','10066','2018-05-23','2018-06-01','66');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5421809453','1655974818','10067','2018-05-24','2018-06-01','67');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('7658099111','1101038683','10068','2018-05-24','2018-06-08','68');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5637920132','1401274868','10069','2018-05-30','2018-06-07','69');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5437390132','1772592744','10070','2018-05-22','2018-06-09','70');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4816461285','1013631295','10071','2018-05-24','2018-06-12','71');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('1232901234','1807779670','10072','2018-05-22','2018-06-02','72');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('8349100334','1657373129','10073','2018-05-24','2018-06-14','73');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4385934251','1818525548','10074','2018-05-26','2018-06-09','74');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('1144553622','1718941352','10075','2018-05-28','2018-06-02','75');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('8899843022','2118029620','10076','2018-05-24','2018-06-08','76');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('2222689934','1707255553','10077','2018-05-21','2018-06-06','77');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4327438221','1605057151','10078','2018-05-29','2018-06-08','78');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4525334513','1847472046','10079','2018-05-29','2018-06-03','79');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4234234124','1428671072','10080','2018-05-26','2018-06-05','80');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4521342143','1459849528','10081','2018-05-25','2018-06-02','81');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('3421149113','1814320444','10082','2018-05-25','2018-06-08','82');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4124890011','1372726643','10083','2018-05-30','2018-06-10','83');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4332000211','1192242876','10084','2018-05-22','2018-06-02','84');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('3478890012','1122877265','10085','2018-05-20','2018-06-02','85');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('7899000032','1152971838','10086','2018-05-20','2018-06-02','86');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4909002111','1373416961','10087','2018-05-29','2018-06-03','87');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4300001134','1310868126','10088','2018-05-28','2018-06-14','88');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5477900011','1985097509','10089','2018-05-23','2018-06-01','89');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('3422341113','1392147589','10090','2018-05-25','2018-06-12','90');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4322221478','1252797418','10091','2018-05-24','2018-06-03','91');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4324211001','1491425690','10092','2018-05-30','2018-06-14','92');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('3131300011','1005983458','10093','2018-05-26','2018-06-06','93');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4322443111','1360759659','10094','2018-05-29','2018-06-08','94');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('8890045311','1201370884','10095','2018-05-28','2018-06-03','95');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('5747882934','1957555580','10096','2018-05-25','2018-06-04','96');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4329010134','1244851622','10097','2018-05-30','2018-06-06','97');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4313400013','1406306092','10098','2018-05-25','2018-06-04','98');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4538890134','1791375793','10099','2018-05-24','2018-06-12','99');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('4329991343','1849926676','10100','2018-05-25','2018-06-13','100');
+INSERT INTO Rents (IRS_Number_E,IRS_Number_C,Room_ID,Start_Date,Finish_Date,Payment_ID)
+VALUES ('1876733266','1129674939','10101','2018-05-27','2018-06-07','101');
 USE ehotels;
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3088','185','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4699','299','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3333','158','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5788','107','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1904','380','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6704','383','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4284','222','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4566','163','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1532','42','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1802','231','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9712','31','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2234','215','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7299','196','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6820','135','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9267','363','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2887','137','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2207','92','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2201','308','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7051','45','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6362','136','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5876','265','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4837','391','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5701','316','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8411','229','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8731','290','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1347','266','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5236','382','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7091','199','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1869','379','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2445','397','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4126','50','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3745','188','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1486','130','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6863','41','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5667','112','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5271','145','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9913','139','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1179','68','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7943','108','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4162','54','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4416','187','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7271','98','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7774','73','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8666','94','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2076','145','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1837','179','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2286','113','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4609','86','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3295','191','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5878','99','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3714','195','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2239','60','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3255','122','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3988','127','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4349','78','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2279','145','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6690','130','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5803','110','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8378','147','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4862','49','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7648','36','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4745','38','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1666','26','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8960','50','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7979','39','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4543','34','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3054','47','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8057','28','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9634','40','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9727','30','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9715','26','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4554','25','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9694','33','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8934','42','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5348','44','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6267','49','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3120','34','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8161','43','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9753','32','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4068','40','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8929','85','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2600','76','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7923','97','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7045','73','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5790','68','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7340','51','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9388','66','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9895','63','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2763','61','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3124','99','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8785','35','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8550','32','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7873','97','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2791','84','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2866','78','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7623','62','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8958','30','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2153','49','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('6739','68','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7626','98','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7892','50','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3077','94','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2643','62','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3922','65','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3277','40','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('8702','91','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9831','98','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9692','30','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3303','83','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2940','32','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3525','146','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5513','255','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5650','92','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3145','113','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3756','206','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('2677','123','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('9950','194','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3354','222','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('1739','132','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5018','103','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('5252','86','card');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4980','59','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('3481','190','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('4953','264','cash');
-INSERT INTO Payment_Transaction (Payment_ID,Payment_Amount,Payment_Method)
-VALUES ('7403','161','card');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('185','card','1');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('299','cash','2');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('158','card','3');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('107','card','4');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('380','cash','5');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('383','cash','6');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('222','cash','7');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('163','card','8');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('42','card','9');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('231','card','10');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('31','cash','11');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('215','card','12');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('196','card','13');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('135','cash','14');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('363','cash','15');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('137','cash','16');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('92','card','17');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('308','card','18');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('45','card','19');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('136','cash','20');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('265','card','21');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('391','card','22');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('316','cash','23');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('229','cash','24');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('290','cash','25');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('266','card','26');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('382','card','27');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('199','card','28');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('379','cash','29');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('397','card','30');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('50','card','31');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('188','cash','32');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('130','cash','33');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('41','cash','34');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('112','card','35');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('145','card','36');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('139','card','37');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('68','cash','38');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('108','card','39');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('54','card','40');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('187','cash','41');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('98','cash','42');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('73','cash','43');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('94','card','44');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('145','card','45');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('179','card','46');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('113','cash','47');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('86','card','48');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('191','card','49');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('99','cash','50');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('195','cash','51');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('60','cash','52');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('122','card','53');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('127','card','54');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('78','card','55');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('145','cash','56');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('130','card','57');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('110','card','58');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('147','cash','59');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('49','cash','60');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('36','cash','61');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('38','card','62');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('26','card','63');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('50','card','64');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('39','cash','65');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('34','card','66');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('47','card','67');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('28','cash','68');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('40','cash','69');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('30','cash','70');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('26','card','71');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('25','card','72');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('33','card','73');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('42','cash','74');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('44','card','75');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('49','card','76');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('34','cash','77');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('43','cash','78');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('32','cash','79');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('40','card','80');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('85','card','81');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('76','card','82');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('97','cash','83');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('73','card','84');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('68','card','85');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('51','cash','86');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('66','cash','87');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('63','cash','88');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('61','card','89');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('99','card','90');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('35','card','91');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('32','cash','92');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('97','card','93');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('84','card','94');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('78','cash','95');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('62','cash','96');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('30','cash','97');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('49','card','98');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('68','card','99');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('98','card','100');
+INSERT INTO Payment_Transaction (Payment_Amount,Payment_Method,Payment_ID)
+VALUES ('50','cash','101');
 USE ehotels;
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10001','1750890924','2018-05-27','yes','2018-06-01','131296');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10002','1587855266','2018-05-30','no','2018-06-11','131296');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10003','1953990713','2018-05-24','yes','2018-06-12','131296');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10004','1474592513','2018-05-24','no','2018-06-14','131296');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10005','1646254310','2018-05-23','yes','2018-06-07','131296');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10006','1102543023','2018-05-25','yes','2018-06-04','130796');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10007','1671659129','2018-05-25','no','2018-06-06','130796');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10008','1041389314','2018-05-20','no','2018-06-09','130796');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10009','1679695968','2018-05-24','no','2018-06-12','130796');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10010','1781174254','2018-05-30','yes','2018-06-05','130796');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10011','1488864030','2018-05-20','yes','2018-06-11','130296');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10012','1426266251','2018-05-22','no ','2018-06-13','130296');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10013','1668826498','2018-05-22','no','2018-06-07','130296');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10014','1068671487','2018-05-26','yes','2018-06-08','130296');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10015','1996432928','2018-05-23','yes','2018-06-04','130296');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10016','1733976305','2018-05-20','yes','2018-06-07','130896');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10017','1164265015','2018-05-24','yes','2018-06-02','130896');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10018','1730747575','2018-05-27','yes','2018-06-10','130896');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10019','1919299912','2018-05-22','yes','2018-06-01','130896');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10020','1593009679','2018-05-25','no','2018-06-15','130896');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10021','1953910624','2018-05-22','no','2018-06-03','130455');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10022','1178081646','2018-05-27','yes','2018-06-14','130455');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10023','1110271866','2018-05-28','no','2018-06-08','130455');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10024','2021684517','2018-05-21','yes','2018-06-01','130455');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10025','2073995489','2018-05-24','no','2018-06-08','130455');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10026','1992667871','2018-05-27','yes','2018-06-06','170796');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10027','1074807521','2018-05-25','no','2018-06-07','170796');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10028','1001142427','2018-05-20','yes','2018-06-15','170796');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10029','2095857460','2018-05-20','yes','2018-06-03','170796');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10030','1101477222','2018-05-23','no','2018-06-11','170796');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10031','1049367104','2018-05-26','yes','2018-06-01','170989');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10032','1447587418','2018-05-23','no','2018-06-15','170989');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10033','1162239467','2018-05-28','yes','2018-06-07','170989');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10034','2086250509','2018-05-26','yes','2018-06-05','170989');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10035','1575492804','2018-05-29','no','2018-06-11','170989');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10036','1587383018','2018-05-26','no','2018-06-14','175467');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10037','1688595397','2018-05-22','no','2018-06-15','175467');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10038','2107960340','2018-05-29','yes','2018-06-13','175467');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10039','1340522738','2018-05-26','yes','2018-06-06','175467');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10040','1472870585','2018-05-29','no ','2018-06-03','175467');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10041','1449291387','2018-05-20','no','2018-06-11','175463');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10042','1348888294','2018-05-25','yes','2018-06-08','175463');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10043','1706995096','2018-05-28','yes','2018-06-08','175463');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10044','1167921104','2018-05-21','yes','2018-06-05','175463');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10045','1962491402','2018-05-25','yes','2018-06-08','175463');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10046','1010090014','2018-05-26','yes','2018-06-07','174890');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10047','2000715258','2018-05-22','yes','2018-06-12','174890');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10048','1650778156','2018-05-21','no','2018-06-07','174890');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10049','1021520201','2018-05-21','no','2018-06-06','174890');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10050','1295177073','2018-05-21','yes','2018-06-02','174890');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10051','1217711039','2018-05-30','no','2018-06-10','168867');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10052','1520563807','2018-05-25','yes','2018-06-11','168867');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10053','1177060000','2018-05-29','no','2018-06-11','168867');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10054','1278556694','2018-05-27','yes','2018-06-10','168867');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10055','1478629312','2018-05-24','no','2018-06-11','168867');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10056','1200604182','2018-05-24','yes','2018-06-12','167834');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10057','1245917498','2018-05-27','yes','2018-06-11','167834');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10058','1668372365','2018-05-30','no','2018-06-14','167834');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10059','1158003293','2018-05-24','yes','2018-06-11','167834');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10060','1263889086','2018-05-23','no','2018-06-15','167834');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10061','1289404710','2018-05-22','yes','2018-06-11','164356');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10062','1246544942','2018-05-20','yes','2018-06-12','164356');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10063','1159520070','2018-05-25','no','2018-06-15','164356');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10064','2039391748','2018-05-24','no','2018-06-12','164356');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10065','2145487797','2018-05-30','no','2018-06-05','164356');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10066','2144732449','2018-05-23','yes','2018-06-01','163589');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10067','1655974818','2018-05-24','yes','2018-06-01','163589');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10068','1101038683','2018-05-24','no ','2018-06-08','163589');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10069','1401274868','2018-05-30','no','2018-06-07','163589');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10070','1772592744','2018-05-22','yes','2018-06-09','163589');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10071','1013631295','2018-05-24','yes','2018-06-12','163290');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10072','1807779670','2018-05-22','yes','2018-06-02','163290');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10075','1657373129','2018-05-24','yes','2018-06-14','163290');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10073','1818525548','2018-05-26','yes','2018-06-09','163290');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10074','1718941352','2018-05-28','yes','2018-06-02','163290');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10075','2118029620','2018-05-24','no','2018-06-08','189067');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10076','1707255553','2018-05-21','no','2018-06-06','189067');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10077','1605057151','2018-05-29','yes','2018-06-08','189067');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10078','1847472046','2018-05-29','no','2018-06-03','189067');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10079','1428671072','2018-05-26','yes','2018-06-05','189067');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10080','1459849528','2018-05-25','no','2018-06-02','187635');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10081','1814320444','2018-05-25','yes','2018-06-08','187635');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10082','1372726643','2018-05-30','no','2018-06-10','187635');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10083','1192242876','2018-05-22','yes','2018-06-02','187635');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10084','1122877265','2018-05-20','yes','2018-06-02','187635');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10085','1152971838','2018-05-20','no','2018-06-02','185438');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10086','1373416961','2018-05-29','yes','2018-06-03','185438');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10087','1310868126','2018-05-28','no','2018-06-14','185438');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10088','1985097509','2018-05-23','yes','2018-06-01','185438');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10089','1392147589','2018-05-25','yes','2018-06-12','185438');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10090','1252797418','2018-05-24','no','2018-06-03','189076');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10091','1491425690','2018-05-30','no','2018-06-14','189076');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10092','1005983458','2018-05-26','no','2018-06-06','189076');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10093','1360759659','2018-05-29','yes','2018-06-08','189076');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10095','1201370884','2018-05-28','yes','2018-06-03','189076');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10096','1957555580','2018-05-25','no ','2018-06-04','187634');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10097','1244851622','2018-05-30','no','2018-06-06','187634');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10098','1406306092','2018-05-25','yes','2018-06-04','187634');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10099','1791375793','2018-05-24','yes','2018-06-12','187634');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10100','1849926676','2018-05-25','yes','2018-06-13','187634');
-INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10101','1129674939','2018-05-27','yes','2018-06-07','127836');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
 VALUES ('10102','1342397291','2018-05-25','yes','2018-06-05','127836');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
@@ -1626,7 +1328,7 @@ VALUES ('10103','1872695333','2018-05-22','yes','2018-06-02','127836');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
 VALUES ('10104','1764021063','2018-05-23','no','2018-06-14','127836');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10105','1352919919','2018-05-23','no','2018-06-13','127836');
+VALUES ('10105','1352919919','2018-05-23','no','2018-06-13','126739');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
 VALUES ('10106','1868928788','2018-05-26','yes','2018-06-12','126739');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
@@ -1636,7 +1338,7 @@ VALUES ('10108','1692262729','2018-05-24','yes','2018-06-07','126739');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
 VALUES ('10109','1899838541','2018-05-26','no','2018-06-10','126739');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10110','1589452801','2018-05-20','yes','2018-06-15','126739');
+VALUES ('10110','1589452801','2018-05-20','yes','2018-06-15','127093');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
 VALUES ('10111','1656142054','2018-05-30','no','2018-06-06','127093');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
@@ -1646,7 +1348,7 @@ VALUES ('10113','1484347803','2018-05-24','yes','2018-06-08','127093');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
 VALUES ('10114','1879861769','2018-05-28','no','2018-06-01','127093');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10115','1596322089','2018-05-22','yes','2018-06-13','127093');
+VALUES ('10115','1596322089','2018-05-22','yes','2018-06-13','127389');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
 VALUES ('10116','1318742911','2018-05-22','no','2018-06-03','127389');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
@@ -1656,7 +1358,7 @@ VALUES ('10118','1818826481','2018-05-22','yes','2018-06-11','127389');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
 VALUES ('10119','1749673616','2018-05-24','no','2018-06-06','127389');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10120','1187114725','2018-05-24','no','2018-06-14','127389');
+VALUES ('10120','1187114725','2018-05-24','no','2018-06-14','123890');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
 VALUES ('10121','1620311527','2018-05-27','no','2018-06-13','123890');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
@@ -1666,7 +1368,7 @@ VALUES ('10123','2118087330','2018-05-23','yes','2018-06-05','123890');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
 VALUES ('10124','2056330298','2018-05-22','no ','2018-06-07','123890');
 INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID)
-VALUES ('10125','1468110285','2018-05-26','no','2018-06-11','123890');
+VALUES ('10125','1468110285','2018-05-26','no','2018-06-11','163290');
 USE ehotels;
 INSERT INTO Works (IRS_Number,Hotel_ID,Start_Date,Position,Finish_Date)
 VALUES ('1324341904','131296','13-12-17','manager','24-05-19');
@@ -2169,3 +1871,254 @@ INSERT INTO Logins (IRS_Number,User_Name,Password)
 VALUES ('1514993639','Gopherrel','6346');
 INSERT INTO Logins (IRS_Number,User_Name,Password)
 VALUES ('9882572819','BabyBullfrog ','1029');
+USE ehotels;
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10001','131296');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10002','131296');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10003','131296');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10004','131296');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10005','131296');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10006','130796');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10007','130796');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10008','130796');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10009','130796');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10010','130796');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10011','130296');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10012','130296');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10013','130296');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10014','130296');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10015','130296');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10016','130896');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10017','130896');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10018','130896');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10019','130896');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10020','130896');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10021','130455');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10022','130455');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10023','130455');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10024','130455');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10025','130455');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10026','170796');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10027','170796');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10028','170796');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10029','170796');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10030','170796');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10031','170989');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10032','170989');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10033','170989');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10034','170989');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10035','170989');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10036','175467');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10037','175467');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10038','175467');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10039','175467');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10040','175467');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10041','175463');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10042','175463');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10043','175463');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10044','175463');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10045','175463');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10046','174890');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10047','174890');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10048','174890');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10049','174890');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10050','174890');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10051','168867');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10052','168867');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10053','168867');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10054','168867');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10055','168867');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10056','167834');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10057','167834');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10058','167834');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10059','167834');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10060','167834');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10061','164356');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10062','164356');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10063','164356');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10064','164356');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10065','164356');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10066','163589');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10067','163589');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10068','163589');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10069','163589');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10070','163589');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10071','163290');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10072','163290');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10073','163290');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10074','163290');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10075','189067');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10076','189067');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10077','189067');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10078','189067');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10079','189067');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10080','187635');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10081','187635');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10082','187635');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10083','187635');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10084','187635');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10085','185438');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10086','185438');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10087','185438');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10088','185438');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10089','185438');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10090','189076');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10091','189076');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10092','189076');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10093','189076');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10094','189076');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10095','187634');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10096','187634');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10097','187634');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10098','187634');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10099','187634');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10100','127836');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10101','127836');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10102','127836');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10103','127836');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10104','127836');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10105','126739');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10106','126739');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10107','126739');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10108','126739');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10109','126739');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10110','127093');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10111','127093');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10112','127093');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10113','127093');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10114','127093');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10115','127389');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10116','127389');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10117','127389');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10118','127389');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10119','127389');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10120','123890');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10121','123890');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10122','123890');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10123','123890');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10124','123890');
+INSERT INTO Has_Room (Room_ID,Hotel_ID)
+VALUES ('10125','163290');
