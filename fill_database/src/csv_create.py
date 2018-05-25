@@ -23,7 +23,7 @@ class Querries:
  
 
 if __name__ == '__main__':
-    k = Querries('../Querries/mycsvs.sql')
+    k = Querries('../Querries/myd.sql')
     csv_list = ['../CSVs/customers.csv',
                 '../CSVs/employees.csv',
                 '../CSVs/hotel_group.csv',
@@ -34,7 +34,8 @@ if __name__ == '__main__':
                 '../CSVs/payment_transaction.csv', 
                 '../CSVs/reserves.csv',
                 '../CSVs/works.csv',
-                '../CSVs/logins.csv']
+                '../CSVs/logins.csv',
+		'../CSVs/has_room.csv']
     tables_list = ['Customers',
                    'Employees',
                    'Hotel_Group',
@@ -45,5 +46,6 @@ if __name__ == '__main__':
                    'Payment_Transaction',
                    'Reserves',
                    'Works',
-                   'Logins']
+                   'Logins',
+		   'Has_Room']
     k.to_querries(csv_list,'ehotels',tables_list)

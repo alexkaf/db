@@ -44,37 +44,37 @@ String wheredate="";
 
 if(!cities.equals("")){
   if(counter!=0){
-    where = where + " AND City =\"" + cities + "\"";
+    where = where + " AND H.City =\"" + cities + "\"";
     counter = counter + 1;
   }
   else{
-    where = where + "City =\"" + cities + "\"";
+    where = where + "H.City =\"" + cities + "\"";
     counter = counter + 1;
   }
 
 }
 if(stars != null){
   if(counter != 0){
-    where = where + " AND Stars =\"" + stars + "\"";
+    where = where + " AND H.Stars =\"" + stars + "\"";
   }else{
     counter = counter + 1;
-    where = where + "Stars=\"" + stars + "\"";
+    where = where + "H.Stars=\"" + stars + "\"";
   }
 }
 if(!price.equals("")){
   if(counter != 0){
-    where = where + " AND Price <=\"" + price + "\"";
+    where = where + " AND HR.Price <=\"" + price + "\"";
   }else{
     counter = counter + 1;
-    where = where + "Price<=\"" + price + "\"";
+    where = where + "HR.Price<=\"" + price + "\"";
   }
 }
 if(!capacity.equals("")){
   if(counter != 0){
-    where = where + " AND Capacity=\"" + capacity + "\"";
+    where = where + " AND HR.Capacity=\"" + capacity + "\"";
   }else{
     counter = counter + 1;
-    where = where + "Capacity=\"" + capacity + "\"";
+    where = where + "HR.Capacity=\"" + capacity + "\"";
   }
 }
 if(!hotel.equals("") && !hotel.equals("0")){
@@ -85,15 +85,10 @@ if(!hotel.equals("") && !hotel.equals("0")){
     where = where + "HH.Hotel_Group_ID=\"" + hotel + "\"";
   }
 }
+String query = "SELECT * FROM Hotel_Room as HR,(SELECT * FROM Hotel_Room as HR WHERE HR.Room_ID NOT IN (SELECT R.Room_ID FROM Reserves as R WHERE CAST('" + from_date + "' AS DATE) <= CAST('" + to_date + "' AS DATE) AND((CAST('" + from_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR (CAST('" + to_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR ((CAST('" + from_date + "' AS DATE)) <= R.Start_Date AND (CAST('" + to_date + "' AS DATE)) >= R.Finish_Date))) AND HR.Room_ID NOT IN (SELECT R.Room_ID FROM Rents as R WHERE CAST('" + from_date + "' AS DATE) <= CAST('" + to_date + "' AS DATE) AND((CAST('" + from_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR (CAST('" + to_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR ((CAST('" + from_date + "' AS DATE)) <= R.Start_Date AND (CAST('" + to_date + "' AS DATE)) >= R.Finish_Date)))) AS G, Has_Hotels as HH, Hotels as H WHERE HR.Room_ID = G.Room_ID AND HH.Hotel_ID = G.Hotel_ID AND H.Hotel_ID = G.Hotel_ID";
 
 
 
-
-
-
-
-
-String query = "SELECT * FROM Hotel_Room as HR,Has_Hotels as HH,Hotels as H,(select Hotel_Room.Room_ID from Hotel_Room where Room_ID not in( select distinct Room_ID from Reserves as R where (R.Start_Date<='"+ from_date +"' AND R.Finish_Date>='" + to_date +"') group by Room_ID)or Hotel_Room.Room_ID not in(select distinct Room_ID from Rents as R where (R.Start_Date<='" + from_date + "' AND R.Finish_Date>='" + to_date + "') group by Room_ID)) as G WHERE HR.Hotel_ID = H.Hotel_ID AND HR.Room_ID = G.Room_ID AND H.Hotel_ID=HH.Hotel_ID ";
 if(!where.equals("")){
   query = query + " AND " + where;
 

@@ -23,10 +23,11 @@
   String room_id = request.getParameter("Room_ID");
   String sd = request.getParameter("start");
   String fd = request.getParameter("fin");
+  String res_id = request.getParameter("id");
   query = "INSERT INTO Rents (Payment_ID,IRS_Number_C,IRS_Number_E,Room_ID,Start_Date,Finish_Date) VALUES ('" + new_id + "','" + irs_c + "','" + irs_e + "','" + room_id + "','" + sd + "','" + fd +"')";
   PreparedStatement p = conn.prepareStatement(query);
   int i = p.executeUpdate(query);
-  query = "DELETE FROM Reserves WHERE IRS_Number=" + irs_c + " AND Room_ID=" + room_id;
+  query = "DELETE FROM Reserves WHERE Reservation_ID="+res_id;
   p = conn.prepareStatement(query);
   i = p.executeUpdate(query);
   query = "INSERT INTO Payment_Transaction(Payment_ID,Payment_Method,Payment_Amount) VALUES ('" + new_id + "','" + request.getParameter("pay") + "','" ;

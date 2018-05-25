@@ -87,33 +87,35 @@ CREATE TABLE Has_Room(
 
 DROP TABLE IF EXISTS Rents;
 CREATE TABLE Rents (
+    Rent_ID MEDIUMINT(5) NOT NULL AUTO_INCREMENT,
     IRS_Number_E BIGINT(10) NOT NULL,
     IRS_Number_C BIGINT(10) NOT NULL,
     Room_ID MEDIUMINT(5) NOT NULL,
     Start_Date DATE NOT NULL,
     Finish_Date DATE NOT NULL,
     Payment_ID MEDIUMINT(5) UNIQUE NOT NULL,
+    PRIMARY KEY (Rent_ID),
     FOREIGN KEY (IRS_Number_C) REFERENCES Customers(IRS_Number)
     ON DELETE CASCADE);
 
 DROP TABLE IF EXISTS Payment_Transaction;
 CREATE TABLE Payment_Transaction (
     Payment_ID MEDIUMINT(5) NOT NULL,
-    Payment_Amount FLOAT(5,2) NOT NULL,
+    Payment_Amount FLOAT(10,2) NOT NULL,
     Payment_Method VARCHAR(20) NOT NULL,
     FOREIGN KEY (Payment_ID) REFERENCES Rents(Payment_ID)
     ON DELETE CASCADE);
 
 DROP TABLE IF EXISTS Reserves;
 CREATE TABLE Reserves(
-    Room_ID MEDIUMINT(5) NOT NULL AUTO_INCREMENT,
+    Reservation_ID MEDIUMINT(5) NOT NULL AUTO_INCREMENT,
+    Room_ID MEDIUMINT(5) NOT NULL,
     IRS_Number BIGINT(10) NOT NULL,
     Start_Date DATE NOT NULL,
     Paid VARCHAR(3),
     Finish_Date DATE NOT NULL,
     Hotel_ID MEDIUMINT(6) NOT NULL,
-    FOREIGN KEY (Room_ID) REFERENCES Hotel_Room(Room_ID)
-    ON DELETE CASCADE,
+    PRIMARY KEY (Reservation_ID),
     FOREIGN KEY (IRS_Number) REFERENCES Customers(IRS_Number)
     ON DELETE CASCADE);
 
@@ -136,16 +138,26 @@ CREATE TABLE Logins(
     Password MEDIUMINT(6) NOT NULL,
     PRIMARY KEY (User_Name));
 
-CREATE VIEW Room_Today AS
-SELECT  Hotels.City,COUNT(Hotel_Room.Room_ID) AS Rooms_Number
-FROM ((Hotel_Room
-INNER JOIN Hotels ON Hotels.Hotel_ID=Hotel_Room.Hotel_ID)
-INNER JOIN Reserves ON Reserves.Hotel_ID=Hotel_Room.Hotel_ID AND Reserves.Room_ID=Hotel_Room.Room_ID )
-WHERE (SELECT CURDATE()) NOT BETWEEN Reserves.Start_Date AND Reserves.Finish_Date
-GROUP BY Hotels.City
-ORDER BY COUNT(Hotel_Room.Room_ID) DESC;
-
-
 CREATE VIEW Capacity AS
 SELECT Room_ID,Hotel_ID,Capacity
 FROM Hotel_Room;
+
+CREATE VIEW Room_Today AS
+SELECT H.City,COUNT(HR.Room_ID)
+FROM Hotel_Room as HR, Hotels as H
+WHERE HR.Room_ID NOT IN (
+    SELECT R.Room_ID
+    FROM Reserves as R
+    WHERE(
+        (SELECT CURDATE()) BETWEEN R.Start_Date AND R.Finish_Date
+    )
+    )
+    AND HR.Room_ID NOT IN (
+        SELECT R.Room_ID
+        FROM Rents as R
+        WHERE(
+            (SELECT CURDATE()) BETWEEN R.Start_Date AND R.Finish_Date
+            )
+    ) AND HR.Hotel_ID = H.Hotel_ID
+GROUP BY H.City
+ORDER BY COUNT(HR.Room_ID) DESC;
