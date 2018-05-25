@@ -113,7 +113,7 @@
         int i = prpstmt.executeUpdate(query);
 
         String max_Room_ID="";
-        String query2 = "SELECT MAX(Room_ID) From Hotel_Room Where Hotel_ID="+Hotel_ID;
+        String query2 = "SELECT MAX(Room_ID) From Hotel_Room";
         Connection conn2 = DriverManager.getConnection(url,"ehotels", "abcd");
         Statement stmt2 = conn2.createStatement();
         ResultSet rs2 = stmt2.executeQuery(query2);
@@ -136,7 +136,7 @@
         }
 
         query3 = "UPDATE  Hotels SET Number_Of_Rooms=\'"+num_of_rooms+"\'" +" WHERE Hotel_ID=\'"+Hotel_ID+"\'" ;
-        
+
         prpstmt3 = conn.prepareStatement(query3);
         i3 = prpstmt3.executeUpdate(query3);
 

@@ -165,6 +165,29 @@
                 prpstmt3 = conn.prepareStatement(query3);
                 i3 = prpstmt3.executeUpdate(query3);
 
+                String query4="INSERT INTO Hotel_Room (Hotel_ID,Price) VALUES ("+Hotel_ID+",0)";
+
+                String max_Room_ID="";
+                String query5 = "SELECT MAX(Room_ID) From Hotel_Room";
+                String query6 = "";
+                stmt2 = conn2.createStatement();
+
+
+                for (int j=1;j<=Integer.parseInt(Number_Of_Rooms);j++ ) {
+                  prpstmt3 = conn.prepareStatement(query4);
+                  i3 = prpstmt3.executeUpdate(query4);
+
+                  rs2 = stmt2.executeQuery(query5);
+                  if(rs2.next()){
+                    max_Room_ID = rs2.getString("MAX(Room_ID)");
+                  }
+                  query6="INSERT INTO Has_Room (Hotel_ID,Room_ID) VALUES ("+Hotel_ID+","+max_Room_ID+")" ;
+                  prpstmt3 = conn.prepareStatement(query6);
+                  i3 = prpstmt3.executeUpdate(query6);
+
+
+                }
+
                 response.sendRedirect("managerdb.html");
             }
           }
