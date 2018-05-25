@@ -126,6 +126,20 @@
         String query3 = "INSERT INTO Has_Room (Hotel_ID,Room_ID) VALUES ("+Hotel_ID+","+max_Room_ID+")" ;
         PreparedStatement prpstmt3 = conn.prepareStatement(query3);
         int i3 = prpstmt3.executeUpdate(query3);
+
+        int num_of_rooms=0;
+        query2 = "SELECT * From Hotels Where Hotel_ID="+Hotel_ID;
+        rs2 = stmt2.executeQuery(query2);
+        if(rs2.next()){
+          num_of_rooms = rs2.getInt("Number_Of_Rooms")+1;
+
+        }
+
+        query3 = "UPDATE  Hotels SET Number_Of_Rooms=\'"+num_of_rooms+"\'" +" WHERE Hotel_ID=\'"+Hotel_ID+"\'" ;
+        
+        prpstmt3 = conn.prepareStatement(query3);
+        i3 = prpstmt3.executeUpdate(query3);
+
         response.sendRedirect("managerdb.html");
       }
     }

@@ -172,7 +172,11 @@
 
           PreparedStatement prpstmt = conn.prepareStatement(query);
           int i = prpstmt.executeUpdate(query);
+<<<<<<< HEAD
           response.sendRedirect("bookreferences.jsp");
+=======
+          response.sendRedirect("newbookform.html");
+>>>>>>> 2771b47f65b19ae2ea9179bfd6882c0fac21d149
       }
 
 

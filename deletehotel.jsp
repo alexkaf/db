@@ -18,60 +18,47 @@
       <li><img class="logo" src="images/logo.png"></li>
     </ul>
 
+
+
+  <%
+  Class.forName("com.mysql.jdbc.Driver");
+  String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+  Connection conn = DriverManager.getConnection(url,"ehotels", "abcd");
+  Statement stmt = conn.createStatement();
+
+  String Hotel_Group_ID="aa";
+  String Hotel_ID = request.getParameter("hotel_id");
+  String query="SELECT Hotel_Group_ID FROM Has_Hotels WHERE Hotel_ID="+"\'"+Hotel_ID+"\'";
+  ResultSet rs = stmt.executeQuery(query);
+  if(rs.next()){
+    Hotel_Group_ID = rs.getString("Hotel_Group_ID");
+  }
+
+
+  query="SELECT Number_Of_Hotels FROM Hotel_Group WHERE Hotel_Group_ID=\'"+Hotel_Group_ID+"\'";
+  rs = stmt.executeQuery(query);
+  int num_of_hotels=0;
+
+  if(rs.next()){
+    num_of_hotels = rs.getInt("Number_Of_Hotels")-1;
+  }
+
+  query = "UPDATE  Hotel_Group SET Number_Of_Hotels=\'"+num_of_hotels+"\'" +" WHERE Hotel_Group_ID=\'"+Hotel_Group_ID+"\'" ;
+  PreparedStatement prpstmt = conn.prepareStatement(query);
+  int i = prpstmt.executeUpdate(query);
+
+  %>
+
+
   <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver" url = "jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" user = "ehotels"  password = "abcd"/>
 
   <c:set var = "hotel_id" value = "${param.hotel_id}"/>
 
   <sql:update dataSource = "${snapshot}" var = "irs_number">
-     DELETE FROM Hotels WHERE Hotel_ID = ? 
+     DELETE FROM Hotels WHERE Hotel_ID = ?
      <sql:param value = "${hotel_id}" />
   </sql:update>
-
-  <sql:query dataSource = "${snapshot}" var = "result">
-    SELECT * 
-    FROM Hotels
-  </sql:query>
-
-
-<table class="customer-employees">
-  <tr>
-    <th>Hotel_ID</th>
-    <th>City</th>
-    <th>Street</th>
-    <th>Number</th>
-    <th>Contact Info</th>
-    <th>Update</th>
-    <th>Delete</th>
-  </tr>
-  <tr>
-      <c:forEach var="hotel" items="${result.rows}">
-        <tr class="rower">
-          <td><c:out value="${hotel.Hotel_ID}"/></td>
-          <td><c:out value="${hotel.City}"/></td>
-          <td><c:out value="${hotel.Street}"/></td>
-          <td><c:out value="${hotel.Number}"/></td>
-          <form method="GET" action="contacthotel.jsp">
-            <input type="hidden" name="hotel_id" value="${hotel.Hotel_ID}">
-            <td class="but"><input type="submit" class="submit-emp" value=""></td>
-          </form>
-          <form method="GET" action="updatehotel.jsp">
-            <input type="hidden" name="hotel_id" value="${hotel.Hotel_ID}">
-            <input type="hidden" name="city" value="${hotel.City}">
-            <input type="hidden" name="street" value="${hotel.Street}">
-            <input type="hidden" name="ssn" value="${hotel.Social_Security_Number}">
-            <input type="hidden" name="city" value="${hotel.City}">
-            <input type="hidden" name="street" value="${hotel.street}">
-            <input type="hidden" name="number" value="${hotel.Number}">
-            <td class="but"><input type="submit" class="submit-emp" value=""></td>
-          </form>
-          <form method="GET" action="deletehotel.jsp">
-            <input type="hidden" name="hotel_id" value="${hotel.Hotel_ID}">
-            <td class="but"><input type="submit" class="submit-emp" value=""></td>
-          </form>
-        </tr>
-      </c:forEach>
-  </tr>
-</table>   
+<% response.sendRedirect("managehotels.jsp"); %>
 
 </body>
 </html>

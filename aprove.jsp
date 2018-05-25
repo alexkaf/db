@@ -19,8 +19,8 @@ String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBC
 Connection conn = DriverManager.getConnection(url,"ehotels", "abcd");
 Statement stmt = conn.createStatement();
 
-String Room_ID = request.getParameter("Hotel_ID");
-String Hotel_ID = request.getParameter("Room_ID");
+String Room_ID = request.getParameter("Room_ID");
+String Hotel_ID = request.getParameter("Hotel_ID");
 String IRS_Number = request.getParameter("IRS_Number");
 String First_Name = request.getParameter("First_Name");
 String Last_Name = request.getParameter("Last_Name");
@@ -31,7 +31,7 @@ String Paid = request.getParameter("Paid");
 
 String query = " INSERT INTO Reserves (Room_ID,IRS_Number,Start_Date,Paid,Finish_Date,Hotel_ID) VALUES ("+"\'"+Room_ID+"\'"+","+"\'"+IRS_Number+"\'"+","+"\'"+from_date+"\'"+","+"\'"+Paid+"\'"+
 ","+"\'"+to_date+"\'"+","+"\'"+Hotel_ID+"\'"+")";
-
+out.println(query);
 PreparedStatement prpstmt = conn.prepareStatement(query);
 int i = prpstmt.executeUpdate(query);
 

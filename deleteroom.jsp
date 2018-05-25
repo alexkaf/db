@@ -29,53 +29,26 @@
      <sql:param value = "${Hotel_ID}" />
   </sql:update>
 
-  <sql:query dataSource = "${snapshot}" var = "result">
-    SELECT *
-    FROM Hotel_Room
-  </sql:query>
+<%
+Class.forName("com.mysql.jdbc.Driver");
+String url ="jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+Connection conn = DriverManager.getConnection(url,"ehotels", "abcd");
+Statement stmt = conn.createStatement();
 
+String Hotel_ID = request.getParameter("Hotel_ID");
+String query="SELECT Number_Of_Rooms FROM Hotels WHERE Hotel_ID="+Hotel_ID;
+ResultSet rs = stmt.executeQuery(query);
+int num_of_rooms=0;
 
-  <table class="customer-employees">
-    <tr>
-      <th>Room_ID</th>
-      <th>Hotel_ID</th>
-      <th>Repairs_Need</th>
-      <th>Price</th>
-      <th>Update</th>
-      <th>Delete</th>
-      <th>More Info</th>
-    </tr>
-    <tr>
-        <c:forEach var="room" items="${result.rows}">
-          <tr class="rower">
-            <td><c:out value="${room.Room_ID}"/></td>
-            <td><c:out value="${room.Hotel_ID}"/></td>
-            <td><c:out value="${room.Repairs_Need}"/></td>
-            <td><c:out value="${room.Price}"/></td>
-            <form method="GET" action="updateroom.jsp">
-              <input type="hidden" name="Hotel_ID" value="${room.Hotel_ID}">
-              <input type="hidden" name="Room_ID" value="${room.Room_ID}">
-              <input type="hidden" name="Repairs_Need" value="${room.Repairs_Need}">
-              <input type="hidden" name="Expandable" value="${room.Expandable}">
-              <input type="hidden" name="View" value="${room.View}">
-              <input type="hidden" name="Capacity" value="${room.Capacity}">
-              <input type="hidden" name="Amenities" value="${room.Amenities}">
-              <input type="hidden" name="Price" value="${room.Price}">
-              <td class="but"><input type="submit" class="submit-emp" value=""></td>
-            </form>
-            <form method="GET" action="deleteroom.jsp">
-              <input type="hidden" name="Room_ID" value="${room.Room_ID}">
-              <input type="hidden" name="Hotel_ID" value="${room.Hotel_ID}">
-              <td class="but"><input type="submit" class="submit-emp" value=""></td>
-            </form>
-            <form method="GET" action="contactemp.jsp">
-              <input type="hidden" name="Room_ID" value="${room.Room_ID}">
-              <td class="but"><input type="submit" class="submit-emp" value=""></td>
-            </form>
-          </tr>
-        </c:forEach>
-    </tr>
-  </table>
+if(rs.next()){
+  num_of_rooms = rs.getInt("Number_Of_Rooms")-1;
+}
+
+query = "UPDATE  Hotels SET Number_Of_Rooms=\'"+num_of_rooms+"\'" +" WHERE Hotel_ID=\'"+Hotel_ID+"\'" ;
+PreparedStatement prpstmt = conn.prepareStatement(query);
+int i = prpstmt.executeUpdate(query);
+response.sendRedirect("managerooms.jsp");
+%>
 
 </body>
 </html>

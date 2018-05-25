@@ -106,12 +106,17 @@ CREATE TABLE Payment_Transaction (
 
 DROP TABLE IF EXISTS Reserves;
 CREATE TABLE Reserves(
+<<<<<<< HEAD
+=======
+    Reservation_ID MEDIUMINT(5) NOT NULL AUTO_INCREMENT,
+>>>>>>> 2771b47f65b19ae2ea9179bfd6882c0fac21d149
     Room_ID MEDIUMINT(5) NOT NULL,
     IRS_Number BIGINT(10) NOT NULL,
     Start_Date DATE NOT NULL,
     Paid VARCHAR(3),
     Finish_Date DATE NOT NULL,
     Hotel_ID MEDIUMINT(6) NOT NULL,
+    PRIMARY KEY (Reservation_ID),
     FOREIGN KEY (Room_ID) REFERENCES Hotel_Room(Room_ID)
     ON DELETE CASCADE,
     FOREIGN KEY (IRS_Number) REFERENCES Customers(IRS_Number)
