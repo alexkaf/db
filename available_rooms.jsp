@@ -38,9 +38,8 @@ String to_date = request.getParameter("to_date");
 
 String where = "";
 int counter = 0;
-
-counter = counter + 1;
-where = where + " (R.Start_Date>="+"\""+ to_date+"\"" + " OR R.Finish_Date<="+"\""+from_date+"\")";
+String wheredate="";
+//wheredate = wheredate + " (R.Start_Date<="+"\""+ from_date+"\"" + " AND R.Finish_Date>="+"\""+to_date+"\")";
 
 
 if(!cities.equals("")){
@@ -94,11 +93,13 @@ if(!hotel.equals("") && !hotel.equals("0")){
 
 
 
-String query = "SELECT * FROM Hotels as H, Has_Hotels as HH, Reserves as R, Hotel_Room as HR WHERE H.Hotel_ID = R.Hotel_ID AND HR.Hotel_ID = R.Hotel_ID AND HH.Hotel_ID = H.Hotel_ID AND HR.Room_ID = R.Room_ID";
+String query = "SELECT * FROM Hotel_Room as HR,Has_Hotels as HH,Hotels as H,(select Hotel_Room.Room_ID from Hotel_Room where Room_ID not in( select distinct Room_ID from Reserves as R where (R.Start_Date<='"+ from_date +"' AND R.Finish_Date>='" + to_date +"') group by Room_ID)or Hotel_Room.Room_ID not in(select distinct Room_ID from Rents as R where (R.Start_Date<='" + from_date + "' AND R.Finish_Date>='" + to_date + "') group by Room_ID)) as G WHERE HR.Hotel_ID = H.Hotel_ID AND HR.Room_ID = G.Room_ID AND H.Hotel_ID=HH.Hotel_ID ";
 if(!where.equals("")){
   query = query + " AND " + where;
 
 }
+
+//out.println(query);
 
 %>
 
