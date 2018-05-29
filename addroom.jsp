@@ -1,3 +1,9 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ page import = "java.io.*,java.util.*,java.sql.*"%>
+<%@ page import = "javax.servlet.http.*,javax.servlet.*" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix = "c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix = "sql"%>
+<%@ page session="true" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,6 +21,12 @@
   <li><a href="managerooms.jsp">Back</a></li>
   <li><img class="logo" src="images/logo.png"></li>
 </ul>
+  <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver" url = "jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" user = "ehotels"  password = "abcd"/>
+
+  <sql:query dataSource = "${snapshot}" var = "result">
+    SELECT DISTINCT Hotel_ID
+    From Hotels
+  </sql:query>
 
 <div class="form_back">
     <form action="insertnewroom.jsp" method="GET">
@@ -24,7 +36,12 @@
 
         <li>
             <label>Hotel ID<span class="required">*</span> </label>
-            <input type="text" name="Hotel_ID" class="field-long" placeholder="${param.Hotel_ID}" required>&nbsp;
+            <input list="hotels" class="field-long" name="Hotel_ID" value="${param.Hotel_ID}" placeholder="Hotel ID">
+            <datalist id="hotels">
+                <c:forEach var="room" items="${result.rows}">
+                    <option value="${room.Hotel_ID}"/>
+                </c:forEach>
+            </datalist>
         </li>
 
         <li>

@@ -20,6 +20,7 @@
 
 <div class="buttons-wrapper manager">
   <div class="box bg-1">
+    <a href="rentss.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Rents</span></button></a>
     <a href="managerrents.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Reservations</span></button></a>
     <a href="manageemps.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Employees</span></button></a>
     <a href="managecustomers.jsp"><button class="buttonan button--antiman button--round-l button--text-medium"><span>Customers</span></button></a>

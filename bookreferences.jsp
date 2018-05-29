@@ -1,3 +1,9 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ page import = "java.io.*,java.util.*,java.sql.*"%>
+<%@ page import = "javax.servlet.http.*,javax.servlet.*" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix = "c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix = "sql"%>
+<%@ page session="true" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,6 +22,13 @@
   <li><img class="logo" src="images/logo.png"></li>
 </ul>
 
+  <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver" url = "jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" user = "ehotels"  password = "abcd"/>
+
+  <sql:query dataSource = "${snapshot}" var = "result">
+    SELECT DISTINCT City
+    From Hotels
+  </sql:query>
+
 <div class="form_back">
     <form action="available_rooms.jsp" method="GET">
     <ul class="form-style-1">
@@ -25,27 +38,9 @@
             <label><span>Region of Interest</span></label>
                 <input list="cities" class="field-long" name="cities" value="${param.booknow_city}" placeholder="${param.booknow_city}">
                 <datalist id="cities">
-                    <option value="Nauplio"></option>
-                    <option value="Peiraias"></option>
-                    <option value="Naxos"></option>
-                    <option value="Amorgos"></option>
-                    <option value="Rethimno"></option>
-                    <option value="Skiathos"></option>
-                    <option value="Athens"></option>
-                    <option value="Thessaloniki"></option>
-                    <option value="Leukada"></option>
-                    <option value="Rodos"></option>
-                    <option value="Xalkida"></option>
-                    <option value="Alepoxori"></option>
-                    <option value="Volos"></option>
-                    <option value="Nea Makri"></option>
-                    <option value="Marathonas"></option>
-                    <option value="Karditsa"></option>
-                    <option value="Santorini"></option>
-                    <option value="Iraklio"></option>
-                    <option value="Samothraki"></option>
-                    <option value="Samothaki"></option>
-                    <option value="Hania"></option>
+                    <c:forEach var="room" items="${result.rows}">
+                        <option value="${room.City}"/>
+                    </c:forEach>
                 </datalist>
         </li>
         <li>
@@ -73,14 +68,16 @@
             <label><span>Capacity</span></label>
             <input type="number" name="quantity" min="1" max="5">
         </li>
+      <sql:query dataSource = "${snapshot}" var = "result">
+        SELECT DISTINCT Hotel_Group_ID
+        From Hotel_Group
+      </sql:query>
         <li>
-            <label><span>Hotel</span></label>
+            <label><span>Hotel Group</span></label>
             <select name="hotel" size="1">
-                <option value="12000">12000</option>
-                <option value="13000">13000</option>
-                <option value="16000">16000</option>
-                <option value="17000">17000</option>
-                <option value="19000">19000</option>
+                 <c:forEach var="room" items="${result.rows}">
+                    <option value="${room.Hotel_Group_ID}"/><c:out value="${room.Hotel_Group_ID}"/></option>
+                </c:forEach>
                 <option value="0">All</option>
             </select>
         </li>
