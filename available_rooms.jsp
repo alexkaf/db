@@ -35,10 +35,10 @@ String capacity = request.getParameter("quantity");
 String hotel = request.getParameter("hotel");
 String from_date = request.getParameter("from_date");
 String to_date = request.getParameter("to_date");
+String nors = request.getParameter("nors");
 
 String where = "";
 int counter = 0;
-String wheredate="";
 //wheredate = wheredate + " (R.Start_Date<="+"\""+ from_date+"\"" + " AND R.Finish_Date>="+"\""+to_date+"\")";
 
 
@@ -85,16 +85,13 @@ if(!hotel.equals("") && !hotel.equals("0")){
     where = where + "HH.Hotel_Group_ID=\"" + hotel + "\"";
   }
 }
-String query = "SELECT * FROM Hotel_Room as HR,(SELECT * FROM Hotel_Room as HR WHERE HR.Room_ID NOT IN (SELECT R.Room_ID FROM Reserves as R WHERE CAST('" + from_date + "' AS DATE) <= CAST('" + to_date + "' AS DATE) AND((CAST('" + from_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR (CAST('" + to_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR ((CAST('" + from_date + "' AS DATE)) <= R.Start_Date AND (CAST('" + to_date + "' AS DATE)) >= R.Finish_Date))) AND HR.Room_ID NOT IN (SELECT R.Room_ID FROM Rents as R WHERE CAST('" + from_date + "' AS DATE) <= CAST('" + to_date + "' AS DATE) AND((CAST('" + from_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR (CAST('" + to_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR ((CAST('" + from_date + "' AS DATE)) <= R.Start_Date AND (CAST('" + to_date + "' AS DATE)) >= R.Finish_Date)))) AS G, Has_Hotels as HH, Hotels as H WHERE HR.Room_ID = G.Room_ID AND HH.Hotel_ID = G.Hotel_ID AND H.Hotel_ID = G.Hotel_ID";
 
+String query = "SELECT * FROM Hotel_Room as HR,(SELECT * FROM Hotel_Room as HR WHERE HR.Room_ID NOT IN (SELECT R.Room_ID FROM Reserves as R WHERE CAST('" + from_date + "' AS DATE) <= CAST('" + to_date + "' AS DATE) AND ((CAST('" + from_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR (CAST('" + to_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR ((CAST('" + from_date + "' AS DATE)) <= R.Start_Date AND (CAST('" + to_date + "' AS DATE)) >= R.Finish_Date))) AND HR.Room_ID NOT IN (SELECT R.Room_ID FROM Rents as R WHERE CAST('" + from_date + "' AS DATE) <= CAST('" + to_date + "' AS DATE) AND((CAST('" + from_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR (CAST('" + to_date + "' AS DATE)) BETWEEN R.Start_Date AND R.Finish_Date OR ((CAST('" + from_date + "' AS DATE)) <= R.Start_Date AND (CAST('" + to_date + "' AS DATE)) >= R.Finish_Date)))) AS G, Has_Hotels as HH, Hotels as H WHERE CAST('" + from_date + "' AS DATE) <= CAST('" + to_date + "' AS DATE) AND " + "HR.Room_ID = G.Room_ID AND HH.Hotel_ID = G.Hotel_ID AND H.Hotel_ID = G.Hotel_ID";
 
 
 if(!where.equals("")){
   query = query + " AND " + where;
-
 }
-
-//out.println(query);
 
 %>
 

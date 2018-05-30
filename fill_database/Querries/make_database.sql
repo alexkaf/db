@@ -136,7 +136,9 @@ CREATE TABLE Logins(
     IRS_Number BIGINT(10) NOT NULL,
     User_Name VARCHAR(20) NOT NULL,
     Password MEDIUMINT(6) NOT NULL,
-    PRIMARY KEY (User_Name));
+    PRIMARY KEY (User_Name),
+    FOREIGN KEY (IRS_Number) REFERENCES Employees(IRS_Number)
+    ON DELETE CASCADE);
 
 CREATE VIEW Capacity AS
 SELECT Room_ID,Hotel_ID,Capacity
