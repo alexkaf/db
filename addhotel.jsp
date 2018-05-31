@@ -1,3 +1,9 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ page import = "java.io.*,java.util.*,java.sql.*"%>
+<%@ page import = "javax.servlet.http.*,javax.servlet.*" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix = "c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix = "sql"%>
+<%@ page session="true" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,8 +28,20 @@
     <ul class="form-style-1">
         <h1 class="form-intro">Hotel New Information</h1>
 
+        <sql:setDataSource var = "snapshot" driver = "com.mysql.jdbc.Driver" url = "jdbc:mysql://localhost/ehotels?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC" user = "ehotels"  password = "abcd"/>
 
-        <li><label>Hotel Group<span class="required">*</span></label><input type="text" name="hotel_group" placeholder="${param.hotel_id}" required>&nbsp;</li>
+        <sql:query dataSource = "${snapshot}" var = "result">
+        SELECT DISTINCT Hotel_Group_ID
+        From Hotel_Group
+        </sql:query>
+        <li>
+            <label><span>Hotel Group</span></label>
+            <select name="hotel_group" size="1">
+                 <c:forEach var="room" items="${result.rows}">
+                    <option value="${room.Hotel_Group_ID}"/><c:out value="${room.Hotel_Group_ID}"/></option>
+                </c:forEach>
+            </select>
+        </li>
 
         <li><label>Hotel ID<span class="required">*</span></label><input type="text" name="hotel_id" placeholder="${param.hotel_id}" required>&nbsp;</li>
         <li>
